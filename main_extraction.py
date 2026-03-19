@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 import pdfplumber
 import pymupdf
@@ -197,6 +197,71 @@ def extract_hyperlinks(file_path: str, raw_text: str) -> List[str]:
     return urls
 
 
+def _clean_table_cell(value: Any) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"\s+", " ", str(value).strip())
+
+
+def _has_any_content(row: List[str]) -> bool:
+    return any(cell for cell in row)
+
+
+def extract_tables(file_path: str) -> List[Dict[str, Any]]:
+    """Extract tables as structured JSON using pdfplumber.extract_tables()."""
+    if Path(file_path).suffix.lower() != ".pdf":
+        return []
+
+    extracted: List[Dict[str, Any]] = []
+
+    try:
+        with pdfplumber.open(file_path) as pdf:
+            for page_index, page in enumerate(pdf.pages, start=1):
+                page_tables = page.extract_tables() or []
+                for table_index, table in enumerate(page_tables, start=1):
+                    cleaned_rows: List[List[str]] = []
+                    for row in table or []:
+                        clean_row = [_clean_table_cell(cell) for cell in (row or [])]
+                        if _has_any_content(clean_row):
+                            cleaned_rows.append(clean_row)
+
+                    if not cleaned_rows:
+                        continue
+
+                    headers = cleaned_rows[0]
+                    body_rows = cleaned_rows[1:]
+                    has_headers = len(headers) > 0 and _has_any_content(headers)
+
+                    table_json: Dict[str, Any] = {
+                        "page": page_index,
+                        "table_index": table_index,
+                        "headers": headers if has_headers else [],
+                        "rows": [],
+                    }
+
+                    if has_headers and body_rows:
+                        rows_as_objects: List[Dict[str, str]] = []
+                        for body in body_rows:
+                            width = max(len(headers), len(body))
+                            padded_headers = headers + [f"column_{i}" for i in range(len(headers) + 1, width + 1)]
+                            padded_body = body + [""] * (width - len(body))
+
+                            row_obj: Dict[str, str] = {}
+                            for idx, value in enumerate(padded_body):
+                                key = padded_headers[idx].strip() or f"column_{idx + 1}"
+                                row_obj[key] = value
+                            rows_as_objects.append(row_obj)
+                        table_json["rows"] = rows_as_objects
+                    else:
+                        table_json["rows"] = cleaned_rows
+
+                    extracted.append(table_json)
+    except Exception:
+        return []
+
+    return extracted
+
+
 def extract_raw_text(file_path: str) -> str:
     pymupdf_text = ""
     pdfplumber_text = ""
@@ -299,7 +364,8 @@ def parse_resume(file_path: str) -> Dict[str, object]:
     raw_text = extract_raw_text(file_path)
     sections = split_sections(raw_text)
     hyperlinks = extract_hyperlinks(file_path, raw_text)
-    return {"raw_text": raw_text, "sections": sections, "hyperlinks": hyperlinks}
+    tables = extract_tables(file_path)
+    return {"raw_text": raw_text, "sections": sections, "hyperlinks": hyperlinks, "tables": tables}
 
 
 def write_text_output(file_path: str, text: str, output_path: Optional[str] = None) -> Path:
