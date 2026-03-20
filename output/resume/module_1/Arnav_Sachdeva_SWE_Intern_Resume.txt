@@ -1,0 +1,61 @@
+Arnav Sachdeva                                                                
+                                                                                  
+    Email: sachdevaar9@gmail.com | Github: https://github.com/SachdevaArnav | LinkedIn: https://www.linkedin.com/in/sachdevaarnav/
+    Projects                                                                      
+                                                                                  
+    - Intent-Based File Search System (Windows) June 2025 - July 2025             
+         Java | File I/O | Regex | Heuristics                                     
+         GitHub: https://github.com/SachdevaArnav/intent-file-search              
+         - Designed a rule-based intent parser to extract file type, temporal constraints, and name patterns from natural
+         language queries.                                                        
+         - Implemented recursive filesystem traversal using Java NIO with regex-driven partial matching and
+         multi-factor fuzzy relevance scoring.                                    
+         - Built a unified ranking pipeline combining lexical similarity, file metadata, and directory context to return best
+         fit or ordered results.                                                  
+         - Tested on real-world student laptop file systems (deeply nested directories, mixed file types); observed full
+         file system searches in ~10 secs and successfully retrieved results where native Windows Search failed.
+    - Task Engine (Ongoing) Jan 2025 - Present                                    
+                                                                                  
+         Java | Windows Desktop Automation (Pywinauto) | State Modeling | Task Planning Foundations
+         - Designing a goal-conditioned control layer to resolve valid molecule chains by evaluating alternative action
+         paths before execution.                                                  
+         - Developing a state-aware desktop automation system using a predefined library of reusable user-level action
+         molecules with explicit preconditions and state transitions.             
+         - Designing an execution core separating plan resolution from runtime execution, enabling retries, recovery,
+         and future planner integration.                                          
+                                                                                  
+    - Intelligent Data Extraction from Business Reports (Team project; 1st /~50 PECathon 2025) Nov 2025
+         Python | Pipeline Design | Component Integration                         
+         - Designed an end-to-end pipeline for automated extraction of structured data from business PDFs (tables,
+         charts, and text).                                                       
+         - Integrated document layout detection using a pretrained Detectron2 model to identify tables, text regions and
+         visual elements.                                                         
+         - Led system flow design and integration across layout detection, chart processing, and data extraction
+         components.                                                              
+                                                                                  
+    Achievements                                                                  
+    - Led a 4 member team and Secured First Position in PECathon 2025 (1st out of ~50 teams)
+    - Qualified Smart India Hackathon 2025 College Round (19th in ~90 teams) (Led Team of 6)
+    - Led Team of 4 and Secured 4th Position in IARC Techkriti 2025 (IIT Kanpur)  
+                                                                                  
+    Education                                                                     
+    Punjab Engineering College, Chandigarh | 2024 - 2028                          
+    B.Tech. Computer Science and Engineering                                      
+    CGPA: 8.4 (till 3rd Semester) | SGPA: 8.95 (3rd semester)                     
+                                                                                  
+    Relevant Coursework:                                                          
+    - Programming Fundamentals                                                    
+    - Data Structures                                                             
+    - Object-Oriented Programming                                                 
+    - Discrete Mathematics                                                        
+    Technical Skills                                                              
+    Languages: Java, Python, C++                                                  
+    Tools & Libraries: Pywinauto (Windows UI automation) ,WhisperJNI (offline speech-to-text integration), WSL/Linux, Git
+    Core Concepts: Object Oriented Design, Data Structures and Algorithms, Computer Fundamentals
+    Engineering Practices: Debugging, Incremental Development, Code Refactoring   
+    Positions & Responsibilities                                                  
+                                                                                  
+    - Executive Body (EB) Member, Robotics Society PEC                            
+         - Taught session on Arduino Programming Basics to about ~ 80 Students via real-code examples
+         - Conducted Club Interviews for new member selections based on their curiosity and seriousness
+    - Member ACM CSS PEC

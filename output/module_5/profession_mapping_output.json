@@ -1,0 +1,384 @@
+{
+  "dataset_name": "profession_mapping_engine_dataset",
+  "dataset_version": "1.0",
+  "candidate_profile": {
+    "normalized_skill_count": 17,
+    "normalized_skills": [
+      {
+        "skill": "sql",
+        "signal": 1.0,
+        "confidence": 1.0,
+        "strength": 1.0,
+        "mentions": 12,
+        "contexts": [
+          "experience",
+          "general",
+          "project",
+          "skills"
+        ],
+        "raw_skills": [
+          "sql"
+        ]
+      },
+      {
+        "skill": "excel",
+        "signal": 1.0,
+        "confidence": 0.98,
+        "strength": 1.0,
+        "mentions": 4,
+        "contexts": [
+          "experience",
+          "general",
+          "project"
+        ],
+        "raw_skills": [
+          "excel"
+        ]
+      },
+      {
+        "skill": "automation",
+        "signal": 1.0,
+        "confidence": 0.94,
+        "strength": 0.937,
+        "mentions": 3,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "automation"
+        ]
+      },
+      {
+        "skill": "reporting",
+        "signal": 0.6493,
+        "confidence": 0.86,
+        "strength": 0.6096,
+        "mentions": 1,
+        "contexts": [
+          "general",
+          "project"
+        ],
+        "raw_skills": [
+          "reporting"
+        ]
+      },
+      {
+        "skill": "presentation",
+        "signal": 0.6222,
+        "confidence": 0.86,
+        "strength": 0.77,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "presentation"
+        ]
+      },
+      {
+        "skill": "problem solving",
+        "signal": 0.6222,
+        "confidence": 0.86,
+        "strength": 0.77,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "problem solving"
+        ]
+      },
+      {
+        "skill": "integration",
+        "signal": 0.5623,
+        "confidence": 0.9,
+        "strength": 0.8633,
+        "mentions": 2,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "integration"
+        ]
+      },
+      {
+        "skill": "electronics",
+        "signal": 0.4586,
+        "confidence": 0.86,
+        "strength": 0.4822,
+        "mentions": 1,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "electronics"
+        ]
+      },
+      {
+        "skill": "reliability",
+        "signal": 0.214,
+        "confidence": 0.9,
+        "strength": 0.2733,
+        "mentions": 2,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "reliability"
+        ]
+      },
+      {
+        "skill": "scalability",
+        "signal": 0.214,
+        "confidence": 0.9,
+        "strength": 0.2733,
+        "mentions": 2,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "scalability"
+        ]
+      },
+      {
+        "skill": "communication",
+        "signal": 0.1739,
+        "confidence": 0.86,
+        "strength": 0.2152,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "communication"
+        ]
+      },
+      {
+        "skill": "accessibility",
+        "signal": 0.1428,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "accessibility"
+        ]
+      },
+      {
+        "skill": "numpy",
+        "signal": 0.1428,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "numpy"
+        ]
+      },
+      {
+        "skill": "pandas",
+        "signal": 0.1428,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "pandas"
+        ]
+      },
+      {
+        "skill": "python",
+        "signal": 0.1428,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "python"
+        ]
+      },
+      {
+        "skill": "machine learning",
+        "signal": 0.0724,
+        "confidence": 0.6,
+        "strength": 0.108,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "artificial intelligence",
+          "machine learning"
+        ]
+      },
+      {
+        "skill": "mongodb",
+        "signal": 0.0724,
+        "confidence": 0.6,
+        "strength": 0.108,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "mongodb"
+        ]
+      }
+    ],
+    "unmatched_skills": [
+      {
+        "raw_skill": "sap",
+        "confidence": 0.98
+      },
+      {
+        "raw_skill": "copilot",
+        "confidence": 0.94
+      },
+      {
+        "raw_skill": "collaboration",
+        "confidence": 0.9
+      },
+      {
+        "raw_skill": "teams",
+        "confidence": 0.9
+      },
+      {
+        "raw_skill": "abap",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "analytical thinking",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "data pipeline",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "database",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "process automation",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "sap abap",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "sap hana",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "stored procedures",
+        "confidence": 0.86
+      },
+      {
+        "raw_skill": "hypertext transfer protocol secure",
+        "confidence": 0.6
+      }
+    ]
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": []
+  },
+  "top_roles": [
+    {
+      "role": "Data Analyst",
+      "score": 0.462,
+      "base_similarity": 0.2951,
+      "prior": 0.93,
+      "level": "entry",
+      "level_bias": 1.0,
+      "core_overlap_boost": 0.04,
+      "missing_core_penalty": 0.0,
+      "overlap_count": 2,
+      "matched_skills": [
+        "excel",
+        "sql",
+        "pandas",
+        "python",
+        "communication"
+      ],
+      "core_skills_found": [
+        "excel",
+        "sql"
+      ],
+      "missing_core_skills": [
+        "data analysis",
+        "data cleaning",
+        "data visualization"
+      ],
+      "missing_skills": [
+        "data analysis",
+        "data cleaning",
+        "data visualization",
+        "power bi",
+        "tableau",
+        "attention to detail"
+      ],
+      "why_this_role": [
+        "strong SQL and analytics alignment",
+        "high fit for student resumes with reporting skills"
+      ],
+      "reason": "strong SQL and analytics alignment; high fit for student resumes with reporting skills Strong match because the candidate shows core technical alignment in excel, sql. You may improve your fit by learning data analysis, data cleaning, data visualization."
+    },
+    {
+      "role": "BI Developer",
+      "score": 0.4325,
+      "base_similarity": 0.3579,
+      "prior": 0.86,
+      "level": "mid",
+      "level_bias": 0.85,
+      "core_overlap_boost": 0.0,
+      "missing_core_penalty": 0.0,
+      "overlap_count": 1,
+      "matched_skills": [
+        "sql",
+        "excel",
+        "reporting",
+        "communication"
+      ],
+      "core_skills_found": [
+        "sql"
+      ],
+      "missing_core_skills": [
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization"
+      ],
+      "missing_skills": [
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization",
+        "tableau",
+        "analytics"
+      ],
+      "why_this_role": [
+        "strong reporting and dashboard alignment",
+        "good fit for SQL and visualization-heavy work"
+      ],
+      "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
+    }
+  ],
+  "all_roles_evaluated": 38
+}

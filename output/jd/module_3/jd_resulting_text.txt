@@ -1,0 +1,202 @@
+Job Description
+                                                                          Page 1    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                 Machine         Learning        Engineer                           
+                                                                                    
+                                                                                    
+                 Department: Technology & Information Services                      
+                                                                                    
+                 Organizational Relationship: Reports to the Manager of Machine Learning
+                                                                                    
+                 FLSA Status: Exempt                                                
+                                                                                    
+                 Last Updated: September 5, 2024                                    
+                                                                                    
+                 General Summary:                                                   
+                 The Machine Learning Engineer leads and assists in the development and design of Artificial
+                 Intelligence (AI) and Machine Learning (ML) applications to enhance legal operations. This role
+                 encompasses R&D, coding, and operationalization of applications. The Machine Learning Engineer
+                 provides time estimates, task planning, project follow-up, and status reporting. Collaboration with
+                 stakeholders to understand requirements and deliver Information Technology solutions that meet
+                 business needs is a key part of the role.                          
+                 Essential Duties and Responsibilities:                             
+                                                                                    
+                 “Essential duties” are those that an individual must be able to perform with or without reasonable
+                 accommodation.                                                     
+                   1. Works with and makes recommendations to the Development Supervisors and Managers
+                      regarding the maintenance and enhancement of existing Latham production applications
+                                                                                    
+                   2. Works independently to develop and implement comprehensive computing solutions that
+                      solve user business requirements; develops solutions in a professional manner and in
+                      accordance with established deliverable schedules and firm procedures
+                   3. Works closely with cross-functional teams to develop and implement AI/ML solutions to
+                      solve complex business problems and drive innovation          
+                   4. Contributes to the entire lifecycle of AI/ML applications including concept, design, test,
+                      release, and support                                          
+                   5. Stays current with the latest industry trends and technologies to keep our AI systems at the
+                      forefront of technological advancements                       
+                                                                                    
+                   6. Participates in consultations with development staff, project analysts and end-users
+                      regarding system requirements and functionality; designs recommended solutions
+                   7. Codes, tests, and debugs application systems per developed specifications; develops
+                      prototypes of various stages of development                   
+                   8. Leads small-, medium-, and large-sized projects from design through deployment
+                   9. Assists with the training and knowledge transfer to other developers
+                                                                                    
+                   10. Prepares appropriate system and user documentation           
+                   11. Performs other related projects and assignments as required  
+                                                                                    
+                                                                                    
+                                               ©Copyright 2024 Latham & Watkins. All Rights Reserved.
+                                                                                    
+                 US-DOCS\145071036.3Job Description
+                                                                          Page 2    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                   12. Promotes effective work practices, works as a team member, and shows respect for co-
+                      workers                                                       
+                                                                                    
+                 Position Specifications                                            
+                                                                                    
+                 Education                                                          
+                                                                                    
+                   •  Bachelor’s degree or equivalent required                      
+                   •  Master’s degree in Information Systems, Computer Science, Engineering, Data Science or
+                      related field preferred                                       
+                 Work Experience                                                    
+                                                                                    
+                   •  A minimum of four years’ professional Python experience in an industry setting required,
+                      including a minimum of two years’ experience working with agile teams
+                   •  Experience building and productizing AI models and systems preferred
+                                                                                    
+                 Knowledge, Skills & Abilities                                      
+                                                                                    
+                   •  Advanced knowledge of Python with the ability to design, develop, and debug applications
+                   •  Strong knowledge of Python design patterns, functional, and/or object-oriented
+                      programming                                                   
+                   •  Proficiency with Python, including experience with libraries and frameworks relevant to AI
+                      application development (e.g., LangChain, Streamlit, LlamaIndex, Sematic Kernel,
+                      guidance-ai, GraphRAG, Haystack, Guardrails, etc.)            
+                   •  Proficiency with machine learning/deep learning frameworks (Scikit-Learn, Pytorch,
+                      Tensorflow)                                                   
+                   •  Proficiency in training or fine-tuning language models (e.g., BERT, Llama2, GPT) and their
+                      optimization (LoRA, knowledge distillation, pruning and quantization)
+                   •  Proficiency with API development frameworks (e.g., Django, Flask, FastAPI) and
+                      knowledge of web standards relating to API development (e.g., CORS, OpenAPI)
+                   •  Proficiency with Agile development and task tracking systems (Azure DevOps, JIRA)
+                   •  Proficiency with Git                                          
+                   •  Proficiency with container technologies (Docker, Kubernetes)  
+                   •  Proficiency with distributed workflow and task management tools (e.g., Celery, Airflow)
+                   •  Proficiency with DevOps and/or MLOps practices (incl. CI/CD/CT, Infrastructure as Code)
+                   •  Familiarity with Cloud Services e.g., Azure (preferred), AWS, GCP
+                   •  Strong computer science fundamentals that emphasize code reliability, maintainability and
+                      readability                                                   
+                   •  Strong analytical skills, including effectively defining problems and identifying solutions.
+                   •  Systems design skills, both conceptual and detail             
+                   •  Acceptance testing and system implementation skills           
+                   •  Ability to understand technical problems as presented by non-technical users; the ability to
+                      communicate technical solutions in a non-technical manner     
+                   •  Well-developed and professional interpersonal skills; ability to interact effectively with
+                      people at all organizational levels of the firm               
+                   •  Ability to work in a team environment with a customer-service focus
+                   •  Strong communication skills, both written and verbal          
+                                               ©Copyright 2024 Latham & Watkins. All Rights Reserved.
+                 US-DOCS\145071036.3Job Description
+                                                                          Page 3    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                   •  Organizational skills needed to manage time well, prioritize effectively, and handle multiple
+                      deadlines                                                     
+                   •  Ability to handle confidential and sensitive information with the appropriate discretion
+                                                                                    
+                 Physical Demands                                                   
+                                                                                    
+                   •  Extensive time using a computer including use of a PC keyboard and mouse or similar data
+                      input devices is required.                                    
+                 Working Conditions                                                 
+                                                                                    
+                 All Latham & Watkins positions are in a typical indoor office environment.
+                                                                                    
+                 The statements contained in this position description are not necessarily all-inclusive; additional
+                 duties may be assigned, and requirements may vary from time to time, and from location to location.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                               ©Copyright 2024 Latham & Watkins. All Rights Reserved.
+                                                                                    
+                 US-DOCS\145071036.3
+
+Experience:
+- A minimum of four years’ professional Python experience in an industry setting required, including a minimum of two years’ experience working with agile teams
+- Experience building and productizing AI models and systems preferred
+- Knowledge, Skills & Abilities
+- Advanced knowledge of Python with the ability to design, develop, and debug applications
+- Strong knowledge of Python design patterns, functional, and/or object-oriented programming
+- Proficiency with Python, including experience with libraries and frameworks relevant to AI application development (e.g., LangChain, Streamlit, LlamaIndex, Sematic Kernel, guidance-ai, GraphRAG, Haystack, Guardrails, etc.)
+- Proficiency with machine learning/deep learning frameworks (Scikit-Learn, Pytorch, Tensorflow)
+- Proficiency in training or fine-tuning language models (e.g., BERT, Llama2, GPT) and their optimization (LoRA, knowledge distillation, pruning and quantization)
+- Proficiency with API development frameworks (e.g., Django, Flask, FastAPI) and knowledge of web standards relating to API development (e.g., CORS, OpenAPI)
+- Proficiency with Agile development and task tracking systems (Azure DevOps, JIRA)
+- Proficiency with Git
+- Proficiency with container technologies (Docker, Kubernetes)
+- Proficiency with distributed workflow and task management tools (e.g., Celery, Airflow)
+- Proficiency with DevOps and/or MLOps practices (incl. CI/CD/CT, Infrastructure as Code)
+- Familiarity with Cloud Services e.g., Azure (preferred), AWS, GCP
+- Strong computer science fundamentals that emphasize code reliability, maintainability and readability
+- Strong analytical skills, including effectively defining problems and identifying solutions.
+- Systems design skills, both conceptual and detail
+- Acceptance testing and system implementation skills
+- Ability to understand technical problems as presented by non-technical users; the ability to communicate technical solutions in a non-technical manner
+- Well-developed and professional interpersonal skills; ability to interact effectively with people at all organizational levels of the firm
+- Ability to work in a team environment with a customer-service focus
+- Strong communication skills, both written and verbal ©Copyright 2024 Latham & Watkins. All Rights Reserved. US-DOCS\145071036.3 Job Description Page 3
+- Organizational skills needed to manage time well, prioritize effectively, and handle multiple deadlines
+- Ability to handle confidential and sensitive information with the appropriate discretion
+- Physical Demands
+- Extensive time using a computer including use of a PC keyboard and mouse or similar data input devices is required. Working Conditions
+- All Latham & Watkins positions are in a typical indoor office environment.
+- The statements contained in this position description are not necessarily all-inclusive; additional duties may be assigned, and requirements may vary from time to time, and from location to location.
+- ©Copyright 2024 Latham & Watkins. All Rights Reserved.
+- US-DOCS\145071036.3
+Education:
+- Bachelor’s degree or equivalent required
+- Master’s degree in Information Systems, Computer Science, Engineering, Data Science or related field preferred
