@@ -1,0 +1,81 @@
+Kritansh Uppal
+
+     +91 9815000709 — kritansh.11.sss@gmail.com — linkedin.com/in/kritansh-uppal — github.com/kirat11X
+
+
+
+
+EDUCATION
+
+
+Bachelor of Technology in Computer Science & Engineering                          Aug 2024 – Present
+Punjab Engineering College, Chandigarh                                       CGPA: 8.82/10
+
+EXPERIENCE
+
+
+Zimo One — Software Intern                                                         Jun 2025- Jul 2025
+
+• Resolved 15+ production bugs in Node.js backend services, improving internal tool uptime by 12% for workflows used
+  by 30+ team members.
+• Implemented REST API validation using schema-based checks, reducing regression issues by 25% across multiple services.
+
+PROJECTS
+
+
+Automatic Short-Form Video Generator (Vizard-AI Replica)                           Dec 2025 – Present
+Computer Vision, Multimodal Systems, Python
+github.com/kirat11X/Video-Clipper-
+
+• Architected an automated pipeline to generate short-form clips from long videos, reducing manual editing time by 70%.
+• Compared uniform vs scene-change based frame sampling and selected adaptive key-frame extraction, improving clip
+  relevance by 22%.
+• Processed 5+ hours of video per run using reproducible CV-based frame extraction.
+
+Intelligent Data Extraction from Business Reports (1st / ˜50, PECathon 2025) — Python, Computer Vision,
+Document AI                                                                             Nov 2025
+
+• Led the architecture of a document intelligence system to extract structured insights from unstructured business PDFs.
+• Achieved 90%+ table and chart detection accuracy using layout segmentation and image preprocessing.
+• Awarded 1st place for superior system reliability, extraction accuracy, and end-to-end automation.
+
+RAG-Based Psychology Mentor AI — LLMs, RAG, LangChain, NLP                       Sep 2025 – Oct 2025
+github.com/kirat11X/RAG-Based-Psychology-Mentor-AI-
+
+• Evaluated retrieval quality on ˜200 user queries using manual relevance tagging with precision@5 metric.
+• Reduced average response latency by optimizing embedding dimensionality and pruning prompt context for low-utility
+  tokens.
+• Indexed 10k+ mental health documents using FAISS with cosine-similarity retrieval.
+
+Disease Prediction System from Symptoms — Machine Learning, scikit-learn, Boosting     May 2025 – Jun 2025
+
+• Built symptom-based disease prediction system using Random Forest & Boosting models on structured medical
+  features.
+• Evaluated performance of 4,000+ symptom–disease records using confusion matrix and cross-validation to reduce
+  overfitting risk .
+• Reduced misclassification rate by 15% through feature engineering and hyperparameter tuning.
+
+TECHNICAL SKILLS
+
+
+ML Foundations: Feature Engineering, ROC-AUC, Confusion Matrix, Cosine Similarity
+ML Systems: LLMs, RAG Pipelines, Vector Embeddings
+ML Tools: scikit-learn, FAISS, LangChain ,Boosting
+Programming: Python, C++, JavaScript, SQL
+Data & Analysis: Pandas, NumPy, Matplotlib, Exploratory Data Analysis
+Systems & Tools: Git, Linux, REST APIs, Firebase
+
+
+ACHIEVEMENTS
+
+
+• Winner, PECathon 2025 — Open-to-all inter-college hackathon conducted during PECFEST with 50+ teams.
+• Awarded by Punjab Governor Sh. Gulab Chand Kataria ji for excellence in sports.
+• State Gold Medalist — Table Tennis, Chandigarh.
+
+LEADERSHIP EXPERIENCE
+
+
+• Creative Head, WOPI — Led branding and visual strategy for an international academic conference.
+• Sub-Head, PECFEST — Coordinated logistics for 10+ events and managed 30+ volunteers serving 900+ attendees at
+  the college’s flagship festival.
