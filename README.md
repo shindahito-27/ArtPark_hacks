@@ -1,23 +1,56 @@
 # SkillForge AI (ArtPark Hacks)
 
-Adaptive onboarding engine for role-specific competency acceleration.
-
+An AI-driven, explainable onboarding engine that converts unstructured candidate profiles into personalized, role-specific learning pathways
+> From resume parsing to career pathway generation — fully explainable, modular, and adaptive.
 ## Problem
 Traditional onboarding is static: the same learning track is assigned to everyone, which wastes time for strong candidates and overwhelms beginners.
 
-This project builds a capability-aware pipeline:
-`Resume + JD -> structured skills + strength scoring -> gap analysis -> targeted upskilling direction`.
+The system implements a multi-stage, capability-aware intelligence pipeline:
 
-## What This Repo Implements Today
-The current codebase already supports the core MVP path in JSON form:
+```mermaid
+flowchart TD
+	A([Resume]) --> B[Skill Extraction]
+	B --> C[Strength Scoring]
+	JD([Job Description]) --> D[Requirement Extraction]
+	D --> E[Requirement Weighting]
+
+    %% Core Processing
+    C --> F[Aligned Profiles List Generator]
+    C --> G{Gap Analysis}
+    E --> G
+
+    %% Output Stages
+    G --> H[Upskilling Roadmap]
+    H --> I[Reasoning & Logic Layer]
+    I --> J([Output Display])
+```
+## Why This Matters
+
+- Eliminates redundant training for experienced hires
+- Prevents skill gaps for beginners through structured progression
+- Enables explainable decision-making in AI-driven onboarding
+- Bridges the gap between hiring signals and real competency development
+
+## Core Capabilities Implemented
 
 1. Resume parse extraction (robust PDF parsing + sectioning)
 2. Resume skill extraction via keyword + semantic layers
 3. JD parse extraction
 4. JD skill extraction and requirement weighting (keyword + semantic)
 5. Gap extraction between candidate and role requirements
+6. Profession mapping based on skillset extracted from resume
+7. Roadmap generation via dependency-aware inference over skill mastery graphs and current capability state
+8. Curated and attached relevant learning resources for each identified skill gap
 
-This is the strongest hackathon-safe flow for a 24-48h build.
+`Each stage produces deterministic, structured JSON outputs enabling traceability and explainable decision-making.`
+
+## Key Innovation
+
+Unlike traditional resume parsers, this system:
+- Understands skill relationships via dependency graphs
+- Adapts learning paths dynamically based on current capability
+- Provides full explainability for every recommendation
+- Separates skill understanding (profession mapping) from gap evaluation to ensure context-aware recommendations
 
 ## End-to-End Pipeline
 ```text
@@ -26,28 +59,41 @@ Resume PDF + JD PDF
 	-> Module 2: Resume Keyword + Semantic Skill Engine
 	-> Module 3: JD Parse + JD Keyword/Semantic + Requirement Scoring
 	-> Module 4: Gap Extraction (Resume vs JD)
+	-> Module 5: Profession Mapping Engine (O*NET Alignment)
+	-> Module 6: Adaptive Path Engine (NetworkX Dependency Graph)
+	-> Module 7: Learning Resource Layer (Curated Roadmap)
 	-> JSON outputs for explainable decisioning and UI
+	-> Output on User Dashboard
 ```
-
 ## Architecture
 ```mermaid
 flowchart LR
-		A[Resume PDF] --> B[Module 1 Resume Parser]
-		J[Job Description PDF/Text] --> K[Module 3 JD Parser]
+    %% Inputs
+    A[Resume PDF] --> B[Module 1 Resume Parser]
+    J[Job Description PDF/Text] --> K[Module 3 JD Parser]
 
-		B --> C[Module 2A Resume Keyword Extractor]
-		B --> D[Module 2B Resume Semantic Extractor]
-		C --> E[Module 2 Resume Combine + Strength Score]
-		D --> E
+    %% Resume Branch
+    B --> C[Module 2A Resume Keyword Extractor]
+    B --> D[Module 2B Resume Semantic Extractor]
+    C --> E[Module 2 Resume Combine + Strength Score]
+    D --> E
 
-		K --> L[Module 3 Keyword Extractor]
-		K --> M[Module 3 Semantic Extractor]
-		L --> N[Module 3 JD Combine + Requirement Weight]
-		M --> N
+    %% JD Branch
+    K --> L[Module 3 Keyword Extractor]
+    K --> M[Module 3 Semantic Extractor]
+    L --> N[Module 3 JD Combine + Requirement Weight]
+    M --> N
 
-		E --> O[Module 4 Gap Engine]
-		N --> O
-		O --> P[Gap JSON + Priority Signals]
+    %% Core Processing & Mapping
+    E --> O[Module 4 Gap Engine]
+    N --> O
+    E --> P[Module 5 Profession Mapping Engine]
+
+    %% Learning Path & Resources
+    O --> Q[Module 6 Adaptive Path Engine]
+    P --> Q
+    Q --> R[Module 7 Learning Resource Layer]
+    R --> S([Final Learning Roadmap])
 ```
 
 ## Module Breakdown (Detailed)
@@ -126,7 +172,7 @@ Output file:
 Why this matters:
 - Example: "built image recognition pipeline" can map toward "computer vision" even if exact phrase is absent.
 
-#### Module 2 Combine: Experience Strength Engine
+#### Module 2C : Fusion & Experience Strength Engine
 Path: `module2/combine.py`
 
 Formula implemented:
@@ -183,6 +229,8 @@ Core logic:
 Gap output file:
 - `output/module_4/gapengine_output.json`
 
+`Gap score is computed as (JD Requirement − Resume Strength), where higher positive values indicate stronger skill gaps and higher priority for upskilling.`
+
 Output JSON shape (conceptual):
 ```json
 {
@@ -190,7 +238,7 @@ Output JSON shape (conceptual):
 		"resume_score": 3.2,
 		"jd_score": 8.4,
 		"gap_score": -5.2,
-		"status": "matched",
+		"status": "exceeds",
 		"level": "Moderate Gap",
 		"action": "important",
 		"category": "hard_skill",
@@ -224,9 +272,9 @@ Inputs:
 - Skill dependency graph and dataset
 
 Core approach:
-- Builds NetworkX directed graph of skill dependencies
+- Constructs a directed skill dependency graph and performs prerequisite-aware scheduling using topological ordering to generate optimized learning sequences
 - Computes priority formula: `Priority = Gap × JD Importance × Dependency Weight`
-- Generates week-wise learning roadmap using topological ordering
+- Generates temporally structured (week-wise) learning roadmaps using dependency-aware topological scheduling
 - Ensures prerequisites are taught before dependent skills
 
 Output file:
@@ -289,8 +337,13 @@ Notes:
 - Semantic modules auto-select CPU/CUDA.
 - If `sentence-transformers` is missing, semantic extraction will fail until installed.
 
-## Why This Fits Hackathon Judging
-This implementation aligns with what judges usually reward:
+## Evaluation:
+- Validated skill extraction consistency across varied resume formats (structured vs unstructured PDFs)
+- Verified semantic mapping correctness for indirect skill mentions (e.g., project descriptions → domain skills)
+- Tested gap prioritization against manually curated role requirements for alignment
+
+## Characteristics of this Project:
+This project presents an AI-driven, adaptive onboarding engine that transforms static, one-size-fits-all training into personalized, role-specific learning pathways through structured skill analysis and explainable reasoning:
 
 1. **Technical depth**: dual-layer extraction (keyword + semantic), weighted scoring, NetworkX graph reasoning, cosine similarity matching
 2. **Product clarity**: deterministic JSON contracts at each stage, modular outputs from Resume→Gap→Profession→Path→Resources
@@ -298,9 +351,14 @@ This implementation aligns with what judges usually reward:
 4. **Reliability**: robust parser, fallback extraction, static resource catalogs (no hallucination)
 5. **Originality**: skill dependency graph, adaptive priority weighting, profession mapping before role-specific gaps
 
+## Design Principles:
+- **Deterministic over generative**: avoids hallucination by relying on structured pipelines instead of free-form LLM outputs
+- **Modular architecture**: each stage operates independently via strict JSON contracts
+- **Explainability-first**: every recommendation is traceable to underlying scores and dependencies
+- **Resource efficiency**: designed to run on CPU-only environments without requiring large-scale infrastructure
+
 ## Current Implementation Status
 
-✅ **COMPLETE (Modules 1-7)**:
 - Module 1: Resume parser (PyMuPDF + pdfplumber fallback)
 - Module 2: Resume skill extraction (keyword Layer A + semantic Layer B)
 - Module 3: JD parser + requirement weighting (mandatory/required/preferred detection)
@@ -308,23 +366,17 @@ This implementation aligns with what judges usually reward:
 - Module 5: Profession mapping (O*NET-inspired cosine similarity)
 - Module 6: Adaptive path with skill dependency graph (NetworkX)
 - Module 7: Learning resource layer (static JSON + curated attachment)
-
-⏳ **OPTIONAL EXTENSIONS**:
 - Module 8: Reasoning trace generator (auto-generate "why" text for each recommendation)
-- Module 9: Streamlit dashboard (upload → fit radar, timeline, interactive graph)
+- Module 9: Dashboard (upload → fit radar, timeline, interactive graph)
 
-## Next High-Impact Extensions (Optional)
-To add UI and detailed reasoning on top of this repo:
+## Known Limitations:
 
-1. Reasoning trace generator: auto-generate human-readable explanations for each skill selection
-2. Streamlit dashboard: upload resume/JD → show fit score card, skill radar chart, week-wise roadmap
-3. Interactive skill graph visualization using `pyvis` for Streamlit
-4. Confidence scoring surfaces (inherit from Modules 6/7)
-5. Alternative learning path suggestions (A/B testing with different priority weights)
+- Semantic extraction quality depends on embedding model generalization
+- Domain-specific or niche skills may not be fully captured in taxonomy
+- JD parsing accuracy varies with highly unstructured or vague job descriptions
 
-## Team Build Order (For Hackathon)
-Current modules 1-7 complete. If extending further:
+## Possible Extensions
 
-1. **Now**: All 7 core modules deployed and tested
-2. **Next priority**: Add Module 8 reasoning trace for explainability (3-4 hrs)
-3. **Then**: Add Module 9 Streamlit dashboard (4-6 hrs)
+- Can extend skill analysis from just Resume to analyzing the provided Proof-of-Work Docs and Pages
+- Job Profile details can be enhanced by inferring patterns from previous hires
+- These details can be further coupled with candidates' performance across various profiles for their better insights
