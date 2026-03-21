@@ -1,0 +1,2988 @@
+{
+  "__meta__": {
+    "known_skill_threshold": 0.25,
+    "min_target_gap": 0.6,
+    "top_role": "Software Engineer",
+    "candidate_best_fit_role": "Software Engineer",
+    "target_jd_role": "Machine Learning Engineer",
+    "profession_roadmap_count": 3,
+    "primary_track_type": "profession_mapping",
+    "recommended_track_type": "profession_mapping"
+  },
+  "candidate_best_fit_role": "Software Engineer",
+  "target_jd_role": "Machine Learning Engineer",
+  "recommended_track_type": "profession_mapping",
+  "top_role": {
+    "role": "Software Engineer",
+    "score": 0.6464,
+    "base_similarity": 0.654,
+    "prior": 0.84,
+    "prior_scale": 0.952,
+    "level": "entry",
+    "level_bias": 1.0,
+    "core_overlap_boost": 0.06,
+    "missing_core_penalty": 0.031,
+    "missing_core_score_scale": 0.93,
+    "overlap_count": 4,
+    "matched_skills": [
+      "java",
+      "python",
+      "automation",
+      "git",
+      "linux",
+      "debugging",
+      "c",
+      "c++"
+    ],
+    "core_skills_found": [
+      "java",
+      "debugging",
+      "git",
+      "automation"
+    ],
+    "missing_core_skills": [
+      "system design"
+    ],
+    "missing_skills": [
+      "system design",
+      "software architecture",
+      "apis"
+    ],
+    "why_this_role": [
+      "strong coding and debugging alignment",
+      "good fit for general software engineering pathways"
+    ],
+    "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+  },
+  "jd_requirement_roadmap": {
+    "track_type": "jd_requirement",
+    "title": "JD Gap Roadmap: Machine Learning Engineer",
+    "view_label": "Target JD Gap View",
+    "view_purpose": "This roadmap shows the most connected prerequisites for closing the target JD gaps.",
+    "role": "Machine Learning Engineer",
+    "target_role": "Machine Learning Engineer",
+    "candidate_best_fit_role": "Software Engineer",
+    "target_jd_role": "Machine Learning Engineer",
+    "top_role": {
+      "role": "Software Engineer",
+      "score": 0.6464,
+      "base_similarity": 0.654,
+      "prior": 0.84,
+      "prior_scale": 0.952,
+      "level": "entry",
+      "level_bias": 1.0,
+      "core_overlap_boost": 0.06,
+      "missing_core_penalty": 0.031,
+      "missing_core_score_scale": 0.93,
+      "overlap_count": 4,
+      "matched_skills": [
+        "java",
+        "python",
+        "automation",
+        "git",
+        "linux",
+        "debugging",
+        "c",
+        "c++"
+      ],
+      "core_skills_found": [
+        "java",
+        "debugging",
+        "git",
+        "automation"
+      ],
+      "missing_core_skills": [
+        "system design"
+      ],
+      "missing_skills": [
+        "system design",
+        "software architecture",
+        "apis"
+      ],
+      "why_this_role": [
+        "strong coding and debugging alignment",
+        "good fit for general software engineering pathways"
+      ],
+      "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+    },
+    "__meta__": {
+      "gap_skill_count": 7,
+      "focus_skill_count": 7,
+      "support_skill_count": 5,
+      "relevant_graph_nodes": 11,
+      "relevant_graph_edges": 8,
+      "known_skill_threshold": 0.25,
+      "min_target_gap": 0.6,
+      "maximum_named_resources": 3,
+      "suppressed_direct_target_count": 25
+    },
+    "roadmap": [
+      "machine learning",
+      "apis",
+      "deep learning",
+      "mlops",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch"
+    ],
+    "roadmap_details": [
+      {
+        "skill": "machine learning",
+        "priority": 254.4313,
+        "effective_gap": 6.6378,
+        "direct_gap": 6.6378,
+        "jd_importance": 6.6378,
+        "difficulty": 0.5442,
+        "dependency_weight": 3.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [
+          "deep learning",
+          "mlops",
+          "scikit-learn"
+        ],
+        "unlocks": [
+          "scikit-learn",
+          "deep learning",
+          "mlops"
+        ],
+        "resources": [
+          {
+            "title": "Google Machine Learning Crash Course",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "Hands-On Machine Learning",
+            "type": "book",
+            "level": "intermediate"
+          }
+        ],
+        "reason": "direct JD gap is high; prerequisite for deep learning, mlops; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 1"
+      },
+      {
+        "skill": "apis",
+        "priority": 74.7369,
+        "effective_gap": 4.6079,
+        "direct_gap": 4.6079,
+        "jd_importance": 4.6079,
+        "difficulty": 0.4682,
+        "dependency_weight": 2.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [],
+        "unlocks": [],
+        "resources": [
+          {
+            "title": "Postman API Fundamentals Student Expert",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "MDN Web Docs: APIs",
+            "type": "reference",
+            "level": "beginner"
+          }
+        ],
+        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 1"
+      },
+      {
+        "skill": "deep learning",
+        "priority": 107.2275,
+        "effective_gap": 5.4536,
+        "direct_gap": 5.4536,
+        "jd_importance": 5.4536,
+        "difficulty": 0.5435,
+        "dependency_weight": 2.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [
+          "pytorch",
+          "tensorflow"
+        ],
+        "unlocks": [
+          "tensorflow",
+          "pytorch"
+        ],
+        "resources": [
+          {
+            "title": "DeepLearning.AI Neural Networks and Deep Learning",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "Dive into Deep Learning",
+            "type": "book",
+            "level": "intermediate"
+          }
+        ],
+        "reason": "direct JD gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 2"
+      },
+      {
+        "skill": "mlops",
+        "priority": 32.804,
+        "effective_gap": 4.8247,
+        "direct_gap": 4.8247,
+        "jd_importance": 4.8247,
+        "difficulty": 0.6096,
+        "dependency_weight": 1.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [],
+        "unlocks": [],
+        "resources": [
+          {
+            "title": "Made With ML: MLOps",
+            "type": "course",
+            "level": "intermediate"
+          },
+          {
+            "title": "Full Stack Deep Learning MLOps",
+            "type": "course",
+            "level": "intermediate"
+          }
+        ],
+        "reason": "direct JD gap is high; JD importance is strong",
+        "phase": "Phase 2"
+      },
+      {
+        "skill": "scikit-learn",
+        "priority": 21.6887,
+        "effective_gap": 5.4536,
+        "direct_gap": 5.4536,
+        "jd_importance": 5.4536,
+        "difficulty": 1.2713,
+        "dependency_weight": 1.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [],
+        "unlocks": [],
+        "resources": [
+          {
+            "title": "scikit-learn User Guide",
+            "type": "reference",
+            "level": "beginner"
+          },
+          {
+            "title": "Kaggle Intro to Machine Learning",
+            "type": "practice",
+            "level": "beginner"
+          }
+        ],
+        "reason": "direct JD gap is high; JD importance is strong",
+        "phase": "Phase 2"
+      },
+      {
+        "skill": "tensorflow",
+        "priority": 96.4858,
+        "effective_gap": 5.4536,
+        "direct_gap": 5.4536,
+        "jd_importance": 5.4536,
+        "difficulty": 0.5165,
+        "dependency_weight": 2.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [],
+        "unlocks": [],
+        "resources": [
+          {
+            "title": "TensorFlow Tutorials",
+            "type": "tutorial",
+            "level": "beginner"
+          },
+          {
+            "title": "TensorFlow Guide",
+            "type": "reference",
+            "level": "beginner"
+          }
+        ],
+        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 3"
+      },
+      {
+        "skill": "pytorch",
+        "priority": 93.4541,
+        "effective_gap": 5.4536,
+        "direct_gap": 5.4536,
+        "jd_importance": 5.4536,
+        "difficulty": 0.5365,
+        "dependency_weight": 2.0,
+        "candidate_signal": 0.0,
+        "blocking_targets": [],
+        "unlocks": [],
+        "resources": [
+          {
+            "title": "PyTorch Tutorials",
+            "type": "tutorial",
+            "level": "beginner"
+          },
+          {
+            "title": "PyTorch 60 Minute Blitz",
+            "type": "tutorial",
+            "level": "beginner"
+          }
+        ],
+        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 3"
+      }
+    ],
+    "roadmap_phases": [
+      {
+        "phase": "Phase 1",
+        "skills": [
+          {
+            "skill": "machine learning",
+            "priority": 254.4313,
+            "effective_gap": 6.6378,
+            "direct_gap": 6.6378,
+            "jd_importance": 6.6378,
+            "difficulty": 0.5442,
+            "dependency_weight": 3.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [
+              "deep learning",
+              "mlops",
+              "scikit-learn"
+            ],
+            "unlocks": [
+              "scikit-learn",
+              "deep learning",
+              "mlops"
+            ],
+            "resources": [
+              {
+                "title": "Google Machine Learning Crash Course",
+                "type": "course",
+                "level": "beginner"
+              },
+              {
+                "title": "Hands-On Machine Learning",
+                "type": "book",
+                "level": "intermediate"
+              }
+            ],
+            "reason": "direct JD gap is high; prerequisite for deep learning, mlops; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+            "phase": "Phase 1"
+          },
+          {
+            "skill": "apis",
+            "priority": 74.7369,
+            "effective_gap": 4.6079,
+            "direct_gap": 4.6079,
+            "jd_importance": 4.6079,
+            "difficulty": 0.4682,
+            "dependency_weight": 2.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [],
+            "unlocks": [],
+            "resources": [
+              {
+                "title": "Postman API Fundamentals Student Expert",
+                "type": "course",
+                "level": "beginner"
+              },
+              {
+                "title": "MDN Web Docs: APIs",
+                "type": "reference",
+                "level": "beginner"
+              }
+            ],
+            "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+            "phase": "Phase 1"
+          }
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "skills": [
+          {
+            "skill": "deep learning",
+            "priority": 107.2275,
+            "effective_gap": 5.4536,
+            "direct_gap": 5.4536,
+            "jd_importance": 5.4536,
+            "difficulty": 0.5435,
+            "dependency_weight": 2.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [
+              "pytorch",
+              "tensorflow"
+            ],
+            "unlocks": [
+              "tensorflow",
+              "pytorch"
+            ],
+            "resources": [
+              {
+                "title": "DeepLearning.AI Neural Networks and Deep Learning",
+                "type": "course",
+                "level": "beginner"
+              },
+              {
+                "title": "Dive into Deep Learning",
+                "type": "book",
+                "level": "intermediate"
+              }
+            ],
+            "reason": "direct JD gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+            "phase": "Phase 2"
+          },
+          {
+            "skill": "mlops",
+            "priority": 32.804,
+            "effective_gap": 4.8247,
+            "direct_gap": 4.8247,
+            "jd_importance": 4.8247,
+            "difficulty": 0.6096,
+            "dependency_weight": 1.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [],
+            "unlocks": [],
+            "resources": [
+              {
+                "title": "Made With ML: MLOps",
+                "type": "course",
+                "level": "intermediate"
+              },
+              {
+                "title": "Full Stack Deep Learning MLOps",
+                "type": "course",
+                "level": "intermediate"
+              }
+            ],
+            "reason": "direct JD gap is high; JD importance is strong",
+            "phase": "Phase 2"
+          },
+          {
+            "skill": "scikit-learn",
+            "priority": 21.6887,
+            "effective_gap": 5.4536,
+            "direct_gap": 5.4536,
+            "jd_importance": 5.4536,
+            "difficulty": 1.2713,
+            "dependency_weight": 1.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [],
+            "unlocks": [],
+            "resources": [
+              {
+                "title": "scikit-learn User Guide",
+                "type": "reference",
+                "level": "beginner"
+              },
+              {
+                "title": "Kaggle Intro to Machine Learning",
+                "type": "practice",
+                "level": "beginner"
+              }
+            ],
+            "reason": "direct JD gap is high; JD importance is strong",
+            "phase": "Phase 2"
+          }
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "skills": [
+          {
+            "skill": "tensorflow",
+            "priority": 96.4858,
+            "effective_gap": 5.4536,
+            "direct_gap": 5.4536,
+            "jd_importance": 5.4536,
+            "difficulty": 0.5165,
+            "dependency_weight": 2.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [],
+            "unlocks": [],
+            "resources": [
+              {
+                "title": "TensorFlow Tutorials",
+                "type": "tutorial",
+                "level": "beginner"
+              },
+              {
+                "title": "TensorFlow Guide",
+                "type": "reference",
+                "level": "beginner"
+              }
+            ],
+            "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+            "phase": "Phase 3"
+          },
+          {
+            "skill": "pytorch",
+            "priority": 93.4541,
+            "effective_gap": 5.4536,
+            "direct_gap": 5.4536,
+            "jd_importance": 5.4536,
+            "difficulty": 0.5365,
+            "dependency_weight": 2.0,
+            "candidate_signal": 0.0,
+            "blocking_targets": [],
+            "unlocks": [],
+            "resources": [
+              {
+                "title": "PyTorch Tutorials",
+                "type": "tutorial",
+                "level": "beginner"
+              },
+              {
+                "title": "PyTorch 60 Minute Blitz",
+                "type": "tutorial",
+                "level": "beginner"
+              }
+            ],
+            "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
+            "phase": "Phase 3"
+          }
+        ]
+      }
+    ],
+    "next_steps": [
+      "machine learning",
+      "apis"
+    ],
+    "direct_targets": [
+      {
+        "skill": "machine learning",
+        "gap": 6.6378,
+        "importance": 6.6378,
+        "resume_score": 0.0,
+        "jd_score": 6.6378,
+        "raw_importance": 6.6378,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "deep learning",
+        "gap": 5.4536,
+        "importance": 5.4536,
+        "resume_score": 0.0,
+        "jd_score": 5.4536,
+        "raw_importance": 5.4536,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "pytorch",
+        "gap": 5.4536,
+        "importance": 5.4536,
+        "resume_score": 0.0,
+        "jd_score": 5.4536,
+        "raw_importance": 5.4536,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "scikit-learn",
+        "gap": 5.4536,
+        "importance": 5.4536,
+        "resume_score": 0.0,
+        "jd_score": 5.4536,
+        "raw_importance": 5.4536,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "tensorflow",
+        "gap": 5.4536,
+        "importance": 5.4536,
+        "resume_score": 0.0,
+        "jd_score": 5.4536,
+        "raw_importance": 5.4536,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "mlops",
+        "gap": 4.8247,
+        "importance": 4.8247,
+        "resume_score": 0.0,
+        "jd_score": 4.8247,
+        "raw_importance": 4.8247,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
+        "skill": "apis",
+        "gap": 4.6079,
+        "importance": 4.6079,
+        "resume_score": 0.0,
+        "jd_score": 4.6079,
+        "raw_importance": 4.6079,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "General",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      }
+    ],
+    "suppressed_direct_targets": [
+      {
+        "skill": "azure",
+        "gap": 6.7629,
+        "importance": 6.7629,
+        "resume_score": 0.0,
+        "jd_score": 6.7629,
+        "raw_importance": 6.7629,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "aws",
+        "gap": 6.4658,
+        "importance": 6.4658,
+        "resume_score": 0.0,
+        "jd_score": 6.4658,
+        "raw_importance": 6.4658,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "gcp",
+        "gap": 6.4658,
+        "importance": 6.4658,
+        "resume_score": 0.0,
+        "jd_score": 6.4658,
+        "raw_importance": 6.4658,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "agile",
+        "gap": 6.9213,
+        "importance": 5.6755,
+        "resume_score": 0.0,
+        "jd_score": 6.9213,
+        "raw_importance": 6.9213,
+        "priority_penalty": 0.82,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Product",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "reporting",
+        "gap": 5.69,
+        "importance": 5.69,
+        "resume_score": 0.0,
+        "jd_score": 5.69,
+        "raw_importance": 5.69,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Data",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      }
+    ],
+    "deferred_targets": [
+      {
+        "skill": "azure",
+        "gap": 6.7629,
+        "importance": 6.7629,
+        "resume_score": 0.0,
+        "jd_score": 6.7629,
+        "raw_importance": 6.7629,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "aws",
+        "gap": 6.4658,
+        "importance": 6.4658,
+        "resume_score": 0.0,
+        "jd_score": 6.4658,
+        "raw_importance": 6.4658,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "gcp",
+        "gap": 6.4658,
+        "importance": 6.4658,
+        "resume_score": 0.0,
+        "jd_score": 6.4658,
+        "raw_importance": 6.4658,
+        "priority_penalty": 1.0,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Cloud",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "agile",
+        "gap": 6.9213,
+        "importance": 5.6755,
+        "resume_score": 0.0,
+        "jd_score": 6.9213,
+        "raw_importance": 6.9213,
+        "priority_penalty": 0.82,
+        "level": "Critical Gap",
+        "action": "top priority",
+        "category": "hard_skill",
+        "taxonomy_category": "Product",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "reporting",
+        "gap": 5.69,
+        "importance": 5.69,
+        "resume_score": 0.0,
+        "jd_score": 5.69,
+        "raw_importance": 5.69,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Data",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      }
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "git",
+          "data": {
+            "label": "git",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.4357,
+            "priority": 0.0,
+            "title": "Pro Git Book<br>Git SCM Documentation"
+          }
+        },
+        {
+          "id": "java",
+          "data": {
+            "label": "java",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.5951,
+            "priority": 0.0,
+            "title": "Dev.java Tutorials<br>Java Programming MOOC"
+          }
+        },
+        {
+          "id": "tensorflow",
+          "data": {
+            "label": "tensorflow",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.5165,
+            "priority": 96.4858,
+            "title": "TensorFlow Tutorials<br>TensorFlow Guide"
+          }
+        },
+        {
+          "id": "deep learning",
+          "data": {
+            "label": "deep learning",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.5435,
+            "priority": 107.2275,
+            "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
+          }
+        },
+        {
+          "id": "pytorch",
+          "data": {
+            "label": "pytorch",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.5365,
+            "priority": 93.4541,
+            "title": "PyTorch Tutorials<br>PyTorch 60 Minute Blitz"
+          }
+        },
+        {
+          "id": "python",
+          "data": {
+            "label": "python",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.343,
+            "priority": 0.0,
+            "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
+          }
+        },
+        {
+          "id": "apis",
+          "data": {
+            "label": "apis",
+            "status": "next_step",
+            "color": "yellow",
+            "size": 30,
+            "difficulty": 0.4682,
+            "priority": 74.7369,
+            "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+          }
+        },
+        {
+          "id": "debugging",
+          "data": {
+            "label": "debugging",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.4494,
+            "priority": 0.0,
+            "title": "The Debugging Book<br>VS Code Debugging Guide"
+          }
+        },
+        {
+          "id": "mlops",
+          "data": {
+            "label": "mlops",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.6096,
+            "priority": 32.804,
+            "title": "Made With ML: MLOps<br>Full Stack Deep Learning MLOps"
+          }
+        },
+        {
+          "id": "machine learning",
+          "data": {
+            "label": "machine learning",
+            "status": "next_step",
+            "color": "yellow",
+            "size": 30,
+            "difficulty": 0.5442,
+            "priority": 254.4313,
+            "title": "Google Machine Learning Crash Course<br>Hands-On Machine Learning"
+          }
+        },
+        {
+          "id": "scikit-learn",
+          "data": {
+            "label": "scikit-learn",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 1.2713,
+            "priority": 21.6887,
+            "title": "scikit-learn User Guide<br>Kaggle Intro to Machine Learning"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "java",
+          "target": "apis",
+          "weight": 2.0
+        },
+        {
+          "source": "deep learning",
+          "target": "tensorflow",
+          "weight": 2.0
+        },
+        {
+          "source": "deep learning",
+          "target": "pytorch",
+          "weight": 2.0
+        },
+        {
+          "source": "python",
+          "target": "apis",
+          "weight": 1.0
+        },
+        {
+          "source": "python",
+          "target": "machine learning",
+          "weight": 3.0
+        },
+        {
+          "source": "machine learning",
+          "target": "scikit-learn",
+          "weight": 1.0
+        },
+        {
+          "source": "machine learning",
+          "target": "deep learning",
+          "weight": 2.0
+        },
+        {
+          "source": "machine learning",
+          "target": "mlops",
+          "weight": 1.0
+        }
+      ],
+      "meta": {
+        "node_count": 11,
+        "edge_count": 8,
+        "roadmap_node_count": 7
+      }
+    }
+  },
+  "profession_roadmaps": [
+    {
+      "track_type": "profession_mapping",
+      "title": "Candidate Best-Fit Profession Roadmap: Software Engineer",
+      "view_label": "Candidate Best-Fit Role View",
+      "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+      "role": "Software Engineer",
+      "target_role": "Software Engineer",
+      "candidate_best_fit_role": "Software Engineer",
+      "target_jd_role": "Machine Learning Engineer",
+      "top_role": {
+        "role": "Software Engineer",
+        "score": 0.6464,
+        "base_similarity": 0.654,
+        "prior": 0.84,
+        "prior_scale": 0.952,
+        "level": "entry",
+        "level_bias": 1.0,
+        "core_overlap_boost": 0.06,
+        "missing_core_penalty": 0.031,
+        "missing_core_score_scale": 0.93,
+        "overlap_count": 4,
+        "matched_skills": [
+          "java",
+          "python",
+          "automation",
+          "git",
+          "linux",
+          "debugging",
+          "c",
+          "c++"
+        ],
+        "core_skills_found": [
+          "java",
+          "debugging",
+          "git",
+          "automation"
+        ],
+        "missing_core_skills": [
+          "system design"
+        ],
+        "missing_skills": [
+          "system design",
+          "software architecture",
+          "apis"
+        ],
+        "why_this_role": [
+          "strong coding and debugging alignment",
+          "good fit for general software engineering pathways"
+        ],
+        "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+      },
+      "__meta__": {
+        "gap_skill_count": 3,
+        "focus_skill_count": 3,
+        "support_skill_count": 4,
+        "relevant_graph_nodes": 6,
+        "relevant_graph_edges": 5,
+        "known_skill_threshold": 0.25,
+        "min_target_gap": 0.6,
+        "maximum_named_resources": 3,
+        "suppressed_direct_target_count": 0
+      },
+      "roadmap": [
+        "apis",
+        "software architecture",
+        "system design"
+      ],
+      "roadmap_details": [
+        {
+          "skill": "apis",
+          "priority": 23.3871,
+          "effective_gap": 2.28,
+          "direct_gap": 2.14,
+          "jd_importance": 2.5122,
+          "difficulty": 0.4682,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "software architecture",
+            "system design"
+          ],
+          "unlocks": [
+            "software architecture"
+          ],
+          "resources": [
+            {
+              "title": "Postman API Fundamentals Student Expert",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "MDN Web Docs: APIs",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "software architecture",
+          "priority": 18.5553,
+          "effective_gap": 2.57,
+          "direct_gap": 2.28,
+          "jd_importance": 2.9555,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
+            },
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        }
+      ],
+      "roadmap_phases": [
+        {
+          "phase": "Phase 1",
+          "skills": [
+            {
+              "skill": "apis",
+              "priority": 23.3871,
+              "effective_gap": 2.28,
+              "direct_gap": 2.14,
+              "jd_importance": 2.5122,
+              "difficulty": 0.4682,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "software architecture",
+                "system design"
+              ],
+              "unlocks": [
+                "software architecture"
+              ],
+              "resources": [
+                {
+                  "title": "Postman API Fundamentals Student Expert",
+                  "type": "course",
+                  "level": "beginner"
+                },
+                {
+                  "title": "MDN Web Docs: APIs",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2",
+          "skills": [
+            {
+              "skill": "software architecture",
+              "priority": 18.5553,
+              "effective_gap": 2.57,
+              "direct_gap": 2.28,
+              "jd_importance": 2.9555,
+              "difficulty": 0.7842,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "system design"
+              ],
+              "unlocks": [
+                "system design"
+              ],
+              "resources": [
+                {
+                  "title": "Fundamentals of Software Architecture",
+                  "type": "book",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 3",
+          "skills": [
+            {
+              "skill": "system design",
+              "priority": 27.3914,
+              "effective_gap": 2.57,
+              "direct_gap": 2.57,
+              "jd_importance": 2.9555,
+              "difficulty": 0.4546,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            }
+          ]
+        }
+      ],
+      "next_steps": [
+        "system design",
+        "apis",
+        "software architecture"
+      ],
+      "direct_targets": [
+        {
+          "skill": "system design",
+          "gap": 2.57,
+          "importance": 2.9555,
+          "resume_score": 0.0,
+          "jd_score": 2.57,
+          "raw_importance": 2.57,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "software architecture",
+          "gap": 2.28,
+          "importance": 2.394,
+          "resume_score": 0.0,
+          "jd_score": 2.28,
+          "raw_importance": 2.28,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "apis",
+          "gap": 2.14,
+          "importance": 2.247,
+          "resume_score": 0.0,
+          "jd_score": 2.14,
+          "raw_importance": 2.14,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        }
+      ],
+      "suppressed_direct_targets": [],
+      "deferred_targets": [],
+      "graph": {
+        "nodes": [
+          {
+            "id": "git",
+            "data": {
+              "label": "git",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4357,
+              "priority": 0.0,
+              "title": "Pro Git Book<br>Git SCM Documentation"
+            }
+          },
+          {
+            "id": "java",
+            "data": {
+              "label": "java",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.5951,
+              "priority": 0.0,
+              "title": "Dev.java Tutorials<br>Java Programming MOOC"
+            }
+          },
+          {
+            "id": "system design",
+            "data": {
+              "label": "system design",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4546,
+              "priority": 27.3914,
+              "title": "System Design Primer<br>AWS Architecture Center"
+            }
+          },
+          {
+            "id": "software architecture",
+            "data": {
+              "label": "software architecture",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.7842,
+              "priority": 18.5553,
+              "title": "Fundamentals of Software Architecture<br>System Design Primer"
+            }
+          },
+          {
+            "id": "debugging",
+            "data": {
+              "label": "debugging",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4494,
+              "priority": 0.0,
+              "title": "The Debugging Book<br>VS Code Debugging Guide"
+            }
+          },
+          {
+            "id": "apis",
+            "data": {
+              "label": "apis",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4682,
+              "priority": 23.3871,
+              "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "source": "java",
+            "target": "apis",
+            "weight": 2.0
+          },
+          {
+            "source": "java",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "software architecture",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "debugging",
+            "target": "system design",
+            "weight": 1.0
+          },
+          {
+            "source": "apis",
+            "target": "software architecture",
+            "weight": 2.0
+          }
+        ],
+        "meta": {
+          "node_count": 6,
+          "edge_count": 5,
+          "roadmap_node_count": 3
+        }
+      }
+    },
+    {
+      "track_type": "profession_mapping",
+      "title": "Candidate Best-Fit Profession Roadmap: Systems Engineer",
+      "view_label": "Candidate Best-Fit Role View",
+      "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+      "role": "Systems Engineer",
+      "target_role": "Systems Engineer",
+      "candidate_best_fit_role": "Software Engineer",
+      "target_jd_role": "Machine Learning Engineer",
+      "top_role": {
+        "role": "Systems Engineer",
+        "score": 0.5715,
+        "base_similarity": 0.5931,
+        "prior": 0.74,
+        "prior_scale": 0.922,
+        "level": "entry",
+        "level_bias": 1.0,
+        "core_overlap_boost": 0.06,
+        "missing_core_penalty": 0.031,
+        "missing_core_score_scale": 0.93,
+        "overlap_count": 4,
+        "matched_skills": [
+          "java",
+          "python",
+          "automation",
+          "linux",
+          "git",
+          "file systems",
+          "debugging",
+          "c"
+        ],
+        "core_skills_found": [
+          "linux",
+          "automation",
+          "debugging",
+          "file systems"
+        ],
+        "missing_core_skills": [
+          "system design"
+        ],
+        "missing_skills": [
+          "system design",
+          "communication protocols"
+        ],
+        "why_this_role": [
+          "strong systems and automation alignment",
+          "good fit for platform or low-level software work"
+        ],
+        "reason": "strong systems and automation alignment; good fit for platform or low-level software work Strong match because the candidate shows core technical alignment in linux, automation, debugging. You may improve your fit by learning system design."
+      },
+      "__meta__": {
+        "gap_skill_count": 2,
+        "focus_skill_count": 2,
+        "support_skill_count": 4,
+        "relevant_graph_nodes": 5,
+        "relevant_graph_edges": 4,
+        "known_skill_threshold": 0.25,
+        "min_target_gap": 0.6,
+        "maximum_named_resources": 3,
+        "suppressed_direct_target_count": 0
+      },
+      "roadmap": [
+        "communication protocols",
+        "system design"
+      ],
+      "roadmap_details": [
+        {
+          "skill": "communication protocols",
+          "priority": 20.3808,
+          "effective_gap": 2.57,
+          "direct_gap": 1.49,
+          "jd_importance": 2.9555,
+          "difficulty": 0.705,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Computer Networking: A Top-Down Approach Notes",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "Cisco Networking Basics",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        }
+      ],
+      "roadmap_phases": [
+        {
+          "phase": "Phase 1",
+          "skills": [
+            {
+              "skill": "communication protocols",
+              "priority": 20.3808,
+              "effective_gap": 2.57,
+              "direct_gap": 1.49,
+              "jd_importance": 2.9555,
+              "difficulty": 0.705,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "system design"
+              ],
+              "unlocks": [
+                "system design"
+              ],
+              "resources": [
+                {
+                  "title": "Computer Networking: A Top-Down Approach Notes",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "Cisco Networking Basics",
+                  "type": "course",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2",
+          "skills": [
+            {
+              "skill": "system design",
+              "priority": 27.3914,
+              "effective_gap": 2.57,
+              "direct_gap": 2.57,
+              "jd_importance": 2.9555,
+              "difficulty": 0.4546,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            }
+          ]
+        }
+      ],
+      "next_steps": [
+        "system design",
+        "communication protocols"
+      ],
+      "direct_targets": [
+        {
+          "skill": "system design",
+          "gap": 2.57,
+          "importance": 2.9555,
+          "resume_score": 0.0,
+          "jd_score": 2.57,
+          "raw_importance": 2.57,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "communication protocols",
+          "gap": 1.49,
+          "importance": 1.5645,
+          "resume_score": 0.0,
+          "jd_score": 1.49,
+          "raw_importance": 1.49,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        }
+      ],
+      "suppressed_direct_targets": [],
+      "deferred_targets": [],
+      "graph": {
+        "nodes": [
+          {
+            "id": "system design",
+            "data": {
+              "label": "system design",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4546,
+              "priority": 27.3914,
+              "title": "System Design Primer<br>AWS Architecture Center"
+            }
+          },
+          {
+            "id": "linux",
+            "data": {
+              "label": "linux",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.3304,
+              "priority": 0.0,
+              "title": "Linux Journey<br>OverTheWire Bandit"
+            }
+          },
+          {
+            "id": "file systems",
+            "data": {
+              "label": "file systems",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 1.319,
+              "priority": 0.0,
+              "title": "OSTEP: File System Implementation<br>MIT Operating Systems Notes"
+            }
+          },
+          {
+            "id": "communication protocols",
+            "data": {
+              "label": "communication protocols",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.705,
+              "priority": 20.3808,
+              "title": "Computer Networking: A Top-Down Approach Notes<br>Cisco Networking Basics"
+            }
+          },
+          {
+            "id": "debugging",
+            "data": {
+              "label": "debugging",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4494,
+              "priority": 0.0,
+              "title": "The Debugging Book<br>VS Code Debugging Guide"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "source": "linux",
+            "target": "communication protocols",
+            "weight": 1.0
+          },
+          {
+            "source": "file systems",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "communication protocols",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "debugging",
+            "target": "system design",
+            "weight": 1.0
+          }
+        ],
+        "meta": {
+          "node_count": 5,
+          "edge_count": 4,
+          "roadmap_node_count": 2
+        }
+      }
+    },
+    {
+      "track_type": "profession_mapping",
+      "title": "Candidate Best-Fit Profession Roadmap: Backend Engineer",
+      "view_label": "Candidate Best-Fit Role View",
+      "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+      "role": "Backend Engineer",
+      "target_role": "Backend Engineer",
+      "candidate_best_fit_role": "Software Engineer",
+      "target_jd_role": "Machine Learning Engineer",
+      "top_role": {
+        "role": "Backend Engineer",
+        "score": 0.1869,
+        "base_similarity": 0.2558,
+        "prior": 0.85,
+        "prior_scale": 0.9167,
+        "level": "mid",
+        "level_bias": 0.85,
+        "core_overlap_boost": 0.0,
+        "missing_core_penalty": 0.124,
+        "missing_core_score_scale": 0.8,
+        "overlap_count": 1,
+        "matched_skills": [
+          "java",
+          "python",
+          "git"
+        ],
+        "core_skills_found": [
+          "java"
+        ],
+        "missing_core_skills": [
+          "apis",
+          "rest api",
+          "system design",
+          "microservices"
+        ],
+        "missing_skills": [
+          "apis",
+          "rest api",
+          "system design",
+          "microservices",
+          "node.js",
+          "sql"
+        ],
+        "why_this_role": [
+          "strong APIs and database alignment",
+          "good fit for system design and service development"
+        ],
+        "reason": "strong APIs and database alignment; good fit for system design and service development Strong match because the candidate shows core technical alignment in java. You may improve your fit by learning apis, rest api, system design."
+      },
+      "__meta__": {
+        "gap_skill_count": 6,
+        "focus_skill_count": 6,
+        "support_skill_count": 1,
+        "relevant_graph_nodes": 11,
+        "relevant_graph_edges": 10,
+        "known_skill_threshold": 0.25,
+        "min_target_gap": 0.6,
+        "maximum_named_resources": 3,
+        "suppressed_direct_target_count": 0
+      },
+      "roadmap": [
+        "apis",
+        "javascript",
+        "sql",
+        "html",
+        "node.js",
+        "software architecture",
+        "system design",
+        "rest api",
+        "microservices"
+      ],
+      "roadmap_details": [
+        {
+          "skill": "apis",
+          "priority": 39.7266,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.8133,
+          "jd_importance": 3.2353,
+          "difficulty": 0.4682,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "rest api",
+            "microservices",
+            "system design"
+          ],
+          "unlocks": [
+            "rest api"
+          ],
+          "resources": [
+            {
+              "title": "Postman API Fundamentals Student Expert",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "MDN Web Docs: APIs",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "javascript",
+          "priority": 22.0374,
+          "effective_gap": 2.5319,
+          "direct_gap": 0.0,
+          "jd_importance": 2.75,
+          "difficulty": 0.6052,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "node.js",
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [
+            "node.js"
+          ],
+          "resources": [
+            {
+              "title": "MDN JavaScript Guide",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp JavaScript",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "sql",
+          "priority": 12.6643,
+          "effective_gap": 2.5319,
+          "direct_gap": 2.5319,
+          "jd_importance": 2.6585,
+          "difficulty": 0.4315,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "SQLBolt",
+              "type": "interactive",
+              "level": "beginner"
+            },
+            {
+              "title": "Mode SQL Tutorial",
+              "type": "practical",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "html",
+          "priority": 9.0612,
+          "effective_gap": 1.8293,
+          "direct_gap": 0.0,
+          "jd_importance": 1.9869,
+          "difficulty": 0.7953,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "node.js",
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "MDN HTML Guide",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp Responsive Web Design",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "node.js",
+          "priority": 24.477,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.5319,
+          "jd_importance": 3.2353,
+          "difficulty": 0.7627,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [
+            "rest api"
+          ],
+          "resources": [
+            {
+              "title": "Node.js Documentation",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp Node.js",
+              "type": "video",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "software architecture",
+          "priority": 18.0598,
+          "effective_gap": 2.6726,
+          "direct_gap": 0.0,
+          "jd_importance": 3.0735,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
+            },
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "system design",
+          "priority": 29.6222,
+          "effective_gap": 2.6726,
+          "direct_gap": 2.6726,
+          "jd_importance": 3.0735,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        },
+        {
+          "skill": "rest api",
+          "priority": 14.233,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.8133,
+          "jd_importance": 3.2353,
+          "difficulty": 1.2813,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "microservices"
+          ],
+          "unlocks": [
+            "microservices"
+          ],
+          "resources": [
+            {
+              "title": "Postman Learning Center",
+              "type": "tutorial",
+              "level": "beginner"
+            },
+            {
+              "title": "REST API Tutorial",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        },
+        {
+          "skill": "microservices",
+          "priority": 10.2377,
+          "effective_gap": 2.5319,
+          "direct_gap": 2.5319,
+          "jd_importance": 2.9117,
+          "difficulty": 0.6201,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Microsoft Microservices Architecture Guide",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "Martin Fowler Microservices",
+              "type": "article",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 4"
+        }
+      ],
+      "roadmap_phases": [
+        {
+          "phase": "Phase 1",
+          "skills": [
+            {
+              "skill": "apis",
+              "priority": 39.7266,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.8133,
+              "jd_importance": 3.2353,
+              "difficulty": 0.4682,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "rest api",
+                "microservices",
+                "system design"
+              ],
+              "unlocks": [
+                "rest api"
+              ],
+              "resources": [
+                {
+                  "title": "Postman API Fundamentals Student Expert",
+                  "type": "course",
+                  "level": "beginner"
+                },
+                {
+                  "title": "MDN Web Docs: APIs",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "javascript",
+              "priority": 22.0374,
+              "effective_gap": 2.5319,
+              "direct_gap": 0.0,
+              "jd_importance": 2.75,
+              "difficulty": 0.6052,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "node.js",
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [
+                "node.js"
+              ],
+              "resources": [
+                {
+                  "title": "MDN JavaScript Guide",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp JavaScript",
+                  "type": "practice",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "sql",
+              "priority": 12.6643,
+              "effective_gap": 2.5319,
+              "direct_gap": 2.5319,
+              "jd_importance": 2.6585,
+              "difficulty": 0.4315,
+              "dependency_weight": 1.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "SQLBolt",
+                  "type": "interactive",
+                  "level": "beginner"
+                },
+                {
+                  "title": "Mode SQL Tutorial",
+                  "type": "practical",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "html",
+              "priority": 9.0612,
+              "effective_gap": 1.8293,
+              "direct_gap": 0.0,
+              "jd_importance": 1.9869,
+              "difficulty": 0.7953,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "node.js",
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "MDN HTML Guide",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp Responsive Web Design",
+                  "type": "practice",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2",
+          "skills": [
+            {
+              "skill": "node.js",
+              "priority": 24.477,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.5319,
+              "jd_importance": 3.2353,
+              "difficulty": 0.7627,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [
+                "rest api"
+              ],
+              "resources": [
+                {
+                  "title": "Node.js Documentation",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp Node.js",
+                  "type": "video",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            },
+            {
+              "skill": "software architecture",
+              "priority": 18.0598,
+              "effective_gap": 2.6726,
+              "direct_gap": 0.0,
+              "jd_importance": 3.0735,
+              "difficulty": 0.7842,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "system design"
+              ],
+              "unlocks": [
+                "system design"
+              ],
+              "resources": [
+                {
+                  "title": "Fundamentals of Software Architecture",
+                  "type": "book",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 3",
+          "skills": [
+            {
+              "skill": "system design",
+              "priority": 29.6222,
+              "effective_gap": 2.6726,
+              "direct_gap": 2.6726,
+              "jd_importance": 3.0735,
+              "difficulty": 0.4546,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            },
+            {
+              "skill": "rest api",
+              "priority": 14.233,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.8133,
+              "jd_importance": 3.2353,
+              "difficulty": 1.2813,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "microservices"
+              ],
+              "unlocks": [
+                "microservices"
+              ],
+              "resources": [
+                {
+                  "title": "Postman Learning Center",
+                  "type": "tutorial",
+                  "level": "beginner"
+                },
+                {
+                  "title": "REST API Tutorial",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 4",
+          "skills": [
+            {
+              "skill": "microservices",
+              "priority": 10.2377,
+              "effective_gap": 2.5319,
+              "direct_gap": 2.5319,
+              "jd_importance": 2.9117,
+              "difficulty": 0.6201,
+              "dependency_weight": 1.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "Microsoft Microservices Architecture Guide",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "Martin Fowler Microservices",
+                  "type": "article",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high",
+              "phase": "Phase 4"
+            }
+          ]
+        }
+      ],
+      "next_steps": [
+        "apis",
+        "javascript",
+        "software architecture"
+      ],
+      "direct_targets": [
+        {
+          "skill": "apis",
+          "gap": 2.8133,
+          "importance": 3.2353,
+          "resume_score": 0.0,
+          "jd_score": 2.8133,
+          "raw_importance": 2.8133,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "rest api",
+          "gap": 2.8133,
+          "importance": 3.2353,
+          "resume_score": 0.0,
+          "jd_score": 2.8133,
+          "raw_importance": 2.8133,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "system design",
+          "gap": 2.6726,
+          "importance": 3.0735,
+          "resume_score": 0.0,
+          "jd_score": 2.6726,
+          "raw_importance": 2.6726,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "microservices",
+          "gap": 2.5319,
+          "importance": 2.9117,
+          "resume_score": 0.0,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "node.js",
+          "gap": 2.5319,
+          "importance": 2.6585,
+          "resume_score": 0.0,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "sql",
+          "gap": 2.5319,
+          "importance": 2.6585,
+          "resume_score": 0.0,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
+          "priority_penalty": 1.0,
+          "level": "mid",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        }
+      ],
+      "suppressed_direct_targets": [],
+      "deferred_targets": [],
+      "graph": {
+        "nodes": [
+          {
+            "id": "sql",
+            "data": {
+              "label": "sql",
+              "status": "missing",
+              "color": "red",
+              "size": 34,
+              "difficulty": 0.4315,
+              "priority": 12.6643,
+              "title": "SQLBolt<br>Mode SQL Tutorial"
+            }
+          },
+          {
+            "id": "node.js",
+            "data": {
+              "label": "node.js",
+              "status": "missing",
+              "color": "red",
+              "size": 34,
+              "difficulty": 0.7627,
+              "priority": 24.477,
+              "title": "Node.js Documentation<br>freeCodeCamp Node.js"
+            }
+          },
+          {
+            "id": "html",
+            "data": {
+              "label": "html",
+              "status": "prerequisite",
+              "color": "orange",
+              "size": 22,
+              "difficulty": 0.7953,
+              "priority": 9.0612,
+              "title": "MDN HTML Guide<br>freeCodeCamp Responsive Web Design"
+            }
+          },
+          {
+            "id": "css",
+            "data": {
+              "label": "css",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.7953,
+              "priority": 0.0,
+              "title": "MDN CSS Guide<br>freeCodeCamp CSS"
+            }
+          },
+          {
+            "id": "system design",
+            "data": {
+              "label": "system design",
+              "status": "missing",
+              "color": "red",
+              "size": 34,
+              "difficulty": 0.4546,
+              "priority": 29.6222,
+              "title": "System Design Primer<br>AWS Architecture Center"
+            }
+          },
+          {
+            "id": "software architecture",
+            "data": {
+              "label": "software architecture",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.7842,
+              "priority": 18.0598,
+              "title": "Fundamentals of Software Architecture<br>System Design Primer"
+            }
+          },
+          {
+            "id": "rest api",
+            "data": {
+              "label": "rest api",
+              "status": "missing",
+              "color": "red",
+              "size": 34,
+              "difficulty": 1.2813,
+              "priority": 14.233,
+              "title": "Postman Learning Center<br>REST API Tutorial"
+            }
+          },
+          {
+            "id": "apis",
+            "data": {
+              "label": "apis",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4682,
+              "priority": 39.7266,
+              "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+            }
+          },
+          {
+            "id": "java",
+            "data": {
+              "label": "java",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.5951,
+              "priority": 0.0,
+              "title": "Dev.java Tutorials<br>Java Programming MOOC"
+            }
+          },
+          {
+            "id": "javascript",
+            "data": {
+              "label": "javascript",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.6052,
+              "priority": 22.0374,
+              "title": "MDN JavaScript Guide<br>freeCodeCamp JavaScript"
+            }
+          },
+          {
+            "id": "microservices",
+            "data": {
+              "label": "microservices",
+              "status": "missing",
+              "color": "red",
+              "size": 34,
+              "difficulty": 0.6201,
+              "priority": 10.2377,
+              "title": "Microsoft Microservices Architecture Guide<br>Martin Fowler Microservices"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "source": "node.js",
+            "target": "rest api",
+            "weight": 2.0
+          },
+          {
+            "source": "html",
+            "target": "css",
+            "weight": 2.0
+          },
+          {
+            "source": "css",
+            "target": "javascript",
+            "weight": 2.0
+          },
+          {
+            "source": "software architecture",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "rest api",
+            "target": "microservices",
+            "weight": 1.0
+          },
+          {
+            "source": "apis",
+            "target": "rest api",
+            "weight": 2.0
+          },
+          {
+            "source": "apis",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "java",
+            "target": "apis",
+            "weight": 2.0
+          },
+          {
+            "source": "java",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "javascript",
+            "target": "node.js",
+            "weight": 2.0
+          }
+        ],
+        "meta": {
+          "node_count": 11,
+          "edge_count": 10,
+          "roadmap_node_count": 9
+        }
+      }
+    }
+  ],
+  "roadmap": [
+    "apis",
+    "software architecture",
+    "system design"
+  ],
+  "roadmap_details": [
+    {
+      "skill": "apis",
+      "priority": 23.3871,
+      "effective_gap": 2.28,
+      "direct_gap": 2.14,
+      "jd_importance": 2.5122,
+      "difficulty": 0.4682,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "software architecture",
+        "system design"
+      ],
+      "unlocks": [
+        "software architecture"
+      ],
+      "resources": [
+        {
+          "title": "Postman API Fundamentals Student Expert",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "MDN Web Docs: APIs",
+          "type": "reference",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "software architecture",
+      "priority": 18.5553,
+      "effective_gap": 2.57,
+      "direct_gap": 2.28,
+      "jd_importance": 2.9555,
+      "difficulty": 0.7842,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "system design"
+      ],
+      "unlocks": [
+        "system design"
+      ],
+      "resources": [
+        {
+          "title": "Fundamentals of Software Architecture",
+          "type": "book",
+          "level": "intermediate"
+        },
+        {
+          "title": "System Design Primer",
+          "type": "reference",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 2"
+    },
+    {
+      "skill": "system design",
+      "priority": 27.3914,
+      "effective_gap": 2.57,
+      "direct_gap": 2.57,
+      "jd_importance": 2.9555,
+      "difficulty": 0.4546,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "System Design Primer",
+          "type": "reference",
+          "level": "intermediate"
+        },
+        {
+          "title": "AWS Architecture Center",
+          "type": "reference",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+      "phase": "Phase 3"
+    }
+  ],
+  "roadmap_phases": [
+    {
+      "phase": "Phase 1",
+      "skills": [
+        {
+          "skill": "apis",
+          "priority": 23.3871,
+          "effective_gap": 2.28,
+          "direct_gap": 2.14,
+          "jd_importance": 2.5122,
+          "difficulty": 0.4682,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "software architecture",
+            "system design"
+          ],
+          "unlocks": [
+            "software architecture"
+          ],
+          "resources": [
+            {
+              "title": "Postman API Fundamentals Student Expert",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "MDN Web Docs: APIs",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "skills": [
+        {
+          "skill": "software architecture",
+          "priority": 18.5553,
+          "effective_gap": 2.57,
+          "direct_gap": 2.28,
+          "jd_importance": 2.9555,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
+            },
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 3",
+      "skills": [
+        {
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        }
+      ]
+    }
+  ],
+  "next_steps": [
+    "system design",
+    "apis",
+    "software architecture"
+  ],
+  "direct_targets": [
+    {
+      "skill": "system design",
+      "gap": 2.57,
+      "importance": 2.9555,
+      "resume_score": 0.0,
+      "jd_score": 2.57,
+      "raw_importance": 2.57,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "software architecture",
+      "gap": 2.28,
+      "importance": 2.394,
+      "resume_score": 0.0,
+      "jd_score": 2.28,
+      "raw_importance": 2.28,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "apis",
+      "gap": 2.14,
+      "importance": 2.247,
+      "resume_score": 0.0,
+      "jd_score": 2.14,
+      "raw_importance": 2.14,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "git",
+        "data": {
+          "label": "git",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4357,
+          "priority": 0.0,
+          "title": "Pro Git Book<br>Git SCM Documentation"
+        }
+      },
+      {
+        "id": "java",
+        "data": {
+          "label": "java",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.5951,
+          "priority": 0.0,
+          "title": "Dev.java Tutorials<br>Java Programming MOOC"
+        }
+      },
+      {
+        "id": "system design",
+        "data": {
+          "label": "system design",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.4546,
+          "priority": 27.3914,
+          "title": "System Design Primer<br>AWS Architecture Center"
+        }
+      },
+      {
+        "id": "software architecture",
+        "data": {
+          "label": "software architecture",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.7842,
+          "priority": 18.5553,
+          "title": "Fundamentals of Software Architecture<br>System Design Primer"
+        }
+      },
+      {
+        "id": "debugging",
+        "data": {
+          "label": "debugging",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4494,
+          "priority": 0.0,
+          "title": "The Debugging Book<br>VS Code Debugging Guide"
+        }
+      },
+      {
+        "id": "apis",
+        "data": {
+          "label": "apis",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.4682,
+          "priority": 23.3871,
+          "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "java",
+        "target": "apis",
+        "weight": 2.0
+      },
+      {
+        "source": "java",
+        "target": "software architecture",
+        "weight": 2.0
+      },
+      {
+        "source": "software architecture",
+        "target": "system design",
+        "weight": 2.0
+      },
+      {
+        "source": "debugging",
+        "target": "system design",
+        "weight": 1.0
+      },
+      {
+        "source": "apis",
+        "target": "software architecture",
+        "weight": 2.0
+      }
+    ],
+    "meta": {
+      "node_count": 6,
+      "edge_count": 5,
+      "roadmap_node_count": 3
+    }
+  }
+}

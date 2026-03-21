@@ -1,0 +1,417 @@
+{
+  "track_type": "profession_mapping",
+  "title": "Candidate Best-Fit Profession Roadmap: Software Engineer",
+  "view_label": "Candidate Best-Fit Role View",
+  "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+  "role": "Software Engineer",
+  "target_role": "Software Engineer",
+  "candidate_best_fit_role": "Software Engineer",
+  "target_jd_role": "Machine Learning Engineer",
+  "top_role": {
+    "role": "Software Engineer",
+    "score": 0.6464,
+    "base_similarity": 0.654,
+    "prior": 0.84,
+    "prior_scale": 0.952,
+    "level": "entry",
+    "level_bias": 1.0,
+    "core_overlap_boost": 0.06,
+    "missing_core_penalty": 0.031,
+    "missing_core_score_scale": 0.93,
+    "overlap_count": 4,
+    "matched_skills": [
+      "java",
+      "python",
+      "automation",
+      "git",
+      "linux",
+      "debugging",
+      "c",
+      "c++"
+    ],
+    "core_skills_found": [
+      "java",
+      "debugging",
+      "git",
+      "automation"
+    ],
+    "missing_core_skills": [
+      "system design"
+    ],
+    "missing_skills": [
+      "system design",
+      "software architecture",
+      "apis"
+    ],
+    "why_this_role": [
+      "strong coding and debugging alignment",
+      "good fit for general software engineering pathways"
+    ],
+    "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+  },
+  "__meta__": {
+    "gap_skill_count": 3,
+    "focus_skill_count": 3,
+    "support_skill_count": 4,
+    "relevant_graph_nodes": 6,
+    "relevant_graph_edges": 5,
+    "known_skill_threshold": 0.25,
+    "min_target_gap": 0.6,
+    "maximum_named_resources": 3,
+    "suppressed_direct_target_count": 0
+  },
+  "roadmap": [
+    "apis",
+    "software architecture",
+    "system design"
+  ],
+  "roadmap_details": [
+    {
+      "skill": "apis",
+      "priority": 23.3871,
+      "effective_gap": 2.28,
+      "direct_gap": 2.14,
+      "jd_importance": 2.5122,
+      "difficulty": 0.4682,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "software architecture",
+        "system design"
+      ],
+      "unlocks": [
+        "software architecture"
+      ],
+      "resources": [
+        {
+          "title": "Postman API Fundamentals Student Expert",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "MDN Web Docs: APIs",
+          "type": "reference",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "software architecture",
+      "priority": 18.5553,
+      "effective_gap": 2.57,
+      "direct_gap": 2.28,
+      "jd_importance": 2.9555,
+      "difficulty": 0.7842,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "system design"
+      ],
+      "unlocks": [
+        "system design"
+      ],
+      "resources": [
+        {
+          "title": "Fundamentals of Software Architecture",
+          "type": "book",
+          "level": "intermediate"
+        },
+        {
+          "title": "System Design Primer",
+          "type": "reference",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 2"
+    },
+    {
+      "skill": "system design",
+      "priority": 27.3914,
+      "effective_gap": 2.57,
+      "direct_gap": 2.57,
+      "jd_importance": 2.9555,
+      "difficulty": 0.4546,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "System Design Primer",
+          "type": "reference",
+          "level": "intermediate"
+        },
+        {
+          "title": "AWS Architecture Center",
+          "type": "reference",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+      "phase": "Phase 3"
+    }
+  ],
+  "roadmap_phases": [
+    {
+      "phase": "Phase 1",
+      "skills": [
+        {
+          "skill": "apis",
+          "priority": 23.3871,
+          "effective_gap": 2.28,
+          "direct_gap": 2.14,
+          "jd_importance": 2.5122,
+          "difficulty": 0.4682,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "software architecture",
+            "system design"
+          ],
+          "unlocks": [
+            "software architecture"
+          ],
+          "resources": [
+            {
+              "title": "Postman API Fundamentals Student Expert",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "MDN Web Docs: APIs",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "skills": [
+        {
+          "skill": "software architecture",
+          "priority": 18.5553,
+          "effective_gap": 2.57,
+          "direct_gap": 2.28,
+          "jd_importance": 2.9555,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
+            },
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 3",
+      "skills": [
+        {
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        }
+      ]
+    }
+  ],
+  "next_steps": [
+    "system design",
+    "apis",
+    "software architecture"
+  ],
+  "direct_targets": [
+    {
+      "skill": "system design",
+      "gap": 2.57,
+      "importance": 2.9555,
+      "resume_score": 0.0,
+      "jd_score": 2.57,
+      "raw_importance": 2.57,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "software architecture",
+      "gap": 2.28,
+      "importance": 2.394,
+      "resume_score": 0.0,
+      "jd_score": 2.28,
+      "raw_importance": 2.28,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "apis",
+      "gap": 2.14,
+      "importance": 2.247,
+      "resume_score": 0.0,
+      "jd_score": 2.14,
+      "raw_importance": 2.14,
+      "priority_penalty": 1.0,
+      "level": "entry",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    }
+  ],
+  "suppressed_direct_targets": [],
+  "deferred_targets": [],
+  "graph": {
+    "nodes": [
+      {
+        "id": "git",
+        "data": {
+          "label": "git",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4357,
+          "priority": 0.0,
+          "title": "Pro Git Book<br>Git SCM Documentation"
+        }
+      },
+      {
+        "id": "java",
+        "data": {
+          "label": "java",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.5951,
+          "priority": 0.0,
+          "title": "Dev.java Tutorials<br>Java Programming MOOC"
+        }
+      },
+      {
+        "id": "system design",
+        "data": {
+          "label": "system design",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.4546,
+          "priority": 27.3914,
+          "title": "System Design Primer<br>AWS Architecture Center"
+        }
+      },
+      {
+        "id": "software architecture",
+        "data": {
+          "label": "software architecture",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.7842,
+          "priority": 18.5553,
+          "title": "Fundamentals of Software Architecture<br>System Design Primer"
+        }
+      },
+      {
+        "id": "debugging",
+        "data": {
+          "label": "debugging",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4494,
+          "priority": 0.0,
+          "title": "The Debugging Book<br>VS Code Debugging Guide"
+        }
+      },
+      {
+        "id": "apis",
+        "data": {
+          "label": "apis",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.4682,
+          "priority": 23.3871,
+          "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "java",
+        "target": "apis",
+        "weight": 2.0
+      },
+      {
+        "source": "java",
+        "target": "software architecture",
+        "weight": 2.0
+      },
+      {
+        "source": "software architecture",
+        "target": "system design",
+        "weight": 2.0
+      },
+      {
+        "source": "debugging",
+        "target": "system design",
+        "weight": 1.0
+      },
+      {
+        "source": "apis",
+        "target": "software architecture",
+        "weight": 2.0
+      }
+    ],
+    "meta": {
+      "node_count": 6,
+      "edge_count": 5,
+      "roadmap_node_count": 3
+    }
+  }
+}

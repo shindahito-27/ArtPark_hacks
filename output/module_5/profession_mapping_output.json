@@ -2,294 +2,210 @@
   "dataset_name": "profession_mapping_engine_dataset",
   "dataset_version": "1.0",
   "candidate_profile": {
-    "normalized_skill_count": 17,
+    "normalized_skill_count": 12,
     "normalized_skills": [
       {
-        "skill": "sql",
+        "skill": "java",
         "signal": 1.0,
-        "confidence": 1.0,
+        "roadmap_signal": 1.0,
+        "confidence": 0.98,
         "strength": 1.0,
-        "mentions": 12,
+        "mentions": 4,
         "contexts": [
-          "experience",
           "general",
           "project",
           "skills"
         ],
         "raw_skills": [
-          "sql"
-        ]
-      },
-      {
-        "skill": "excel",
-        "signal": 1.0,
-        "confidence": 0.98,
-        "strength": 1.0,
-        "mentions": 4,
-        "contexts": [
-          "experience",
-          "general",
-          "project"
-        ],
-        "raw_skills": [
-          "excel"
-        ]
-      },
-      {
-        "skill": "automation",
-        "signal": 1.0,
-        "confidence": 0.94,
-        "strength": 0.937,
-        "mentions": 3,
-        "contexts": [
-          "experience",
-          "general"
-        ],
-        "raw_skills": [
-          "automation"
-        ]
-      },
-      {
-        "skill": "reporting",
-        "signal": 0.6493,
-        "confidence": 0.86,
-        "strength": 0.6096,
-        "mentions": 1,
-        "contexts": [
-          "general",
-          "project"
-        ],
-        "raw_skills": [
-          "reporting"
-        ]
-      },
-      {
-        "skill": "presentation",
-        "signal": 0.6222,
-        "confidence": 0.86,
-        "strength": 0.77,
-        "mentions": 1,
-        "contexts": [
-          "experience",
-          "general"
-        ],
-        "raw_skills": [
-          "presentation"
-        ]
-      },
-      {
-        "skill": "problem solving",
-        "signal": 0.6222,
-        "confidence": 0.86,
-        "strength": 0.77,
-        "mentions": 1,
-        "contexts": [
-          "experience",
-          "general"
-        ],
-        "raw_skills": [
-          "problem solving"
-        ]
-      },
-      {
-        "skill": "integration",
-        "signal": 0.5623,
-        "confidence": 0.9,
-        "strength": 0.8633,
-        "mentions": 2,
-        "contexts": [
-          "experience",
-          "general"
-        ],
-        "raw_skills": [
-          "integration"
-        ]
-      },
-      {
-        "skill": "electronics",
-        "signal": 0.4586,
-        "confidence": 0.86,
-        "strength": 0.4822,
-        "mentions": 1,
-        "contexts": [
-          "education",
-          "general"
-        ],
-        "raw_skills": [
-          "electronics"
-        ]
-      },
-      {
-        "skill": "reliability",
-        "signal": 0.214,
-        "confidence": 0.9,
-        "strength": 0.2733,
-        "mentions": 2,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "reliability"
-        ]
-      },
-      {
-        "skill": "scalability",
-        "signal": 0.214,
-        "confidence": 0.9,
-        "strength": 0.2733,
-        "mentions": 2,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "scalability"
-        ]
-      },
-      {
-        "skill": "communication",
-        "signal": 0.1739,
-        "confidence": 0.86,
-        "strength": 0.2152,
-        "mentions": 1,
-        "contexts": [
-          "experience",
-          "general"
-        ],
-        "raw_skills": [
-          "communication"
-        ]
-      },
-      {
-        "skill": "accessibility",
-        "signal": 0.1428,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "accessibility"
-        ]
-      },
-      {
-        "skill": "numpy",
-        "signal": 0.1428,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "numpy"
-        ]
-      },
-      {
-        "skill": "pandas",
-        "signal": 0.1428,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "pandas"
+          "java"
         ]
       },
       {
         "skill": "python",
-        "signal": 0.1428,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
+        "signal": 0.9704,
+        "roadmap_signal": 0.9704,
+        "confidence": 0.9,
+        "strength": 0.8633,
+        "mentions": 2,
         "contexts": [
-          "general"
+          "general",
+          "project",
+          "skills"
         ],
         "raw_skills": [
           "python"
         ]
       },
       {
-        "skill": "machine learning",
-        "signal": 0.0724,
-        "confidence": 0.6,
-        "strength": 0.108,
-        "mentions": 1,
+        "skill": "automation",
+        "signal": 0.5626,
+        "roadmap_signal": 0.5626,
+        "confidence": 0.94,
+        "strength": 0.502,
+        "mentions": 3,
         "contexts": [
-          "general"
+          "general",
+          "skills"
         ],
         "raw_skills": [
-          "artificial intelligence",
-          "machine learning"
+          "automation"
         ]
       },
       {
-        "skill": "mongodb",
-        "signal": 0.0724,
+        "skill": "integration",
+        "signal": 0.38,
+        "roadmap_signal": 0.38,
+        "confidence": 0.98,
+        "strength": 1.0,
+        "mentions": 4,
+        "contexts": [
+          "general",
+          "project",
+          "skills"
+        ],
+        "raw_skills": [
+          "integration"
+        ]
+      },
+      {
+        "skill": "git",
+        "signal": 0.3558,
+        "roadmap_signal": 0.4099,
+        "confidence": 0.98,
+        "strength": 0.3855,
+        "mentions": 4,
+        "contexts": [
+          "general",
+          "skills"
+        ],
+        "raw_skills": [
+          "git",
+          "github"
+        ]
+      },
+      {
+        "skill": "linux",
+        "signal": 0.3558,
+        "roadmap_signal": 0.3612,
+        "confidence": 0.86,
+        "strength": 0.3529,
+        "mentions": 1,
+        "contexts": [
+          "general",
+          "skills"
+        ],
+        "raw_skills": [
+          "linux"
+        ]
+      },
+      {
+        "skill": "c",
+        "signal": 0.1477,
+        "roadmap_signal": 0.252,
         "confidence": 0.6,
-        "strength": 0.108,
+        "strength": 0.162,
+        "mentions": 1,
+        "contexts": [
+          "skills"
+        ],
+        "raw_skills": [
+          "c"
+        ]
+      },
+      {
+        "skill": "arduino",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
         "mentions": 1,
         "contexts": [
           "general"
         ],
         "raw_skills": [
-          "mongodb"
+          "arduino"
+        ]
+      },
+      {
+        "skill": "css",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "css"
+        ]
+      },
+      {
+        "skill": "debugging",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "debugging"
+        ]
+      },
+      {
+        "skill": "file systems",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "file systems"
+        ]
+      },
+      {
+        "skill": "c++",
+        "signal": 0.0492,
+        "roadmap_signal": 0.0928,
+        "confidence": 0.26,
+        "strength": 0.0851,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "c++"
         ]
       }
     ],
     "unmatched_skills": [
       {
-        "raw_skill": "sap",
-        "confidence": 0.98
-      },
-      {
-        "raw_skill": "copilot",
-        "confidence": 0.94
-      },
-      {
-        "raw_skill": "collaboration",
-        "confidence": 0.9
-      },
-      {
         "raw_skill": "teams",
         "confidence": 0.9
       },
       {
-        "raw_skill": "abap",
+        "raw_skill": "curiosity",
         "confidence": 0.86
       },
       {
-        "raw_skill": "analytical thinking",
+        "raw_skill": "refactoring",
         "confidence": 0.86
       },
       {
-        "raw_skill": "data pipeline",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "database",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "process automation",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "sap abap",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "sap hana",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "stored procedures",
+        "raw_skill": "robotics",
         "confidence": 0.86
       },
       {
         "raw_skill": "hypertext transfer protocol secure",
+        "confidence": 0.6
+      },
+      {
+        "raw_skill": "user interface",
         "confidence": 0.6
       }
     ]
@@ -301,83 +217,127 @@
   },
   "top_roles": [
     {
-      "role": "Data Analyst",
-      "score": 0.462,
-      "base_similarity": 0.2951,
-      "prior": 0.93,
+      "role": "Software Engineer",
+      "score": 0.6464,
+      "base_similarity": 0.654,
+      "prior": 0.84,
+      "prior_scale": 0.952,
       "level": "entry",
       "level_bias": 1.0,
-      "core_overlap_boost": 0.04,
-      "missing_core_penalty": 0.0,
-      "overlap_count": 2,
+      "core_overlap_boost": 0.06,
+      "missing_core_penalty": 0.031,
+      "missing_core_score_scale": 0.93,
+      "overlap_count": 4,
       "matched_skills": [
-        "excel",
-        "sql",
-        "pandas",
+        "java",
         "python",
-        "communication"
+        "automation",
+        "git",
+        "linux",
+        "debugging",
+        "c",
+        "c++"
       ],
       "core_skills_found": [
-        "excel",
-        "sql"
+        "java",
+        "debugging",
+        "git",
+        "automation"
       ],
       "missing_core_skills": [
-        "data analysis",
-        "data cleaning",
-        "data visualization"
+        "system design"
       ],
       "missing_skills": [
-        "data analysis",
-        "data cleaning",
-        "data visualization",
-        "power bi",
-        "tableau",
-        "attention to detail"
+        "system design",
+        "software architecture",
+        "apis"
       ],
       "why_this_role": [
-        "strong SQL and analytics alignment",
-        "high fit for student resumes with reporting skills"
+        "strong coding and debugging alignment",
+        "good fit for general software engineering pathways"
       ],
-      "reason": "strong SQL and analytics alignment; high fit for student resumes with reporting skills Strong match because the candidate shows core technical alignment in excel, sql. You may improve your fit by learning data analysis, data cleaning, data visualization."
+      "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
     },
     {
-      "role": "BI Developer",
-      "score": 0.4325,
-      "base_similarity": 0.3579,
-      "prior": 0.86,
+      "role": "Systems Engineer",
+      "score": 0.5715,
+      "base_similarity": 0.5931,
+      "prior": 0.74,
+      "prior_scale": 0.922,
+      "level": "entry",
+      "level_bias": 1.0,
+      "core_overlap_boost": 0.06,
+      "missing_core_penalty": 0.031,
+      "missing_core_score_scale": 0.93,
+      "overlap_count": 4,
+      "matched_skills": [
+        "java",
+        "python",
+        "automation",
+        "linux",
+        "git",
+        "file systems",
+        "debugging",
+        "c"
+      ],
+      "core_skills_found": [
+        "linux",
+        "automation",
+        "debugging",
+        "file systems"
+      ],
+      "missing_core_skills": [
+        "system design"
+      ],
+      "missing_skills": [
+        "system design",
+        "communication protocols"
+      ],
+      "why_this_role": [
+        "strong systems and automation alignment",
+        "good fit for platform or low-level software work"
+      ],
+      "reason": "strong systems and automation alignment; good fit for platform or low-level software work Strong match because the candidate shows core technical alignment in linux, automation, debugging. You may improve your fit by learning system design."
+    },
+    {
+      "role": "Backend Engineer",
+      "score": 0.1869,
+      "base_similarity": 0.2558,
+      "prior": 0.85,
+      "prior_scale": 0.9167,
       "level": "mid",
       "level_bias": 0.85,
       "core_overlap_boost": 0.0,
-      "missing_core_penalty": 0.0,
+      "missing_core_penalty": 0.124,
+      "missing_core_score_scale": 0.8,
       "overlap_count": 1,
       "matched_skills": [
-        "sql",
-        "excel",
-        "reporting",
-        "communication"
+        "java",
+        "python",
+        "git"
       ],
       "core_skills_found": [
-        "sql"
+        "java"
       ],
       "missing_core_skills": [
-        "business intelligence",
-        "power bi",
-        "dashboarding",
-        "data visualization"
+        "apis",
+        "rest api",
+        "system design",
+        "microservices"
       ],
       "missing_skills": [
-        "business intelligence",
-        "power bi",
-        "dashboarding",
-        "data visualization",
-        "tableau",
-        "analytics"
+        "apis",
+        "rest api",
+        "system design",
+        "microservices",
+        "node.js",
+        "sql"
       ],
       "why_this_role": [
-        "strong reporting and dashboard alignment",
-        "good fit for SQL and visualization-heavy work"
+        "strong APIs and database alignment",
+        "good fit for system design and service development"
       ],
-      "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
+      "reason": "strong APIs and database alignment; good fit for system design and service development Strong match because the candidate shows core technical alignment in java. You may improve your fit by learning apis, rest api, system design."
     }
   ],
   "all_roles_evaluated": 38

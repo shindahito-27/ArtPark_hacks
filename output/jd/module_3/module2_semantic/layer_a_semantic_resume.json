@@ -499,16 +499,16 @@
     "mentions": 8,
     "contexts": [
       "general",
-      "skills",
-      "experience"
+      "experience",
+      "skills"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Programming",
     "sub_category": "Languages",
     "sections": [
       "general",
-      "skills",
-      "experience"
+      "experience",
+      "skills"
     ]
   },
   "pytorch": {

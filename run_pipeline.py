@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-INPUT_RESUME = "AnjaliSharma_Resume (4).pdf"
+INPUT_RESUME = "Arnav_Sachdeva_SWE_Intern_Resume.pdf"
 INPUT_JOB_DESC = "Machine-Learning-Engineer.pdf"
 OUTPUT_DIR = "output"
 OUTPUT_DIR_MODULE_1 = "output/resume/module_1"
@@ -16,6 +16,8 @@ OUTPUT_DIR_MODULE_3_KEYWORD = "output/jd/module_3/module2_Keyword"
 OUTPUT_DIR_MODULE_3_SEMANTIC = "output/jd/module_3/module2_semantic"
 OUTPUT_DIR_MODULE_4 = "output/module_4"
 OUTPUT_DIR_MODULE_5 = "output/module_5"
+OUTPUT_DIR_MODULE_6 = "output/module_6"
+OUTPUT_DIR_MODULE_7 = "output/module_7"
 
 
 
@@ -33,6 +35,8 @@ def run_pipeline(input_dir_resume, input_dir_job_desc, output_dir):
     os.makedirs(OUTPUT_DIR_MODULE_3_SEMANTIC, exist_ok=True)
     os.makedirs(OUTPUT_DIR_MODULE_4, exist_ok=True)
     os.makedirs(OUTPUT_DIR_MODULE_5, exist_ok=True)
+    os.makedirs(OUTPUT_DIR_MODULE_6, exist_ok=True)
+    os.makedirs(OUTPUT_DIR_MODULE_7, exist_ok=True)
     # Run module 1 resume parser and write its text output to module_1 output folder.
     module_1_script = Path("ArtPark_hacks/ArtPark_hacks/module_1_Parse_extractor/main_extraction.py")
     subprocess.run(
@@ -159,6 +163,48 @@ def run_pipeline(input_dir_resume, input_dir_job_desc, output_dir):
             str(module_2_combined_output_json),
             str(module_5_dataset_json),
             str(module_5_output_json),
+        ],
+        check=True,
+    )
+
+    # Run module 6 adaptive path engine using gap output + profession mapping + dataset graph.
+    module_6_path_script = Path("ArtPark_hacks/ArtPark_hacks/module6/graph_info.py")
+    module_6_output_json = Path(OUTPUT_DIR_MODULE_6) / "adaptive_path_output.json"
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(module_6_path_script),
+            str(module_4_output_json),
+            str(module_5_output_json),
+            str(module_5_dataset_json),
+            str(module_6_output_json),
+        ],
+        check=True,
+    )
+
+    module_6_graph_browser_script = Path("ArtPark_hacks/ArtPark_hacks/module6/graph_browser.py")
+    subprocess.run(
+        [
+            sys.executable,
+            str(module_6_graph_browser_script),
+        ],
+        check=True,
+    )
+
+    # Run module 7 learning resource layer using adaptive path output + static resource mapping.
+    module_7_resource_script = Path("ArtPark_hacks/ArtPark_hacks/module7/resource_layer.py")
+    module_7_resources_json = Path("ArtPark_hacks/ArtPark_hacks/module7/resources.json")
+    module_7_output_json = Path(OUTPUT_DIR_MODULE_7) / "learning_resources_output.json"
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(module_7_resource_script),
+            str(module_6_output_json),
+            str(module_5_dataset_json),
+            str(module_7_resources_json),
+            str(module_7_output_json),
         ],
         check=True,
     )
