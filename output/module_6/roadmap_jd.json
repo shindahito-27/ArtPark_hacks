@@ -1,93 +1,227 @@
 {
   "track_type": "jd_requirement",
-  "title": "JD Gap Roadmap: Machine Learning Engineer",
+  "title": "JD Gap Roadmap",
   "view_label": "Target JD Gap View",
   "view_purpose": "This roadmap shows the most connected prerequisites for closing the target JD gaps.",
-  "role": "Machine Learning Engineer",
-  "target_role": "Machine Learning Engineer",
-  "candidate_best_fit_role": "Software Engineer",
-  "target_jd_role": "Machine Learning Engineer",
+  "role": null,
+  "target_role": null,
+  "candidate_best_fit_role": "BI Developer",
+  "target_jd_role": null,
   "top_role": {
-    "role": "Software Engineer",
-    "score": 0.6464,
-    "base_similarity": 0.654,
-    "prior": 0.84,
-    "prior_scale": 0.952,
-    "level": "entry",
-    "level_bias": 1.0,
-    "core_overlap_boost": 0.06,
-    "missing_core_penalty": 0.031,
-    "missing_core_score_scale": 0.93,
-    "overlap_count": 4,
+    "role": "BI Developer",
+    "score": 0.1646,
+    "base_similarity": 0.2146,
+    "prior": 0.86,
+    "prior_scale": 0.9193,
+    "level": "mid",
+    "level_bias": 0.85,
+    "core_overlap_boost": 0.0,
+    "missing_core_penalty": 0.124,
+    "missing_core_score_scale": 0.8,
+    "overlap_count": 1,
     "matched_skills": [
-      "java",
-      "python",
-      "automation",
-      "git",
-      "linux",
-      "debugging",
-      "c",
-      "c++"
+      "sql",
+      "excel",
+      "reporting"
     ],
     "core_skills_found": [
-      "java",
-      "debugging",
-      "git",
-      "automation"
+      "sql"
     ],
     "missing_core_skills": [
-      "system design"
+      "business intelligence",
+      "power bi",
+      "dashboarding",
+      "data visualization"
     ],
     "missing_skills": [
-      "system design",
-      "software architecture",
-      "apis"
+      "business intelligence",
+      "power bi",
+      "dashboarding",
+      "data visualization",
+      "tableau",
+      "analytics"
     ],
     "why_this_role": [
-      "strong coding and debugging alignment",
-      "good fit for general software engineering pathways"
+      "strong reporting and dashboard alignment",
+      "good fit for SQL and visualization-heavy work"
     ],
-    "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+    "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
   },
   "__meta__": {
-    "gap_skill_count": 7,
-    "focus_skill_count": 7,
-    "support_skill_count": 5,
-    "relevant_graph_nodes": 11,
-    "relevant_graph_edges": 8,
+    "gap_skill_count": 6,
+    "focus_skill_count": 6,
+    "support_skill_count": 4,
+    "relevant_graph_nodes": 10,
+    "relevant_graph_edges": 6,
     "known_skill_threshold": 0.25,
     "min_target_gap": 0.6,
     "maximum_named_resources": 3,
-    "suppressed_direct_target_count": 25
+    "suppressed_direct_target_count": 7
   },
   "roadmap": [
+    "python",
+    "statistics",
+    "computer graphics",
+    "cuda",
+    "large language models",
     "machine learning",
-    "apis",
-    "deep learning",
-    "mlops",
-    "scikit-learn",
-    "tensorflow",
-    "pytorch"
+    "deep learning"
   ],
   "roadmap_details": [
     {
-      "skill": "machine learning",
-      "priority": 254.4313,
-      "effective_gap": 6.6378,
-      "direct_gap": 6.6378,
-      "jd_importance": 6.6378,
-      "difficulty": 0.5442,
+      "skill": "python",
+      "priority": 145.2732,
+      "effective_gap": 4.7268,
+      "direct_gap": 0.9886,
+      "jd_importance": 5.3333,
+      "difficulty": 0.3348,
       "dependency_weight": 3.0,
-      "candidate_signal": 0.0,
+      "candidate_signal": 0.307,
       "blocking_targets": [
-        "deep learning",
-        "mlops",
-        "scikit-learn"
+        "machine learning",
+        "deep learning"
       ],
       "unlocks": [
-        "scikit-learn",
-        "deep learning",
-        "mlops"
+        "machine learning"
+      ],
+      "resources": [
+        {
+          "title": "Python Official Tutorial",
+          "type": "reference",
+          "level": "beginner"
+        },
+        {
+          "title": "Automate the Boring Stuff with Python",
+          "type": "course",
+          "level": "beginner"
+        }
+      ],
+      "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "statistics",
+      "priority": 72.4433,
+      "effective_gap": 4.7268,
+      "direct_gap": 0.0,
+      "jd_importance": 5.3333,
+      "difficulty": 0.6266,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "machine learning",
+        "deep learning"
+      ],
+      "unlocks": [
+        "machine learning"
+      ],
+      "resources": [
+        {
+          "title": "Khan Academy Statistics and Probability",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "StatQuest Statistics Fundamentals",
+          "type": "video",
+          "level": "beginner"
+        }
+      ],
+      "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "computer graphics",
+      "priority": 38.4256,
+      "effective_gap": 6.5014,
+      "direct_gap": 6.5014,
+      "jd_importance": 6.5014,
+      "difficulty": 1.0,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Computer Graphics Learning Path",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "Computer Graphics Hands-on Practice",
+          "type": "practice",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct JD gap is high; JD importance is strong",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "cuda",
+      "priority": 32.391,
+      "effective_gap": 5.9691,
+      "direct_gap": 5.9691,
+      "jd_importance": 5.9691,
+      "difficulty": 1.0,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "CUDA Documentation",
+          "type": "reference",
+          "level": "beginner"
+        },
+        {
+          "title": "CUDA Guided Practice",
+          "type": "practice",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct JD gap is high; JD importance is strong",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "large language models",
+      "priority": 32.391,
+      "effective_gap": 5.9691,
+      "direct_gap": 5.9691,
+      "jd_importance": 5.9691,
+      "difficulty": 1.0,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Large Language Models Learning Path",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "Large Language Models Hands-on Practice",
+          "type": "practice",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct JD gap is high; JD importance is strong",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "machine learning",
+      "priority": 155.5301,
+      "effective_gap": 5.5609,
+      "direct_gap": 4.0373,
+      "jd_importance": 5.5609,
+      "difficulty": 0.5442,
+      "dependency_weight": 3.0,
+      "candidate_signal": 0.2142,
+      "blocking_targets": [
+        "deep learning"
+      ],
+      "unlocks": [
+        "deep learning"
       ],
       "resources": [
         {
@@ -101,52 +235,20 @@
           "level": "intermediate"
         }
       ],
-      "reason": "direct JD gap is high; prerequisite for deep learning, mlops; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 1"
+      "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+      "phase": "Phase 2"
     },
     {
-      "skill": "apis",
-      "priority": 74.7369,
-      "effective_gap": 4.6079,
-      "direct_gap": 4.6079,
-      "jd_importance": 4.6079,
-      "difficulty": 0.4682,
+      "skill": "deep learning",
+      "priority": 96.1107,
+      "effective_gap": 5.5609,
+      "direct_gap": 5.5609,
+      "jd_importance": 5.5609,
+      "difficulty": 0.5435,
       "dependency_weight": 2.0,
       "candidate_signal": 0.0,
       "blocking_targets": [],
       "unlocks": [],
-      "resources": [
-        {
-          "title": "Postman API Fundamentals Student Expert",
-          "type": "course",
-          "level": "beginner"
-        },
-        {
-          "title": "MDN Web Docs: APIs",
-          "type": "reference",
-          "level": "beginner"
-        }
-      ],
-      "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 1"
-    },
-    {
-      "skill": "deep learning",
-      "priority": 107.2275,
-      "effective_gap": 5.4536,
-      "direct_gap": 5.4536,
-      "jd_importance": 5.4536,
-      "difficulty": 0.5435,
-      "dependency_weight": 2.0,
-      "candidate_signal": 0.0,
-      "blocking_targets": [
-        "pytorch",
-        "tensorflow"
-      ],
-      "unlocks": [
-        "tensorflow",
-        "pytorch"
-      ],
       "resources": [
         {
           "title": "DeepLearning.AI Neural Networks and Deep Learning",
@@ -159,110 +261,6 @@
           "level": "intermediate"
         }
       ],
-      "reason": "direct JD gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 2"
-    },
-    {
-      "skill": "mlops",
-      "priority": 32.804,
-      "effective_gap": 4.8247,
-      "direct_gap": 4.8247,
-      "jd_importance": 4.8247,
-      "difficulty": 0.6096,
-      "dependency_weight": 1.0,
-      "candidate_signal": 0.0,
-      "blocking_targets": [],
-      "unlocks": [],
-      "resources": [
-        {
-          "title": "Made With ML: MLOps",
-          "type": "course",
-          "level": "intermediate"
-        },
-        {
-          "title": "Full Stack Deep Learning MLOps",
-          "type": "course",
-          "level": "intermediate"
-        }
-      ],
-      "reason": "direct JD gap is high; JD importance is strong",
-      "phase": "Phase 2"
-    },
-    {
-      "skill": "scikit-learn",
-      "priority": 21.6887,
-      "effective_gap": 5.4536,
-      "direct_gap": 5.4536,
-      "jd_importance": 5.4536,
-      "difficulty": 1.2713,
-      "dependency_weight": 1.0,
-      "candidate_signal": 0.0,
-      "blocking_targets": [],
-      "unlocks": [],
-      "resources": [
-        {
-          "title": "scikit-learn User Guide",
-          "type": "reference",
-          "level": "beginner"
-        },
-        {
-          "title": "Kaggle Intro to Machine Learning",
-          "type": "practice",
-          "level": "beginner"
-        }
-      ],
-      "reason": "direct JD gap is high; JD importance is strong",
-      "phase": "Phase 2"
-    },
-    {
-      "skill": "tensorflow",
-      "priority": 96.4858,
-      "effective_gap": 5.4536,
-      "direct_gap": 5.4536,
-      "jd_importance": 5.4536,
-      "difficulty": 0.5165,
-      "dependency_weight": 2.0,
-      "candidate_signal": 0.0,
-      "blocking_targets": [],
-      "unlocks": [],
-      "resources": [
-        {
-          "title": "TensorFlow Tutorials",
-          "type": "tutorial",
-          "level": "beginner"
-        },
-        {
-          "title": "TensorFlow Guide",
-          "type": "reference",
-          "level": "beginner"
-        }
-      ],
-      "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 3"
-    },
-    {
-      "skill": "pytorch",
-      "priority": 93.4541,
-      "effective_gap": 5.4536,
-      "direct_gap": 5.4536,
-      "jd_importance": 5.4536,
-      "difficulty": 0.5365,
-      "dependency_weight": 2.0,
-      "candidate_signal": 0.0,
-      "blocking_targets": [],
-      "unlocks": [],
-      "resources": [
-        {
-          "title": "PyTorch Tutorials",
-          "type": "tutorial",
-          "level": "beginner"
-        },
-        {
-          "title": "PyTorch 60 Minute Blitz",
-          "type": "tutorial",
-          "level": "beginner"
-        }
-      ],
       "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
       "phase": "Phase 3"
     }
@@ -272,23 +270,164 @@
       "phase": "Phase 1",
       "skills": [
         {
-          "skill": "machine learning",
-          "priority": 254.4313,
-          "effective_gap": 6.6378,
-          "direct_gap": 6.6378,
-          "jd_importance": 6.6378,
-          "difficulty": 0.5442,
+          "skill": "python",
+          "priority": 145.2732,
+          "effective_gap": 4.7268,
+          "direct_gap": 0.9886,
+          "jd_importance": 5.3333,
+          "difficulty": 0.3348,
           "dependency_weight": 3.0,
-          "candidate_signal": 0.0,
+          "candidate_signal": 0.307,
           "blocking_targets": [
-            "deep learning",
-            "mlops",
-            "scikit-learn"
+            "machine learning",
+            "deep learning"
           ],
           "unlocks": [
-            "scikit-learn",
-            "deep learning",
-            "mlops"
+            "machine learning"
+          ],
+          "resources": [
+            {
+              "title": "Python Official Tutorial",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "Automate the Boring Stuff with Python",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "statistics",
+          "priority": 72.4433,
+          "effective_gap": 4.7268,
+          "direct_gap": 0.0,
+          "jd_importance": 5.3333,
+          "difficulty": 0.6266,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "machine learning",
+            "deep learning"
+          ],
+          "unlocks": [
+            "machine learning"
+          ],
+          "resources": [
+            {
+              "title": "Khan Academy Statistics and Probability",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "StatQuest Statistics Fundamentals",
+              "type": "video",
+              "level": "beginner"
+            }
+          ],
+          "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "computer graphics",
+          "priority": 38.4256,
+          "effective_gap": 6.5014,
+          "direct_gap": 6.5014,
+          "jd_importance": 6.5014,
+          "difficulty": 1.0,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Computer Graphics Learning Path",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Computer Graphics Hands-on Practice",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct JD gap is high; JD importance is strong",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "cuda",
+          "priority": 32.391,
+          "effective_gap": 5.9691,
+          "direct_gap": 5.9691,
+          "jd_importance": 5.9691,
+          "difficulty": 1.0,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "CUDA Documentation",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "CUDA Guided Practice",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct JD gap is high; JD importance is strong",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "large language models",
+          "priority": 32.391,
+          "effective_gap": 5.9691,
+          "direct_gap": 5.9691,
+          "jd_importance": 5.9691,
+          "difficulty": 1.0,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Large Language Models Learning Path",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Large Language Models Hands-on Practice",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct JD gap is high; JD importance is strong",
+          "phase": "Phase 1"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "skills": [
+        {
+          "skill": "machine learning",
+          "priority": 155.5301,
+          "effective_gap": 5.5609,
+          "direct_gap": 4.0373,
+          "jd_importance": 5.5609,
+          "difficulty": 0.5442,
+          "dependency_weight": 3.0,
+          "candidate_signal": 0.2142,
+          "blocking_targets": [
+            "deep learning"
+          ],
+          "unlocks": [
+            "deep learning"
           ],
           "resources": [
             {
@@ -302,57 +441,25 @@
               "level": "intermediate"
             }
           ],
-          "reason": "direct JD gap is high; prerequisite for deep learning, mlops; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 1"
-        },
-        {
-          "skill": "apis",
-          "priority": 74.7369,
-          "effective_gap": 4.6079,
-          "direct_gap": 4.6079,
-          "jd_importance": 4.6079,
-          "difficulty": 0.4682,
-          "dependency_weight": 2.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "Postman API Fundamentals Student Expert",
-              "type": "course",
-              "level": "beginner"
-            },
-            {
-              "title": "MDN Web Docs: APIs",
-              "type": "reference",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 1"
+          "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+          "phase": "Phase 2"
         }
       ]
     },
     {
-      "phase": "Phase 2",
+      "phase": "Phase 3",
       "skills": [
         {
           "skill": "deep learning",
-          "priority": 107.2275,
-          "effective_gap": 5.4536,
-          "direct_gap": 5.4536,
-          "jd_importance": 5.4536,
+          "priority": 96.1107,
+          "effective_gap": 5.5609,
+          "direct_gap": 5.5609,
+          "jd_importance": 5.5609,
           "difficulty": 0.5435,
           "dependency_weight": 2.0,
           "candidate_signal": 0.0,
-          "blocking_targets": [
-            "pytorch",
-            "tensorflow"
-          ],
-          "unlocks": [
-            "tensorflow",
-            "pytorch"
-          ],
+          "blocking_targets": [],
+          "unlocks": [],
           "resources": [
             {
               "title": "DeepLearning.AI Neural Networks and Deep Learning",
@@ -365,115 +472,6 @@
               "level": "intermediate"
             }
           ],
-          "reason": "direct JD gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 2"
-        },
-        {
-          "skill": "mlops",
-          "priority": 32.804,
-          "effective_gap": 4.8247,
-          "direct_gap": 4.8247,
-          "jd_importance": 4.8247,
-          "difficulty": 0.6096,
-          "dependency_weight": 1.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "Made With ML: MLOps",
-              "type": "course",
-              "level": "intermediate"
-            },
-            {
-              "title": "Full Stack Deep Learning MLOps",
-              "type": "course",
-              "level": "intermediate"
-            }
-          ],
-          "reason": "direct JD gap is high; JD importance is strong",
-          "phase": "Phase 2"
-        },
-        {
-          "skill": "scikit-learn",
-          "priority": 21.6887,
-          "effective_gap": 5.4536,
-          "direct_gap": 5.4536,
-          "jd_importance": 5.4536,
-          "difficulty": 1.2713,
-          "dependency_weight": 1.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "scikit-learn User Guide",
-              "type": "reference",
-              "level": "beginner"
-            },
-            {
-              "title": "Kaggle Intro to Machine Learning",
-              "type": "practice",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct JD gap is high; JD importance is strong",
-          "phase": "Phase 2"
-        }
-      ]
-    },
-    {
-      "phase": "Phase 3",
-      "skills": [
-        {
-          "skill": "tensorflow",
-          "priority": 96.4858,
-          "effective_gap": 5.4536,
-          "direct_gap": 5.4536,
-          "jd_importance": 5.4536,
-          "difficulty": 0.5165,
-          "dependency_weight": 2.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "TensorFlow Tutorials",
-              "type": "tutorial",
-              "level": "beginner"
-            },
-            {
-              "title": "TensorFlow Guide",
-              "type": "reference",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 3"
-        },
-        {
-          "skill": "pytorch",
-          "priority": 93.4541,
-          "effective_gap": 5.4536,
-          "direct_gap": 5.4536,
-          "jd_importance": 5.4536,
-          "difficulty": 0.5365,
-          "dependency_weight": 2.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "PyTorch Tutorials",
-              "type": "tutorial",
-              "level": "beginner"
-            },
-            {
-              "title": "PyTorch 60 Minute Blitz",
-              "type": "tutorial",
-              "level": "beginner"
-            }
-          ],
           "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
           "phase": "Phase 3"
         }
@@ -482,19 +480,49 @@
   ],
   "next_steps": [
     "machine learning",
-    "apis"
+    "statistics"
   ],
   "direct_targets": [
     {
-      "skill": "machine learning",
-      "gap": 6.6378,
-      "importance": 6.6378,
+      "skill": "computer graphics",
+      "gap": 6.5014,
+      "importance": 6.5014,
       "resume_score": 0.0,
-      "jd_score": 6.6378,
-      "raw_importance": 6.6378,
+      "jd_score": 6.5014,
+      "raw_importance": 6.5014,
       "priority_penalty": 1.0,
       "level": "Critical Gap",
       "action": "top priority",
+      "category": "hard_skill",
+      "taxonomy_category": "Data",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high"
+    },
+    {
+      "skill": "cuda",
+      "gap": 5.9691,
+      "importance": 5.9691,
+      "resume_score": 0.0,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Programming",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high"
+    },
+    {
+      "skill": "large language models",
+      "gap": 5.9691,
+      "importance": 5.9691,
+      "resume_score": 0.0,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
       "category": "hard_skill",
       "taxonomy_category": "Machine Learning",
       "candidate_signal": 0.0,
@@ -502,11 +530,11 @@
     },
     {
       "skill": "deep learning",
-      "gap": 5.4536,
-      "importance": 5.4536,
+      "gap": 5.5609,
+      "importance": 5.5609,
       "resume_score": 0.0,
-      "jd_score": 5.4536,
-      "raw_importance": 5.4536,
+      "jd_score": 5.5609,
+      "raw_importance": 5.5609,
       "priority_penalty": 1.0,
       "level": "Moderate Gap",
       "action": "important",
@@ -516,158 +544,113 @@
       "gap_reason": "direct JD gap is high"
     },
     {
-      "skill": "pytorch",
-      "gap": 5.4536,
-      "importance": 5.4536,
-      "resume_score": 0.0,
-      "jd_score": 5.4536,
-      "raw_importance": 5.4536,
+      "skill": "machine learning",
+      "gap": 4.0373,
+      "importance": 5.3333,
+      "resume_score": 1.296,
+      "jd_score": 5.3333,
+      "raw_importance": 5.3333,
       "priority_penalty": 1.0,
       "level": "Moderate Gap",
       "action": "important",
       "category": "hard_skill",
       "taxonomy_category": "Machine Learning",
-      "candidate_signal": 0.0,
+      "candidate_signal": 0.2142,
       "gap_reason": "direct JD gap is high"
     },
     {
-      "skill": "scikit-learn",
-      "gap": 5.4536,
-      "importance": 5.4536,
-      "resume_score": 0.0,
-      "jd_score": 5.4536,
-      "raw_importance": 5.4536,
+      "skill": "python",
+      "gap": 0.9886,
+      "importance": 5.1346,
+      "resume_score": 2.3101,
+      "jd_score": 5.1346,
+      "raw_importance": 5.1346,
       "priority_penalty": 1.0,
-      "level": "Moderate Gap",
-      "action": "important",
+      "level": "Slight Gap",
+      "action": "low priority",
       "category": "hard_skill",
-      "taxonomy_category": "Machine Learning",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high"
-    },
-    {
-      "skill": "tensorflow",
-      "gap": 5.4536,
-      "importance": 5.4536,
-      "resume_score": 0.0,
-      "jd_score": 5.4536,
-      "raw_importance": 5.4536,
-      "priority_penalty": 1.0,
-      "level": "Moderate Gap",
-      "action": "important",
-      "category": "hard_skill",
-      "taxonomy_category": "Machine Learning",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high"
-    },
-    {
-      "skill": "mlops",
-      "gap": 4.8247,
-      "importance": 4.8247,
-      "resume_score": 0.0,
-      "jd_score": 4.8247,
-      "raw_importance": 4.8247,
-      "priority_penalty": 1.0,
-      "level": "Moderate Gap",
-      "action": "important",
-      "category": "hard_skill",
-      "taxonomy_category": "Machine Learning",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high"
-    },
-    {
-      "skill": "apis",
-      "gap": 4.6079,
-      "importance": 4.6079,
-      "resume_score": 0.0,
-      "jd_score": 4.6079,
-      "raw_importance": 4.6079,
-      "priority_penalty": 1.0,
-      "level": "Moderate Gap",
-      "action": "important",
-      "category": "hard_skill",
-      "taxonomy_category": "General",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high"
+      "taxonomy_category": "Programming",
+      "candidate_signal": 0.307,
+      "gap_reason": "JD still expects deeper strength than the current evidence"
     }
   ],
   "suppressed_direct_targets": [
     {
-      "skill": "azure",
-      "gap": 6.7629,
-      "importance": 6.7629,
+      "skill": "llms",
+      "gap": 5.9691,
+      "importance": 5.9691,
       "resume_score": 0.0,
-      "jd_score": 6.7629,
-      "raw_importance": 6.7629,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "aws",
-      "gap": 6.4658,
-      "importance": 6.4658,
-      "resume_score": 0.0,
-      "jd_score": 6.4658,
-      "raw_importance": 6.4658,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "gcp",
-      "gap": 6.4658,
-      "importance": 6.4658,
-      "resume_score": 0.0,
-      "jd_score": 6.4658,
-      "raw_importance": 6.4658,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "agile",
-      "gap": 6.9213,
-      "importance": 5.6755,
-      "resume_score": 0.0,
-      "jd_score": 6.9213,
-      "raw_importance": 6.9213,
-      "priority_penalty": 0.82,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Product",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "reporting",
-      "gap": 5.69,
-      "importance": 5.69,
-      "resume_score": 0.0,
-      "jd_score": 5.69,
-      "raw_importance": 5.69,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
       "priority_penalty": 1.0,
       "level": "Moderate Gap",
       "action": "important",
       "category": "hard_skill",
-      "taxonomy_category": "Data",
+      "taxonomy_category": "Machine Learning",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "tensorrt",
+      "gap": 5.9691,
+      "importance": 5.9691,
+      "resume_score": 0.0,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Machine Learning",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "c",
+      "gap": 5.8122,
+      "importance": 5.8122,
+      "resume_score": 0.0,
+      "jd_score": 5.8122,
+      "raw_importance": 5.8122,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Programming",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "linux",
+      "gap": 5.6752,
+      "importance": 5.6752,
+      "resume_score": 0.0,
+      "jd_score": 5.6752,
+      "raw_importance": 5.6752,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Systems",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "android",
+      "gap": 5.2655,
+      "importance": 5.2655,
+      "resume_score": 0.0,
+      "jd_score": 5.2655,
+      "raw_importance": 5.2655,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Mobile",
       "candidate_signal": 0.0,
       "gap_reason": "direct JD gap is high",
       "suppressed_reason": "not connected to the candidate support graph"
@@ -675,81 +658,81 @@
   ],
   "deferred_targets": [
     {
-      "skill": "azure",
-      "gap": 6.7629,
-      "importance": 6.7629,
+      "skill": "llms",
+      "gap": 5.9691,
+      "importance": 5.9691,
       "resume_score": 0.0,
-      "jd_score": 6.7629,
-      "raw_importance": 6.7629,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "aws",
-      "gap": 6.4658,
-      "importance": 6.4658,
-      "resume_score": 0.0,
-      "jd_score": 6.4658,
-      "raw_importance": 6.4658,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "gcp",
-      "gap": 6.4658,
-      "importance": 6.4658,
-      "resume_score": 0.0,
-      "jd_score": 6.4658,
-      "raw_importance": 6.4658,
-      "priority_penalty": 1.0,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Cloud",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "agile",
-      "gap": 6.9213,
-      "importance": 5.6755,
-      "resume_score": 0.0,
-      "jd_score": 6.9213,
-      "raw_importance": 6.9213,
-      "priority_penalty": 0.82,
-      "level": "Critical Gap",
-      "action": "top priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Product",
-      "candidate_signal": 0.0,
-      "gap_reason": "direct JD gap is high",
-      "suppressed_reason": "not connected to the candidate support graph"
-    },
-    {
-      "skill": "reporting",
-      "gap": 5.69,
-      "importance": 5.69,
-      "resume_score": 0.0,
-      "jd_score": 5.69,
-      "raw_importance": 5.69,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
       "priority_penalty": 1.0,
       "level": "Moderate Gap",
       "action": "important",
       "category": "hard_skill",
-      "taxonomy_category": "Data",
+      "taxonomy_category": "Machine Learning",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "tensorrt",
+      "gap": 5.9691,
+      "importance": 5.9691,
+      "resume_score": 0.0,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Machine Learning",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "c",
+      "gap": 5.8122,
+      "importance": 5.8122,
+      "resume_score": 0.0,
+      "jd_score": 5.8122,
+      "raw_importance": 5.8122,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Programming",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "linux",
+      "gap": 5.6752,
+      "importance": 5.6752,
+      "resume_score": 0.0,
+      "jd_score": 5.6752,
+      "raw_importance": 5.6752,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Systems",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high",
+      "suppressed_reason": "not connected to the candidate support graph"
+    },
+    {
+      "skill": "android",
+      "gap": 5.2655,
+      "importance": 5.2655,
+      "resume_score": 0.0,
+      "jd_score": 5.2655,
+      "raw_importance": 5.2655,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Mobile",
       "candidate_signal": 0.0,
       "gap_reason": "direct JD gap is high",
       "suppressed_reason": "not connected to the candidate support graph"
@@ -758,39 +741,63 @@
   "graph": {
     "nodes": [
       {
-        "id": "git",
+        "id": "computer graphics",
         "data": {
-          "label": "git",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.4357,
-          "priority": 0.0,
-          "title": "Pro Git Book<br>Git SCM Documentation"
-        }
-      },
-      {
-        "id": "java",
-        "data": {
-          "label": "java",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.5951,
-          "priority": 0.0,
-          "title": "Dev.java Tutorials<br>Java Programming MOOC"
-        }
-      },
-      {
-        "id": "tensorflow",
-        "data": {
-          "label": "tensorflow",
+          "label": "computer graphics",
           "status": "missing",
           "color": "red",
           "size": 34,
-          "difficulty": 0.5165,
-          "priority": 96.4858,
-          "title": "TensorFlow Tutorials<br>TensorFlow Guide"
+          "difficulty": 1.0,
+          "priority": 38.4256,
+          "title": "Computer Graphics Learning Path<br>Computer Graphics Hands-on Practice"
+        }
+      },
+      {
+        "id": "cuda",
+        "data": {
+          "label": "cuda",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.0,
+          "priority": 32.391,
+          "title": "CUDA Documentation<br>CUDA Guided Practice"
+        }
+      },
+      {
+        "id": "python",
+        "data": {
+          "label": "python",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.3348,
+          "priority": 145.2732,
+          "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
+        }
+      },
+      {
+        "id": "sql",
+        "data": {
+          "label": "sql",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4315,
+          "priority": 0.0,
+          "title": "SQLBolt<br>Mode SQL Tutorial"
+        }
+      },
+      {
+        "id": "large language models",
+        "data": {
+          "label": "large language models",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.0,
+          "priority": 32.391,
+          "title": "Large Language Models Learning Path<br>Large Language Models Hands-on Practice"
         }
       },
       {
@@ -801,68 +808,20 @@
           "color": "red",
           "size": 34,
           "difficulty": 0.5435,
-          "priority": 107.2275,
+          "priority": 96.1107,
           "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
         }
       },
       {
-        "id": "pytorch",
+        "id": "statistics",
         "data": {
-          "label": "pytorch",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 0.5365,
-          "priority": 93.4541,
-          "title": "PyTorch Tutorials<br>PyTorch 60 Minute Blitz"
-        }
-      },
-      {
-        "id": "python",
-        "data": {
-          "label": "python",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.343,
-          "priority": 0.0,
-          "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
-        }
-      },
-      {
-        "id": "apis",
-        "data": {
-          "label": "apis",
+          "label": "statistics",
           "status": "next_step",
           "color": "yellow",
           "size": 30,
-          "difficulty": 0.4682,
-          "priority": 74.7369,
-          "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
-        }
-      },
-      {
-        "id": "debugging",
-        "data": {
-          "label": "debugging",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.4494,
-          "priority": 0.0,
-          "title": "The Debugging Book<br>VS Code Debugging Guide"
-        }
-      },
-      {
-        "id": "mlops",
-        "data": {
-          "label": "mlops",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 0.6096,
-          "priority": 32.804,
-          "title": "Made With ML: MLOps<br>Full Stack Deep Learning MLOps"
+          "difficulty": 0.6266,
+          "priority": 72.4433,
+          "title": "Khan Academy Statistics and Probability<br>StatQuest Statistics Fundamentals"
         }
       },
       {
@@ -873,43 +832,45 @@
           "color": "yellow",
           "size": 30,
           "difficulty": 0.5442,
-          "priority": 254.4313,
+          "priority": 155.5301,
           "title": "Google Machine Learning Crash Course<br>Hands-On Machine Learning"
         }
       },
       {
-        "id": "scikit-learn",
+        "id": "numpy",
         "data": {
-          "label": "scikit-learn",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 1.2713,
-          "priority": 21.6887,
-          "title": "scikit-learn User Guide<br>Kaggle Intro to Machine Learning"
+          "label": "numpy",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 1.2768,
+          "priority": 0.0,
+          "title": "NumPy Documentation<br>SciPy Lectures: NumPy"
+        }
+      },
+      {
+        "id": "pandas",
+        "data": {
+          "label": "pandas",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.7636,
+          "priority": 0.0,
+          "title": "Kaggle Pandas<br>Pandas User Guide"
         }
       }
     ],
     "edges": [
       {
-        "source": "java",
-        "target": "apis",
-        "weight": 2.0
-      },
-      {
-        "source": "deep learning",
-        "target": "tensorflow",
-        "weight": 2.0
-      },
-      {
-        "source": "deep learning",
-        "target": "pytorch",
+        "source": "python",
+        "target": "pandas",
         "weight": 2.0
       },
       {
         "source": "python",
-        "target": "apis",
-        "weight": 1.0
+        "target": "numpy",
+        "weight": 2.0
       },
       {
         "source": "python",
@@ -917,9 +878,9 @@
         "weight": 3.0
       },
       {
-        "source": "machine learning",
-        "target": "scikit-learn",
-        "weight": 1.0
+        "source": "statistics",
+        "target": "machine learning",
+        "weight": 2.0
       },
       {
         "source": "machine learning",
@@ -927,14 +888,14 @@
         "weight": 2.0
       },
       {
-        "source": "machine learning",
-        "target": "mlops",
-        "weight": 1.0
+        "source": "numpy",
+        "target": "statistics",
+        "weight": 2.0
       }
     ],
     "meta": {
-      "node_count": 11,
-      "edge_count": 8,
+      "node_count": 10,
+      "edge_count": 6,
       "roadmap_node_count": 7
     }
   }

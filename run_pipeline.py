@@ -3,8 +3,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-INPUT_RESUME = "Arnav_Sachdeva_SWE_Intern_Resume.pdf"
-INPUT_JOB_DESC = "Machine-Learning-Engineer.pdf"
+INPUT_RESUME = "AnjaliSharma_Resume (4).pdf"
+INPUT_JOB_DESC = "System Software Engineer.pdf"
 OUTPUT_DIR = "output"
 OUTPUT_DIR_MODULE_1 = "output/resume/module_1"
 OUTPUT_DIR_MODULE_2 = "output/resume/module_2"
@@ -18,6 +18,7 @@ OUTPUT_DIR_MODULE_4 = "output/module_4"
 OUTPUT_DIR_MODULE_5 = "output/module_5"
 OUTPUT_DIR_MODULE_6 = "output/module_6"
 OUTPUT_DIR_MODULE_7 = "output/module_7"
+OUTPUT_DIR_MODULE_8 = "output/module_8"
 
 
 
@@ -37,6 +38,7 @@ def run_pipeline(input_dir_resume, input_dir_job_desc, output_dir):
     os.makedirs(OUTPUT_DIR_MODULE_5, exist_ok=True)
     os.makedirs(OUTPUT_DIR_MODULE_6, exist_ok=True)
     os.makedirs(OUTPUT_DIR_MODULE_7, exist_ok=True)
+    os.makedirs(OUTPUT_DIR_MODULE_8, exist_ok=True)
     # Run module 1 resume parser and write its text output to module_1 output folder.
     module_1_script = Path("ArtPark_hacks/ArtPark_hacks/module_1_Parse_extractor/main_extraction.py")
     subprocess.run(
@@ -205,6 +207,25 @@ def run_pipeline(input_dir_resume, input_dir_job_desc, output_dir):
             str(module_5_dataset_json),
             str(module_7_resources_json),
             str(module_7_output_json),
+        ],
+        check=True,
+    )
+
+    # Run module 8 reasoning engine using gap output + profession mapping + roadmap output.
+    module_8_reasoning_script = Path("ArtPark_hacks/ArtPark_hacks/module8/reasoning_engine.py")
+    module_8_output_json = Path(OUTPUT_DIR_MODULE_8) / "reasoning_trace_output.json"
+    module_8_output_txt = Path(OUTPUT_DIR_MODULE_8) / "reasoning_trace.txt"
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(module_8_reasoning_script),
+            str(module_4_output_json),
+            str(module_5_output_json),
+            str(module_6_output_json),
+            str(module_8_output_json),
+            "--text-out",
+            str(module_8_output_txt),
         ],
         check=True,
     )

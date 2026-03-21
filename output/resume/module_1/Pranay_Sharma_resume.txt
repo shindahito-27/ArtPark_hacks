@@ -1,0 +1,78 @@
+Pranay Sharma
+
++91 7696737169 — pranaysharma27.ps@gmail.com — linkedin.com/in/sharmapranay27/ — github.com/shindahito-27
+
+
+
+
+EDUCATION
+
+
+Bachelor of Technology in Computer Science & Engineering                          Aug 2024 – Present
+Punjab Engineering College, Chandigarh                                       CGPA: 9.11/10
+
+PROJECTS
+
+
+Multimodal CCTV Intelligence Search System                                        Dec 2025 – Present
+Computer Vision, Multimodal Retrieval, YOLOv8, CLIP, FAISS, Flask, Python
+github.com/cctv-intelligence
+
+• Contributed to the architecture of a CCTV semantic search pipeline using YOLOv8 and CLIP embeddings, enabling
+  natural-language retrieval across 5k+ indexed video frames.
+• Implemented adaptive motion-based frame sampling, reducing redundant frame extraction by 40% compared to
+  uniform sampling.
+• Generated 512-dim CLIP embeddings for frames and object crops and indexed them using FAISS cosine similarity
+  search for sub-second retrieval.
+• Built components of a Flask-based search interface supporting 10+ natural language queries with object-level
+  metadata filtering.
+
+Medical RAG Chatbot with WhatsApp Integration                                     Sep 2025 – Oct 2025
+LLMs, RAG, LangChain, Ollama, Vector Search, WhatsApp API, Vercel
+github.com/sehatmitra
+
+• Collaborated on building a RAG medical assistant using LangChain and Ollama embeddings over 3k+ medical doc-
+  uments.
+• Implemented vector similarity retrieval (top-5 context selection) to generate grounded responses across 100+
+  evaluated queries.
+• Integrated the chatbot with WhatsApp messaging APIs, enabling conversational health queries through a real-time
+  chat interface.
+• Deployed a serverless web app on Vercel achieving 1–2s response latency via optimized retrieval and prompt
+  context selection.
+
+Intelligent Data Extraction from Business Reports (1st / 50+, PECathon 2025)                 Nov 2025
+Python, Computer Vision, Document AI
+
+• Worked with a team to develop a document intelligence system to extract structured insights from unstructured
+  business PDFs.
+• Achieved 90%+ table and chart detection accuracy using layout segmentation and image preprocessing.
+• Awarded first place for superior system reliability, extraction accuracy, and end-to-end automation.
+
+LeetCode / DSA Progress Tracker                                             Mar 2026 – Present
+Full-Stack Web Development, Next.js, Node.js, REST APIs, Chart.js, MongoDB
+
+• Designing a full-stack DSA analytics platform to track and visualize coding progress across 100+ solved problems
+  with difficulty-wise and topic-wise insights.
+• Planning integration with LeetCode APIs and scraping-based data ingestion to automatically collect submission
+  history and compute statistics across 3 difficulty levels.
+• Developing interactive dashboards using Chart.js to display problem-solving trends, streak tracking, and topic distribution
+   for long-term performance analysis.
+• Implementing authentication and database storage to track user progress and performance insights.
+
+TECHNICAL SKILLS
+
+
+Programming: Python, C++, JavaScript, SQL
+ML Libraries & Frameworks: scikit-learn, FAISS, LangChain
+ML Concepts: Feature Engineering, ROC-AUC, Cosine Similarity
+Web Development: React, Express.js, REST APIs, Firebase
+Data Analysis: Pandas, NumPy, Matplotlib
+Tools: Git, Tailwind CSS
+
+
+ACHIEVEMENTS
+
+
+• Winner, PECathon 2025 — Open-to-all inter-college hackathon conducted during PECFEST with 50+ teams.
+• Rank 17, SIH Internal Hackathon Selection — Qualified in institute-level screening for Smart India Hackathon.
+• Solved 350+ problems on LeetCode covering arrays, binary search, stacks, linked lists, and dynamic programming.

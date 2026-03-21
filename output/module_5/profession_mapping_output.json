@@ -2,210 +2,387 @@
   "dataset_name": "profession_mapping_engine_dataset",
   "dataset_version": "1.0",
   "candidate_profile": {
-    "normalized_skill_count": 12,
+    "normalized_skill_count": 25,
     "normalized_skills": [
       {
-        "skill": "java",
+        "skill": "sql",
+        "signal": 1.0,
+        "roadmap_signal": 1.0,
+        "confidence": 1.0,
+        "strength": 1.0,
+        "mentions": 12,
+        "contexts": [
+          "experience",
+          "general",
+          "project",
+          "skills"
+        ],
+        "raw_skills": [
+          "sql"
+        ]
+      },
+      {
+        "skill": "excel",
         "signal": 1.0,
         "roadmap_signal": 1.0,
         "confidence": 0.98,
         "strength": 1.0,
         "mentions": 4,
         "contexts": [
+          "experience",
           "general",
-          "project",
-          "skills"
+          "project"
         ],
         "raw_skills": [
-          "java"
-        ]
-      },
-      {
-        "skill": "python",
-        "signal": 0.9704,
-        "roadmap_signal": 0.9704,
-        "confidence": 0.9,
-        "strength": 0.8633,
-        "mentions": 2,
-        "contexts": [
-          "general",
-          "project",
-          "skills"
-        ],
-        "raw_skills": [
-          "python"
+          "excel"
         ]
       },
       {
         "skill": "automation",
-        "signal": 0.5626,
-        "roadmap_signal": 0.5626,
+        "signal": 1.0,
+        "roadmap_signal": 1.0,
         "confidence": 0.94,
-        "strength": 0.502,
+        "strength": 0.937,
         "mentions": 3,
         "contexts": [
-          "general",
-          "skills"
+          "experience",
+          "general"
         ],
         "raw_skills": [
           "automation"
         ]
       },
       {
+        "skill": "copilot",
+        "signal": 1.0,
+        "roadmap_signal": 1.0,
+        "confidence": 0.94,
+        "strength": 0.937,
+        "mentions": 3,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "copilot"
+        ]
+      },
+      {
+        "skill": "teams",
+        "signal": 1.0,
+        "roadmap_signal": 1.0,
+        "confidence": 0.9,
+        "strength": 0.8633,
+        "mentions": 2,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "teams"
+        ]
+      },
+      {
+        "skill": "data pipeline",
+        "signal": 0.8641,
+        "roadmap_signal": 0.8641,
+        "confidence": 0.86,
+        "strength": 0.77,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "data pipeline"
+        ]
+      },
+      {
+        "skill": "sap",
+        "signal": 0.7718,
+        "roadmap_signal": 0.7718,
+        "confidence": 0.98,
+        "strength": 0.6939,
+        "mentions": 4,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "sap"
+        ]
+      },
+      {
+        "skill": "reporting",
+        "signal": 0.6493,
+        "roadmap_signal": 0.6493,
+        "confidence": 0.86,
+        "strength": 0.6096,
+        "mentions": 1,
+        "contexts": [
+          "general",
+          "project"
+        ],
+        "raw_skills": [
+          "reporting"
+        ]
+      },
+      {
+        "skill": "stored procedures",
+        "signal": 0.6493,
+        "roadmap_signal": 0.6493,
+        "confidence": 0.86,
+        "strength": 0.6096,
+        "mentions": 1,
+        "contexts": [
+          "general",
+          "project"
+        ],
+        "raw_skills": [
+          "stored procedures"
+        ]
+      },
+      {
+        "skill": "abap",
+        "signal": 0.4586,
+        "roadmap_signal": 0.4586,
+        "confidence": 0.86,
+        "strength": 0.4822,
+        "mentions": 1,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "abap"
+        ]
+      },
+      {
+        "skill": "electronics",
+        "signal": 0.4586,
+        "roadmap_signal": 0.4586,
+        "confidence": 0.86,
+        "strength": 0.4822,
+        "mentions": 1,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "electronics"
+        ]
+      },
+      {
+        "skill": "sap abap",
+        "signal": 0.4586,
+        "roadmap_signal": 0.4586,
+        "confidence": 0.86,
+        "strength": 0.4822,
+        "mentions": 1,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "sap abap"
+        ]
+      },
+      {
+        "skill": "sap hana",
+        "signal": 0.4586,
+        "roadmap_signal": 0.4586,
+        "confidence": 0.86,
+        "strength": 0.4822,
+        "mentions": 1,
+        "contexts": [
+          "education",
+          "general"
+        ],
+        "raw_skills": [
+          "sap hana"
+        ]
+      },
+      {
         "skill": "integration",
         "signal": 0.38,
         "roadmap_signal": 0.38,
-        "confidence": 0.98,
-        "strength": 1.0,
-        "mentions": 4,
+        "confidence": 0.9,
+        "strength": 0.8633,
+        "mentions": 2,
         "contexts": [
-          "general",
-          "project",
-          "skills"
+          "experience",
+          "general"
         ],
         "raw_skills": [
           "integration"
         ]
       },
       {
-        "skill": "git",
-        "signal": 0.3558,
-        "roadmap_signal": 0.4099,
-        "confidence": 0.98,
-        "strength": 0.3855,
-        "mentions": 4,
+        "skill": "scalability",
+        "signal": 0.32,
+        "roadmap_signal": 0.3413,
+        "confidence": 0.9,
+        "strength": 0.2733,
+        "mentions": 2,
         "contexts": [
-          "general",
-          "skills"
+          "general"
         ],
         "raw_skills": [
-          "git",
-          "github"
+          "scalability"
         ]
       },
       {
-        "skill": "linux",
-        "signal": 0.3558,
-        "roadmap_signal": 0.3612,
+        "skill": "presentation",
+        "signal": 0.24,
+        "roadmap_signal": 0.24,
         "confidence": 0.86,
-        "strength": 0.3529,
+        "strength": 0.77,
         "mentions": 1,
         "contexts": [
-          "general",
-          "skills"
+          "experience",
+          "general"
         ],
         "raw_skills": [
-          "linux"
+          "presentation"
         ]
       },
       {
-        "skill": "c",
-        "signal": 0.1477,
-        "roadmap_signal": 0.252,
+        "skill": "analytical thinking",
+        "signal": 0.22,
+        "roadmap_signal": 0.22,
+        "confidence": 0.86,
+        "strength": 0.77,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "analytical thinking"
+        ]
+      },
+      {
+        "skill": "problem solving",
+        "signal": 0.22,
+        "roadmap_signal": 0.22,
+        "confidence": 0.86,
+        "strength": 0.77,
+        "mentions": 1,
+        "contexts": [
+          "experience",
+          "general"
+        ],
+        "raw_skills": [
+          "problem solving"
+        ]
+      },
+      {
+        "skill": "accessibility",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "accessibility"
+        ]
+      },
+      {
+        "skill": "numpy",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "numpy"
+        ]
+      },
+      {
+        "skill": "pandas",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "pandas"
+        ]
+      },
+      {
+        "skill": "process automation",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "process automation"
+        ]
+      },
+      {
+        "skill": "python",
+        "signal": 0.1428,
+        "roadmap_signal": 0.307,
+        "confidence": 0.86,
+        "strength": 0.1925,
+        "mentions": 1,
+        "contexts": [
+          "general"
+        ],
+        "raw_skills": [
+          "python"
+        ]
+      },
+      {
+        "skill": "machine learning",
+        "signal": 0.0724,
+        "roadmap_signal": 0.2142,
         "confidence": 0.6,
-        "strength": 0.162,
-        "mentions": 1,
-        "contexts": [
-          "skills"
-        ],
-        "raw_skills": [
-          "c"
-        ]
-      },
-      {
-        "skill": "arduino",
-        "signal": 0.1428,
-        "roadmap_signal": 0.307,
-        "confidence": 0.86,
-        "strength": 0.1925,
+        "strength": 0.108,
         "mentions": 1,
         "contexts": [
           "general"
         ],
         "raw_skills": [
-          "arduino"
+          "artificial intelligence",
+          "machine learning"
         ]
       },
       {
-        "skill": "css",
-        "signal": 0.1428,
-        "roadmap_signal": 0.307,
-        "confidence": 0.86,
-        "strength": 0.1925,
+        "skill": "mongodb",
+        "signal": 0.0724,
+        "roadmap_signal": 0.2142,
+        "confidence": 0.6,
+        "strength": 0.108,
         "mentions": 1,
         "contexts": [
           "general"
         ],
         "raw_skills": [
-          "css"
-        ]
-      },
-      {
-        "skill": "debugging",
-        "signal": 0.1428,
-        "roadmap_signal": 0.307,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "debugging"
-        ]
-      },
-      {
-        "skill": "file systems",
-        "signal": 0.1428,
-        "roadmap_signal": 0.307,
-        "confidence": 0.86,
-        "strength": 0.1925,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "file systems"
-        ]
-      },
-      {
-        "skill": "c++",
-        "signal": 0.0492,
-        "roadmap_signal": 0.0928,
-        "confidence": 0.26,
-        "strength": 0.0851,
-        "mentions": 1,
-        "contexts": [
-          "general"
-        ],
-        "raw_skills": [
-          "c++"
+          "mongodb"
         ]
       }
     ],
     "unmatched_skills": [
       {
-        "raw_skill": "teams",
-        "confidence": 0.9
-      },
-      {
-        "raw_skill": "curiosity",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "refactoring",
-        "confidence": 0.86
-      },
-      {
-        "raw_skill": "robotics",
+        "raw_skill": "database",
         "confidence": 0.86
       },
       {
         "raw_skill": "hypertext transfer protocol secure",
-        "confidence": 0.6
-      },
-      {
-        "raw_skill": "user interface",
         "confidence": 0.6
       }
     ]
@@ -217,94 +394,11 @@
   },
   "top_roles": [
     {
-      "role": "Software Engineer",
-      "score": 0.6464,
-      "base_similarity": 0.654,
-      "prior": 0.84,
-      "prior_scale": 0.952,
-      "level": "entry",
-      "level_bias": 1.0,
-      "core_overlap_boost": 0.06,
-      "missing_core_penalty": 0.031,
-      "missing_core_score_scale": 0.93,
-      "overlap_count": 4,
-      "matched_skills": [
-        "java",
-        "python",
-        "automation",
-        "git",
-        "linux",
-        "debugging",
-        "c",
-        "c++"
-      ],
-      "core_skills_found": [
-        "java",
-        "debugging",
-        "git",
-        "automation"
-      ],
-      "missing_core_skills": [
-        "system design"
-      ],
-      "missing_skills": [
-        "system design",
-        "software architecture",
-        "apis"
-      ],
-      "why_this_role": [
-        "strong coding and debugging alignment",
-        "good fit for general software engineering pathways"
-      ],
-      "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
-    },
-    {
-      "role": "Systems Engineer",
-      "score": 0.5715,
-      "base_similarity": 0.5931,
-      "prior": 0.74,
-      "prior_scale": 0.922,
-      "level": "entry",
-      "level_bias": 1.0,
-      "core_overlap_boost": 0.06,
-      "missing_core_penalty": 0.031,
-      "missing_core_score_scale": 0.93,
-      "overlap_count": 4,
-      "matched_skills": [
-        "java",
-        "python",
-        "automation",
-        "linux",
-        "git",
-        "file systems",
-        "debugging",
-        "c"
-      ],
-      "core_skills_found": [
-        "linux",
-        "automation",
-        "debugging",
-        "file systems"
-      ],
-      "missing_core_skills": [
-        "system design"
-      ],
-      "missing_skills": [
-        "system design",
-        "communication protocols"
-      ],
-      "why_this_role": [
-        "strong systems and automation alignment",
-        "good fit for platform or low-level software work"
-      ],
-      "reason": "strong systems and automation alignment; good fit for platform or low-level software work Strong match because the candidate shows core technical alignment in linux, automation, debugging. You may improve your fit by learning system design."
-    },
-    {
-      "role": "Backend Engineer",
-      "score": 0.1869,
-      "base_similarity": 0.2558,
-      "prior": 0.85,
-      "prior_scale": 0.9167,
+      "role": "BI Developer",
+      "score": 0.1646,
+      "base_similarity": 0.2146,
+      "prior": 0.86,
+      "prior_scale": 0.9193,
       "level": "mid",
       "level_bias": 0.85,
       "core_overlap_boost": 0.0,
@@ -312,33 +406,33 @@
       "missing_core_score_scale": 0.8,
       "overlap_count": 1,
       "matched_skills": [
-        "java",
-        "python",
-        "git"
+        "sql",
+        "excel",
+        "reporting"
       ],
       "core_skills_found": [
-        "java"
-      ],
-      "missing_core_skills": [
-        "apis",
-        "rest api",
-        "system design",
-        "microservices"
-      ],
-      "missing_skills": [
-        "apis",
-        "rest api",
-        "system design",
-        "microservices",
-        "node.js",
         "sql"
       ],
-      "why_this_role": [
-        "strong APIs and database alignment",
-        "good fit for system design and service development"
+      "missing_core_skills": [
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization"
       ],
-      "reason": "strong APIs and database alignment; good fit for system design and service development Strong match because the candidate shows core technical alignment in java. You may improve your fit by learning apis, rest api, system design."
+      "missing_skills": [
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization",
+        "tableau",
+        "analytics"
+      ],
+      "why_this_role": [
+        "strong reporting and dashboard alignment",
+        "good fit for SQL and visualization-heavy work"
+      ],
+      "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
     }
   ],
-  "all_roles_evaluated": 38
+  "all_roles_evaluated": 53
 }

@@ -1,32 +1,125 @@
 {
-  "acceptance testing": {
-    "weight": 5.5079,
-    "raw_weight": 6.1951,
+  "android": {
+    "weight": 6.0943,
+    "raw_weight": 7.0802,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
     ],
     "contexts": [
-      "skills"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Testing",
+    "taxonomy_category": "Mobile",
+    "sub_category": "App Development",
     "skill_type_multiplier": 1.0,
     "source_multiplier": 0.8
   },
-  "agile": {
-    "weight": 7.5891,
-    "raw_weight": 9.9364,
-    "phrase": "required",
-    "phrase_weight": 9.0,
+  "artificial intelligence": {
+    "weight": 6.1728,
+    "raw_weight": 7.2059,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 0.0,
+    "frequency_bonus": 1.585,
+    "mentions": 2,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
+    "confidence": 0.6,
+    "source": [
+      "keyword"
+    ],
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "skill_type_multiplier": 1.2,
+    "source_multiplier": 0.8
+  },
+  "c": {
+    "weight": 6.7271,
+    "raw_weight": 8.1568,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 0.0,
+    "frequency_bonus": 2.3219,
+    "mentions": 4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
+    "confidence": 0.6,
+    "source": [
+      "keyword"
+    ],
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "skill_type_multiplier": 1.2,
+    "source_multiplier": 0.8
+  },
+  "computer graphics": {
+    "weight": 7.5248,
+    "raw_weight": 9.7864,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 2.0,
+    "frequency_bonus": 1.585,
+    "mentions": 2,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
+    "confidence": 0.6,
+    "source": [
+      "keyword"
+    ],
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Scientific Computing",
+    "skill_type_multiplier": 1.2,
+    "source_multiplier": 0.8
+  },
+  "cuda": {
+    "weight": 6.9087,
+    "raw_weight": 8.4962,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 1.0,
+    "frequency_bonus": 1.585,
+    "mentions": 2,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
+    "confidence": 0.6,
+    "source": [
+      "keyword"
+    ],
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "skill_type_multiplier": 1.2,
+    "source_multiplier": 0.8
+  },
+  "deep learning": {
+    "weight": 6.0975,
+    "raw_weight": 7.0853,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 2.3219,
     "mentions": 4,
@@ -40,207 +133,21 @@
       "experience"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
-    "skill_type_multiplier": 1.0,
-    "source_multiplier": 0.8
-  },
-  "airflow": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Data Engineering",
-    "sub_category": "Big Data",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "apis": {
-    "weight": 5.3332,
-    "raw_weight": 5.9477,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 0.0,
-    "frequency_bonus": 2.3219,
-    "mentions": 4,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience",
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "General",
-    "sub_category": "General",
-    "skill_type_multiplier": 1.0,
-    "source_multiplier": 0.8
-  },
-  "artificial intelligence": {
-    "weight": 6.5856,
-    "raw_weight": 7.9027,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 0.0,
-    "frequency_bonus": 3.0,
-    "mentions": 9,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience",
-      "general"
-    ],
-    "category": "hard_skill",
     "taxonomy_category": "Machine Learning",
     "sub_category": "AI",
     "skill_type_multiplier": 1.2,
     "source_multiplier": 0.8
   },
-  "aws": {
-    "weight": 7.4836,
-    "raw_weight": 9.6921,
-    "phrase": "preferred",
-    "phrase_weight": 6.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "azure": {
-    "weight": 7.8274,
-    "raw_weight": 10.5241,
-    "phrase": "preferred",
-    "phrase_weight": 6.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 2.3219,
-    "mentions": 4,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "azure devops": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
+  "large language models": {
+    "weight": 6.9087,
+    "raw_weight": 8.4962,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "collaboration": {
-    "weight": 4.3089,
-    "raw_weight": 4.6099,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 2.0,
-    "frequency_bonus": 1.0,
-    "mentions": 1,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "project"
-    ],
-    "category": "soft_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
-    "skill_type_multiplier": 0.7,
-    "source_multiplier": 0.8
-  },
-  "communication": {
-    "weight": 4.0837,
-    "raw_weight": 4.3366,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "soft_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
-    "skill_type_multiplier": 0.7,
-    "source_multiplier": 0.8
-  },
-  "deep learning": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -254,86 +161,16 @@
     "skill_type_multiplier": 1.2,
     "source_multiplier": 0.8
   },
-  "design patterns": {
-    "weight": 5.5079,
-    "raw_weight": 6.1951,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience",
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
-    "skill_type_multiplier": 1.0,
-    "source_multiplier": 0.8
-  },
-  "devops engineer": {
-    "weight": 6.7865,
-    "raw_weight": 8.2662,
+  "linux": {
+    "weight": 6.5685,
+    "raw_weight": 7.8725,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 2.3219,
     "mentions": 4,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "django": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Backend",
-    "sub_category": "Services",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "docker": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -343,136 +180,21 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "documentation": {
-    "weight": 7.7586,
-    "raw_weight": 10.3488,
-    "phrase": "required",
-    "phrase_weight": 9.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.0,
-    "mentions": 1,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "project"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
+    "taxonomy_category": "Systems",
+    "sub_category": "Infrastructure",
     "skill_type_multiplier": 1.0,
     "source_multiplier": 0.8
   },
-  "fastapi": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
+  "llms": {
+    "weight": 6.9087,
+    "raw_weight": 8.4962,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Backend",
-    "sub_category": "Services",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "flask": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Backend",
-    "sub_category": "Services",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "gcp": {
-    "weight": 7.4836,
-    "raw_weight": 9.6921,
-    "phrase": "preferred",
-    "phrase_weight": 6.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "git": {
-    "weight": 5.5079,
-    "raw_weight": 6.1951,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
-    "skill_type_multiplier": 1.0,
-    "source_multiplier": 0.8
-  },
-  "guardrails": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -486,85 +208,16 @@
     "skill_type_multiplier": 1.2,
     "source_multiplier": 0.8
   },
-  "infrastructure as code": {
-    "weight": 5.5841,
-    "raw_weight": 6.3052,
-    "phrase": "familiarity with",
-    "phrase_weight": 3.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "interpersonal skills": {
-    "weight": 4.0837,
-    "raw_weight": 4.3366,
+  "operating systems": {
+    "weight": 6.0943,
+    "raw_weight": 7.0802,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
-    "skill_type_multiplier": 0.7,
-    "source_multiplier": 0.8
-  },
-  "jira": {
-    "weight": 5.5079,
-    "raw_weight": 6.1951,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
-    "skill_type_multiplier": 1.0,
-    "source_multiplier": 0.8
-  },
-  "kubernetes": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -574,21 +227,44 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
-    "skill_type_multiplier": 1.2,
+    "taxonomy_category": "Systems",
+    "sub_category": "Infrastructure",
+    "skill_type_multiplier": 1.0,
     "source_multiplier": 0.8
   },
-  "lora": {
-    "weight": 5.5079,
-    "raw_weight": 6.1951,
+  "python": {
+    "weight": 5.63,
+    "raw_weight": 6.3721,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 2,
+    "experience_modifier": 1.2,
+    "confidence": 0.6,
+    "source": [
+      "keyword"
+    ],
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "skill_type_multiplier": 1.2,
+    "source_multiplier": 0.8
+  },
+  "signal processing": {
+    "weight": 6.0943,
+    "raw_weight": 7.0802,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 1.0,
+    "frequency_bonus": 1.585,
+    "mentions": 2,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -602,232 +278,23 @@
     "skill_type_multiplier": 1.0,
     "source_multiplier": 0.8
   },
-  "machine learning": {
-    "weight": 7.6826,
-    "raw_weight": 10.1606,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 2.0,
-    "frequency_bonus": 3.0,
-    "mentions": 10,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience",
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Machine Learning",
-    "sub_category": "AI",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "mlops": {
-    "weight": 5.5841,
-    "raw_weight": 6.3052,
-    "phrase": "familiarity with",
-    "phrase_weight": 3.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Machine Learning",
-    "sub_category": "AI",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "optimization": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Data",
-    "sub_category": "Scientific Computing",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "planning": {
-    "weight": 4.3089,
-    "raw_weight": 4.6099,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 2.0,
-    "frequency_bonus": 1.0,
-    "mentions": 1,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
-    "skill_type_multiplier": 0.7,
-    "source_multiplier": 0.8
-  },
-  "python": {
-    "weight": 8.9913,
-    "raw_weight": 14.6765,
-    "phrase": "required",
-    "phrase_weight": 9.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 3.0,
-    "mentions": 8,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience",
-      "general",
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Programming",
-    "sub_category": "Languages",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "pytorch": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Machine Learning",
-    "sub_category": "AI",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "r": {
-    "weight": 5.1129,
-    "raw_weight": 5.6448,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 0.0,
-    "frequency_bonus": 1.0,
-    "mentions": 1,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Programming",
-    "sub_category": "Languages",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "reporting": {
-    "weight": 6.5856,
-    "raw_weight": 7.9027,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 2.0,
-    "frequency_bonus": 1.0,
-    "mentions": 1,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "project"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Data",
-    "sub_category": "Analytics",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
-  "scikit-learn": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
-    "phrase": "unspecified",
-    "phrase_weight": 4.0,
-    "position_bonus": 1.0,
-    "frequency_bonus": 1.585,
-    "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
-    "confidence": 0.6,
-    "source": [
-      "keyword"
-    ],
-    "contexts": [
-      "experience"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Machine Learning",
-    "sub_category": "AI",
-    "skill_type_multiplier": 1.2,
-    "source_multiplier": 0.8
-  },
   "teams": {
-    "weight": 6.676,
-    "raw_weight": 8.064,
-    "phrase": "preferred",
-    "phrase_weight": 6.0,
-    "position_bonus": 2.0,
-    "frequency_bonus": 2.0,
-    "mentions": 3,
-    "experience_years": 2,
-    "experience_modifier": 1.2,
+    "weight": 6.0943,
+    "raw_weight": 7.0802,
+    "phrase": "unspecified",
+    "phrase_weight": 4.0,
+    "position_bonus": 1.0,
+    "frequency_bonus": 1.585,
+    "mentions": 2,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
     ],
     "contexts": [
-      "experience"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Business",
@@ -835,16 +302,16 @@
     "skill_type_multiplier": 1.0,
     "source_multiplier": 0.8
   },
-  "tensorflow": {
-    "weight": 6.312,
-    "raw_weight": 7.4342,
+  "tensorrt": {
+    "weight": 6.9087,
+    "raw_weight": 8.4962,
     "phrase": "unspecified",
     "phrase_weight": 4.0,
     "position_bonus": 1.0,
     "frequency_bonus": 1.585,
     "mentions": 2,
-    "experience_years": 4,
-    "experience_modifier": 1.4,
+    "experience_years": 25,
+    "experience_modifier": 1.6,
     "confidence": 0.6,
     "source": [
       "keyword"
@@ -860,7 +327,7 @@
   },
   "__meta__": {
     "input_text": "output/jd/module_3/jd_resulting_text.txt",
-    "skills_count": 37,
+    "skills_count": 14,
     "formula": "((phrase_weight + position_bonus + frequency_bonus) * experience_modifier * skill_type_multiplier) * source_multiplier * confidence_factor",
     "confidence_fusion": "0.6*keyword_confidence + 0.4*semantic_confidence",
     "normalization": "10 * tanh(weight/10)",
@@ -876,10 +343,10 @@
       "familiarity with": 3.0
     },
     "jd_level_profile": {
-      "global_experience_years": 4,
+      "global_experience_years": 25,
       "jd_level": "senior",
       "jd_level_rank": 2,
-      "reason": "Detected about 4 years of experience in JD text."
+      "reason": "Detected about 25 years of experience in JD text."
     }
   }
 }

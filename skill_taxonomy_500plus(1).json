@@ -19389,22 +19389,2982 @@
         }
       ],
       "aliases": []
+    },
+    {
+      "canonical_skill": "thermodynamics",
+      "category": "Mechanical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "thermodynamics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "fluid mechanics",
+      "category": "Mechanical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "fluid"
+        },
+        {
+          "LOWER": "mechanics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "heat transfer",
+      "category": "Mechanical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "heat"
+        },
+        {
+          "LOWER": "transfer"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "machine design",
+      "category": "Mechanical Engineering",
+      "subcategory": "Design and Analysis",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "machine"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "finite element analysis",
+      "category": "Mechanical Engineering",
+      "subcategory": "Design and Analysis",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "finite"
+        },
+        {
+          "LOWER": "element"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": [
+        "fea"
+      ]
+    },
+    {
+      "canonical_skill": "computational fluid dynamics",
+      "category": "Mechanical Engineering",
+      "subcategory": "Design and Analysis",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "computational"
+        },
+        {
+          "LOWER": "fluid"
+        },
+        {
+          "LOWER": "dynamics"
+        }
+      ],
+      "aliases": [
+        "cfd"
+      ]
+    },
+    {
+      "canonical_skill": "geometric dimensioning and tolerancing",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "geometric"
+        },
+        {
+          "LOWER": "dimensioning"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "tolerancing"
+        }
+      ],
+      "aliases": [
+        "gd&t",
+        "gdt"
+      ]
+    },
+    {
+      "canonical_skill": "design for manufacturability",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "design"
+        },
+        {
+          "LOWER": "for"
+        },
+        {
+          "LOWER": "manufacturability"
+        }
+      ],
+      "aliases": [
+        "dfm"
+      ]
+    },
+    {
+      "canonical_skill": "computer aided manufacturing",
+      "category": "Mechanical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "computer"
+        },
+        {
+          "LOWER": "aided"
+        },
+        {
+          "LOWER": "manufacturing"
+        }
+      ],
+      "aliases": [
+        "cam"
+      ]
+    },
+    {
+      "canonical_skill": "cnc machining",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "cnc"
+        },
+        {
+          "LOWER": "machining"
+        }
+      ],
+      "aliases": [
+        "computer numerical control machining",
+        "cnc"
+      ]
+    },
+    {
+      "canonical_skill": "non destructive testing",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "non"
+        },
+        {
+          "LOWER": "destructive"
+        },
+        {
+          "LOWER": "testing"
+        }
+      ],
+      "aliases": [
+        "ndt",
+        "nondestructive testing"
+      ]
+    },
+    {
+      "canonical_skill": "power system analysis",
+      "category": "Electrical Engineering",
+      "subcategory": "Power Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "power"
+        },
+        {
+          "LOWER": "system"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "power system protection",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "power"
+        },
+        {
+          "LOWER": "system"
+        },
+        {
+          "LOWER": "protection"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "relay coordination studies",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "relay"
+        },
+        {
+          "LOWER": "coordination"
+        },
+        {
+          "LOWER": "studies"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "electrical load flow analysis",
+      "category": "Electrical Engineering",
+      "subcategory": "Power Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electrical"
+        },
+        {
+          "LOWER": "load"
+        },
+        {
+          "LOWER": "flow"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "substation design",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "substation"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "high voltage engineering",
+      "category": "Electrical Engineering",
+      "subcategory": "Power Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "high"
+        },
+        {
+          "LOWER": "voltage"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "electric machine design",
+      "category": "Electrical Engineering",
+      "subcategory": "Machines and Drives",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electric"
+        },
+        {
+          "LOWER": "machine"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "battery management systems",
+      "category": "Electrical Engineering",
+      "subcategory": "Energy Storage",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "battery"
+        },
+        {
+          "LOWER": "management"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": [
+        "bms"
+      ]
+    },
+    {
+      "canonical_skill": "variable frequency drives",
+      "category": "Electrical Engineering",
+      "subcategory": "Machines and Drives",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "variable"
+        },
+        {
+          "LOWER": "frequency"
+        },
+        {
+          "LOWER": "drives"
+        }
+      ],
+      "aliases": [
+        "vfd",
+        "vfds"
+      ]
+    },
+    {
+      "canonical_skill": "electrical wiring design",
+      "category": "Electrical Engineering",
+      "subcategory": "Building Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electrical"
+        },
+        {
+          "LOWER": "wiring"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "etap",
+      "category": "Electrical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "etap"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "analog circuit design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Circuit Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "analog"
+        },
+        {
+          "LOWER": "circuit"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "digital signal processing",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "digital"
+        },
+        {
+          "LOWER": "signal"
+        },
+        {
+          "LOWER": "processing"
+        }
+      ],
+      "aliases": [
+        "dsp"
+      ]
+    },
+    {
+      "canonical_skill": "wireless communication systems",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "wireless"
+        },
+        {
+          "LOWER": "communication"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "rf circuit design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "rf"
+        },
+        {
+          "LOWER": "circuit"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": [
+        "radio frequency circuit design"
+      ]
+    },
+    {
+      "canonical_skill": "antenna design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "antenna"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "pcb layout design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "PCB and Hardware",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "pcb"
+        },
+        {
+          "LOWER": "layout"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": [
+        "pcb layout"
+      ]
+    },
+    {
+      "canonical_skill": "electromagnetic compatibility testing",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Testing and Validation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electromagnetic"
+        },
+        {
+          "LOWER": "compatibility"
+        },
+        {
+          "LOWER": "testing"
+        }
+      ],
+      "aliases": [
+        "emc testing",
+        "electromagnetic compatibility"
+      ]
+    },
+    {
+      "canonical_skill": "signal integrity analysis",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Testing and Validation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "signal"
+        },
+        {
+          "LOWER": "integrity"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "vlsi physical design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Semiconductor Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "vlsi"
+        },
+        {
+          "LOWER": "physical"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "embedded firmware development",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Embedded Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "embedded"
+        },
+        {
+          "LOWER": "firmware"
+        },
+        {
+          "LOWER": "development"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "pspice",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "pspice"
+        }
+      ],
+      "aliases": [
+        "p-spice"
+      ]
+    },
+    {
+      "canonical_skill": "structural analysis",
+      "category": "Civil Engineering",
+      "subcategory": "Structural Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "structural"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "reinforced concrete design",
+      "category": "Civil Engineering",
+      "subcategory": "Structural Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "reinforced"
+        },
+        {
+          "LOWER": "concrete"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": [
+        "rc design"
+      ]
+    },
+    {
+      "canonical_skill": "steel structure design",
+      "category": "Civil Engineering",
+      "subcategory": "Structural Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "steel"
+        },
+        {
+          "LOWER": "structure"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "geotechnical engineering",
+      "category": "Civil Engineering",
+      "subcategory": "Geotechnical Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "geotechnical"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "foundation design",
+      "category": "Civil Engineering",
+      "subcategory": "Geotechnical Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "foundation"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "surveying and leveling",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "surveying"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "leveling"
+        }
+      ],
+      "aliases": [
+        "surveying and levelling"
+      ]
+    },
+    {
+      "canonical_skill": "building information modeling",
+      "category": "Civil Engineering",
+      "subcategory": "Digital Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "building"
+        },
+        {
+          "LOWER": "information"
+        },
+        {
+          "LOWER": "modeling"
+        }
+      ],
+      "aliases": [
+        "bim"
+      ]
+    },
+    {
+      "canonical_skill": "construction project scheduling",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "construction"
+        },
+        {
+          "LOWER": "project"
+        },
+        {
+          "LOWER": "scheduling"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "hydrology and hydraulics",
+      "category": "Civil Engineering",
+      "subcategory": "Water Resources",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "hydrology"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "hydraulics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "stormwater management",
+      "category": "Civil Engineering",
+      "subcategory": "Water Resources",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "stormwater"
+        },
+        {
+          "LOWER": "management"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "staad pro",
+      "category": "Civil Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "staad"
+        },
+        {
+          "LOWER": "pro"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "primavera p6",
+      "category": "Civil Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "primavera"
+        },
+        {
+          "LOWER": "p6"
+        }
+      ],
+      "aliases": [
+        "primavera"
+      ]
+    },
+    {
+      "canonical_skill": "mass transfer operations",
+      "category": "Chemical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "mass"
+        },
+        {
+          "LOWER": "transfer"
+        },
+        {
+          "LOWER": "operations"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "unit operations design",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "unit"
+        },
+        {
+          "LOWER": "operations"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "chemical reaction engineering",
+      "category": "Chemical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "chemical"
+        },
+        {
+          "LOWER": "reaction"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process simulation",
+      "category": "Chemical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "simulation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process flow diagrams",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "flow"
+        },
+        {
+          "LOWER": "diagrams"
+        }
+      ],
+      "aliases": [
+        "pfd"
+      ]
+    },
+    {
+      "canonical_skill": "piping and instrumentation diagrams",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "piping"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "instrumentation"
+        },
+        {
+          "LOWER": "diagrams"
+        }
+      ],
+      "aliases": [
+        "p&id"
+      ]
+    },
+    {
+      "canonical_skill": "distillation column design",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "distillation"
+        },
+        {
+          "LOWER": "column"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process safety management",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Safety",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "safety"
+        },
+        {
+          "LOWER": "management"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "hazard and operability study",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Safety",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "hazard"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "operability"
+        },
+        {
+          "LOWER": "study"
+        }
+      ],
+      "aliases": [
+        "hazop"
+      ]
+    },
+    {
+      "canonical_skill": "wastewater treatment processes",
+      "category": "Chemical Engineering",
+      "subcategory": "Environmental Applications",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "wastewater"
+        },
+        {
+          "LOWER": "treatment"
+        },
+        {
+          "LOWER": "processes"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "aspen hysys",
+      "category": "Chemical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aspen"
+        },
+        {
+          "LOWER": "hysys"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "aerodynamics analysis",
+      "category": "Aerospace Engineering",
+      "subcategory": "Aerodynamics and Flight",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aerodynamics"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "aircraft structures",
+      "category": "Aerospace Engineering",
+      "subcategory": "Aerodynamics and Flight",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aircraft"
+        },
+        {
+          "LOWER": "structures"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "flight mechanics",
+      "category": "Aerospace Engineering",
+      "subcategory": "Aerodynamics and Flight",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "flight"
+        },
+        {
+          "LOWER": "mechanics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "propulsion systems engineering",
+      "category": "Aerospace Engineering",
+      "subcategory": "Propulsion",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "propulsion"
+        },
+        {
+          "LOWER": "systems"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "gas turbine engines",
+      "category": "Aerospace Engineering",
+      "subcategory": "Propulsion",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "gas"
+        },
+        {
+          "LOWER": "turbine"
+        },
+        {
+          "LOWER": "engines"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "flight control systems",
+      "category": "Aerospace Engineering",
+      "subcategory": "Avionics and Control",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "flight"
+        },
+        {
+          "LOWER": "control"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "orbital mechanics",
+      "category": "Aerospace Engineering",
+      "subcategory": "Space Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "orbital"
+        },
+        {
+          "LOWER": "mechanics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "spacecraft systems engineering",
+      "category": "Aerospace Engineering",
+      "subcategory": "Space Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "spacecraft"
+        },
+        {
+          "LOWER": "systems"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "avionics integration",
+      "category": "Aerospace Engineering",
+      "subcategory": "Avionics and Control",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "avionics"
+        },
+        {
+          "LOWER": "integration"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "composite airframe structures",
+      "category": "Aerospace Engineering",
+      "subcategory": "Aerodynamics and Flight",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "composite"
+        },
+        {
+          "LOWER": "airframe"
+        },
+        {
+          "LOWER": "structures"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "wind tunnel testing",
+      "category": "Aerospace Engineering",
+      "subcategory": "Testing and Validation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "wind"
+        },
+        {
+          "LOWER": "tunnel"
+        },
+        {
+          "LOWER": "testing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "biomedical instrumentation",
+      "category": "Biomedical Engineering",
+      "subcategory": "Medical Devices",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "biomedical"
+        },
+        {
+          "LOWER": "instrumentation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "medical device design",
+      "category": "Biomedical Engineering",
+      "subcategory": "Medical Devices",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "medical"
+        },
+        {
+          "LOWER": "device"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "biomaterials engineering",
+      "category": "Biomedical Engineering",
+      "subcategory": "Biomaterials and Tissue",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "biomaterials"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "tissue engineering",
+      "category": "Biomedical Engineering",
+      "subcategory": "Biomaterials and Tissue",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "tissue"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "biomedical signal processing",
+      "category": "Biomedical Engineering",
+      "subcategory": "Imaging and Signals",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "biomedical"
+        },
+        {
+          "LOWER": "signal"
+        },
+        {
+          "LOWER": "processing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "medical image processing",
+      "category": "Biomedical Engineering",
+      "subcategory": "Imaging and Signals",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "medical"
+        },
+        {
+          "LOWER": "image"
+        },
+        {
+          "LOWER": "processing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "rehabilitation engineering",
+      "category": "Biomedical Engineering",
+      "subcategory": "Medical Devices",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "rehabilitation"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "clinical engineering",
+      "category": "Biomedical Engineering",
+      "subcategory": "Clinical and Regulatory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "clinical"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "medical device regulatory compliance",
+      "category": "Biomedical Engineering",
+      "subcategory": "Clinical and Regulatory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "medical"
+        },
+        {
+          "LOWER": "device"
+        },
+        {
+          "LOWER": "regulatory"
+        },
+        {
+          "LOWER": "compliance"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "design controls for medical devices",
+      "category": "Biomedical Engineering",
+      "subcategory": "Clinical and Regulatory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "design"
+        },
+        {
+          "LOWER": "controls"
+        },
+        {
+          "LOWER": "for"
+        },
+        {
+          "LOWER": "medical"
+        },
+        {
+          "LOWER": "devices"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "iso 13485",
+      "category": "Biomedical Engineering",
+      "subcategory": "Clinical and Regulatory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "iso"
+        },
+        {
+          "LOWER": "13485"
+        }
+      ],
+      "aliases": [
+        "iso13485"
+      ]
+    },
+    {
+      "canonical_skill": "production planning and control",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "production"
+        },
+        {
+          "LOWER": "planning"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "control"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "supply chain optimization",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "supply"
+        },
+        {
+          "LOWER": "chain"
+        },
+        {
+          "LOWER": "optimization"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "lean manufacturing",
+      "category": "Industrial Engineering",
+      "subcategory": "Manufacturing Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "lean"
+        },
+        {
+          "LOWER": "manufacturing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "statistical process control",
+      "category": "Industrial Engineering",
+      "subcategory": "Quality and Reliability",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "statistical"
+        },
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "control"
+        }
+      ],
+      "aliases": [
+        "spc"
+      ]
+    },
+    {
+      "canonical_skill": "failure mode and effects analysis",
+      "category": "Industrial Engineering",
+      "subcategory": "Quality and Reliability",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "failure"
+        },
+        {
+          "LOWER": "mode"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "effects"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": [
+        "fmea"
+      ]
+    },
+    {
+      "canonical_skill": "total productive maintenance",
+      "category": "Industrial Engineering",
+      "subcategory": "Manufacturing Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "total"
+        },
+        {
+          "LOWER": "productive"
+        },
+        {
+          "LOWER": "maintenance"
+        }
+      ],
+      "aliases": [
+        "tpm"
+      ]
+    },
+    {
+      "canonical_skill": "facility layout planning",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "facility"
+        },
+        {
+          "LOWER": "layout"
+        },
+        {
+          "LOWER": "planning"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "time and motion study",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "time"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "motion"
+        },
+        {
+          "LOWER": "study"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "discrete event simulation",
+      "category": "Industrial Engineering",
+      "subcategory": "Simulation and Optimization",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "discrete"
+        },
+        {
+          "LOWER": "event"
+        },
+        {
+          "LOWER": "simulation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "ergonomic workplace design",
+      "category": "Industrial Engineering",
+      "subcategory": "Ergonomics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "ergonomic"
+        },
+        {
+          "LOWER": "workplace"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "value stream mapping",
+      "category": "Industrial Engineering",
+      "subcategory": "Manufacturing Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "value"
+        },
+        {
+          "LOWER": "stream"
+        },
+        {
+          "LOWER": "mapping"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "robot kinematics",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "robot"
+        },
+        {
+          "LOWER": "kinematics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "robot dynamics",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "robot"
+        },
+        {
+          "LOWER": "dynamics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "motion planning",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "motion"
+        },
+        {
+          "LOWER": "planning"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "robotic manipulation",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "robotic"
+        },
+        {
+          "LOWER": "manipulation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "machine vision integration",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Perception",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "machine"
+        },
+        {
+          "LOWER": "vision"
+        },
+        {
+          "LOWER": "integration"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "sensor fusion",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Perception",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "sensor"
+        },
+        {
+          "LOWER": "fusion"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "servo drive tuning",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Control and Automation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "servo"
+        },
+        {
+          "LOWER": "drive"
+        },
+        {
+          "LOWER": "tuning"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "industrial robot programming",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Control and Automation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "industrial"
+        },
+        {
+          "LOWER": "robot"
+        },
+        {
+          "LOWER": "programming"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "autonomous mobile robots",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Autonomous Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "autonomous"
+        },
+        {
+          "LOWER": "mobile"
+        },
+        {
+          "LOWER": "robots"
+        }
+      ],
+      "aliases": [
+        "amr"
+      ]
+    },
+    {
+      "canonical_skill": "robot operating system",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Middleware and Integration",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "robot"
+        },
+        {
+          "LOWER": "operating"
+        },
+        {
+          "LOWER": "system"
+        }
+      ],
+      "aliases": [
+        "ros"
+      ]
+    },
+    {
+      "canonical_skill": "simulink",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "simulink"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "actuators",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Control and Automation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "actuators"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "aerodynamics",
+      "category": "Aerospace Engineering",
+      "subcategory": "Aerodynamics and Flight",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aerodynamics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "air quality",
+      "category": "Environmental Engineering",
+      "subcategory": "Environmental Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "air"
+        },
+        {
+          "LOWER": "quality"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "ansys",
+      "category": "Mechanical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "ansys"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "aspen plus",
+      "category": "Chemical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aspen"
+        },
+        {
+          "LOWER": "plus"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "automotive systems",
+      "category": "Automotive Engineering",
+      "subcategory": "Vehicle Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "automotive"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "biocompatibility",
+      "category": "Biomedical Engineering",
+      "subcategory": "Biomaterials and Tissue",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "biocompatibility"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "cad",
+      "category": "Mechanical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "cad"
+        }
+      ],
+      "aliases": [
+        "computer aided design",
+        "computer-aided design"
+      ]
+    },
+    {
+      "canonical_skill": "catia",
+      "category": "Mechanical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "catia"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "chemcad",
+      "category": "Chemical Engineering",
+      "subcategory": "Tools and Simulation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "chemcad"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "circuit design",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Circuit and Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "circuit"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "cnc programming",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "cnc"
+        },
+        {
+          "LOWER": "programming"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "communication systems",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Circuit and Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "communication"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "composites",
+      "category": "Materials Engineering",
+      "subcategory": "Materials Classes",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "composites"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "construction management",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "construction"
+        },
+        {
+          "LOWER": "management"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "corrosion engineering",
+      "category": "Materials Engineering",
+      "subcategory": "Failure and Reliability",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "corrosion"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "electrical design",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electrical"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "environmental compliance",
+      "category": "Environmental Engineering",
+      "subcategory": "Environmental Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "environmental"
+        },
+        {
+          "LOWER": "compliance"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "environmental impact assessment",
+      "category": "Environmental Engineering",
+      "subcategory": "Environmental Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "environmental"
+        },
+        {
+          "LOWER": "impact"
+        },
+        {
+          "LOWER": "assessment"
+        }
+      ],
+      "aliases": [
+        "eia"
+      ]
+    },
+    {
+      "canonical_skill": "estimation and costing",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "estimation"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "costing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "failure analysis",
+      "category": "Materials Engineering",
+      "subcategory": "Failure and Reliability",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "failure"
+        },
+        {
+          "LOWER": "analysis"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "grid integration",
+      "category": "Electrical Engineering",
+      "subcategory": "Power Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "grid"
+        },
+        {
+          "LOWER": "integration"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "heat treatment",
+      "category": "Materials Engineering",
+      "subcategory": "Processing and Treatment",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "heat"
+        },
+        {
+          "LOWER": "treatment"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "industrial automation",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Control and Automation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "industrial"
+        },
+        {
+          "LOWER": "automation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "instrumentation",
+      "category": "Electrical Engineering",
+      "subcategory": "Control and Instrumentation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "instrumentation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "kinematics",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "kinematics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "manufacturing",
+      "category": "Mechanical Engineering",
+      "subcategory": "Manufacturing and Quality",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "manufacturing"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "mass transfer",
+      "category": "Chemical Engineering",
+      "subcategory": "Core Theory",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "mass"
+        },
+        {
+          "LOWER": "transfer"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "materials characterization",
+      "category": "Materials Engineering",
+      "subcategory": "Characterization",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "materials"
+        },
+        {
+          "LOWER": "characterization"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "materials selection",
+      "category": "Materials Engineering",
+      "subcategory": "Materials Selection",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "materials"
+        },
+        {
+          "LOWER": "selection"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "mechanical design",
+      "category": "Mechanical Engineering",
+      "subcategory": "Design and Analysis",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "mechanical"
+        },
+        {
+          "LOWER": "design"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "medical devices",
+      "category": "Biomedical Engineering",
+      "subcategory": "Medical Devices",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "medical"
+        },
+        {
+          "LOWER": "devices"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "metallurgy",
+      "category": "Materials Engineering",
+      "subcategory": "Materials Classes",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "metallurgy"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "microscopy",
+      "category": "Materials Engineering",
+      "subcategory": "Characterization",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "microscopy"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "path planning",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Robotics",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "path"
+        },
+        {
+          "LOWER": "planning"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "plc",
+      "category": "Mechatronics and Robotics",
+      "subcategory": "Control and Automation",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "plc"
+        }
+      ],
+      "aliases": [
+        "programmable logic controller",
+        "programmable logic controllers"
+      ]
+    },
+    {
+      "canonical_skill": "polymers",
+      "category": "Materials Engineering",
+      "subcategory": "Materials Classes",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "polymers"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "power systems",
+      "category": "Electrical Engineering",
+      "subcategory": "Power Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "power"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "powertrain",
+      "category": "Automotive Engineering",
+      "subcategory": "Vehicle Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "powertrain"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process control",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "control"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process engineering",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "process optimization",
+      "category": "Industrial Engineering",
+      "subcategory": "Simulation and Optimization",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "process"
+        },
+        {
+          "LOWER": "optimization"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "product lifecycle management",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "product"
+        },
+        {
+          "LOWER": "lifecycle"
+        },
+        {
+          "LOWER": "management"
+        }
+      ],
+      "aliases": [
+        "plm"
+      ]
+    },
+    {
+      "canonical_skill": "production planning",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "production"
+        },
+        {
+          "LOWER": "planning"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "project scheduling",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "project"
+        },
+        {
+          "LOWER": "scheduling"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "propulsion",
+      "category": "Aerospace Engineering",
+      "subcategory": "Propulsion",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "propulsion"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "protection systems",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "protection"
+        },
+        {
+          "LOWER": "systems"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "quality control",
+      "category": "Industrial Engineering",
+      "subcategory": "Quality and Reliability",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "quality"
+        },
+        {
+          "LOWER": "control"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "relay coordination",
+      "category": "Electrical Engineering",
+      "subcategory": "Protection and Design",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "relay"
+        },
+        {
+          "LOWER": "coordination"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "remediation",
+      "category": "Environmental Engineering",
+      "subcategory": "Environmental Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "remediation"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "renewable energy",
+      "category": "Environmental Engineering",
+      "subcategory": "Sustainable Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "renewable"
+        },
+        {
+          "LOWER": "energy"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "safety engineering",
+      "category": "Chemical Engineering",
+      "subcategory": "Process Safety",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "safety"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "supply chain",
+      "category": "Industrial Engineering",
+      "subcategory": "Operations and Planning",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "supply"
+        },
+        {
+          "LOWER": "chain"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "surveying",
+      "category": "Civil Engineering",
+      "subcategory": "Construction Management",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "surveying"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "sustainability",
+      "category": "Environmental Engineering",
+      "subcategory": "Sustainable Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "sustainability"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "transportation engineering",
+      "category": "Civil Engineering",
+      "subcategory": "Transportation Engineering",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "transportation"
+        },
+        {
+          "LOWER": "engineering"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "vehicle dynamics",
+      "category": "Automotive Engineering",
+      "subcategory": "Vehicle Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "vehicle"
+        },
+        {
+          "LOWER": "dynamics"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "vlsi",
+      "category": "Electronics and Communication Engineering",
+      "subcategory": "Circuit and Communication Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "vlsi"
+        }
+      ],
+      "aliases": [
+        "very large scale integration"
+      ]
+    },
+    {
+      "canonical_skill": "waste management",
+      "category": "Environmental Engineering",
+      "subcategory": "Environmental Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "waste"
+        },
+        {
+          "LOWER": "management"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "wastewater treatment",
+      "category": "Environmental Engineering",
+      "subcategory": "Treatment Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "wastewater"
+        },
+        {
+          "LOWER": "treatment"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "water treatment",
+      "category": "Environmental Engineering",
+      "subcategory": "Treatment Systems",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "water"
+        },
+        {
+          "LOWER": "treatment"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "canonical_skill": "software engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "software"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "swe",
+        "software developer"
+      ]
+    },
+    {
+      "canonical_skill": "systems engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "systems"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "systems software engineer"
+      ]
+    },
+    {
+      "canonical_skill": "mechanical engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "mechanical"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "mechanical design engineer"
+      ]
+    },
+    {
+      "canonical_skill": "electrical engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electrical"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "electrical design engineer"
+      ]
+    },
+    {
+      "canonical_skill": "electronics and communication engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "electronics"
+        },
+        {
+          "LOWER": "and"
+        },
+        {
+          "LOWER": "communication"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "ece engineer",
+        "electronics engineer"
+      ]
+    },
+    {
+      "canonical_skill": "civil engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "civil"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "construction engineer"
+      ]
+    },
+    {
+      "canonical_skill": "chemical engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "chemical"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "process design engineer"
+      ]
+    },
+    {
+      "canonical_skill": "aerospace engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "aerospace"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "aeronautical engineer"
+      ]
+    },
+    {
+      "canonical_skill": "biomedical engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "biomedical"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "medical device engineer"
+      ]
+    },
+    {
+      "canonical_skill": "mechatronics engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "mechatronics"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "automation engineer"
+      ]
+    },
+    {
+      "canonical_skill": "industrial engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "industrial"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "operations engineer"
+      ]
+    },
+    {
+      "canonical_skill": "environmental engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "environmental"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "sustainability engineer"
+      ]
+    },
+    {
+      "canonical_skill": "robotics engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "robotics"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "robot engineer"
+      ]
+    },
+    {
+      "canonical_skill": "automotive engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "automotive"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "vehicle systems engineer"
+      ]
+    },
+    {
+      "canonical_skill": "materials engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "materials"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "metallurgical engineer"
+      ]
+    },
+    {
+      "canonical_skill": "manufacturing engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "manufacturing"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "production engineer"
+      ]
+    },
+    {
+      "canonical_skill": "power systems engineer",
+      "category": "Roles",
+      "subcategory": "Technical",
+      "priority": 1,
+      "pattern": [
+        {
+          "LOWER": "power"
+        },
+        {
+          "LOWER": "systems"
+        },
+        {
+          "LOWER": "engineer"
+        }
+      ],
+      "aliases": [
+        "power engineer"
+      ]
     }
   ],
   "stats": {
-    "skill_count": 1382,
+    "skill_count": 1560,
     "alias_count": 46,
     "categories": [
+      "Aerospace Engineering",
+      "Automotive Engineering",
       "Backend",
+      "Biomedical Engineering",
       "Business",
+      "Chemical Engineering",
+      "Civil Engineering",
       "Cloud",
       "Data",
       "Data Engineering",
       "Design",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
       "Emerging",
+      "Environmental Engineering",
       "Frontend",
       "Hardware",
+      "Industrial Engineering",
       "Machine Learning",
+      "Materials Engineering",
+      "Mechanical Engineering",
+      "Mechatronics and Robotics",
       "Mobile",
       "Product",
       "Programming",

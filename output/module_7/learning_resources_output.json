@@ -1,72 +1,195 @@
 {
   "__meta__": {
     "jd_item_count": 7,
-    "profession_track_count": 3,
-    "resource_override_count": 43,
+    "profession_track_count": 1,
+    "resource_override_count": 1711,
     "minimum_named_resources_per_skill": 2,
     "maximum_named_resources_per_skill": 3
   },
-  "candidate_best_fit_role": "Software Engineer",
-  "target_jd_role": "Machine Learning Engineer",
-  "recommended_track_type": "profession_mapping",
+  "candidate_best_fit_role": "BI Developer",
+  "target_jd_role": null,
+  "recommended_track_type": "jd_requirement",
   "jd_requirement_resources": {
-    "title": "JD Gap Roadmap: Machine Learning Engineer",
+    "title": "JD Gap Roadmap",
     "track_type": "jd_requirement",
-    "target_role": "Machine Learning Engineer",
-    "candidate_best_fit_role": "Software Engineer",
-    "target_jd_role": "Machine Learning Engineer",
+    "target_role": null,
+    "candidate_best_fit_role": "BI Developer",
+    "target_jd_role": null,
     "top_role": {
-      "role": "Software Engineer",
-      "score": 0.6464,
-      "base_similarity": 0.654,
-      "prior": 0.84,
-      "prior_scale": 0.952,
-      "level": "entry",
-      "level_bias": 1.0,
-      "core_overlap_boost": 0.06,
-      "missing_core_penalty": 0.031,
-      "missing_core_score_scale": 0.93,
-      "overlap_count": 4,
+      "role": "BI Developer",
+      "score": 0.1646,
+      "base_similarity": 0.2146,
+      "prior": 0.86,
+      "prior_scale": 0.9193,
+      "level": "mid",
+      "level_bias": 0.85,
+      "core_overlap_boost": 0.0,
+      "missing_core_penalty": 0.124,
+      "missing_core_score_scale": 0.8,
+      "overlap_count": 1,
       "matched_skills": [
-        "java",
-        "python",
-        "automation",
-        "git",
-        "linux",
-        "debugging",
-        "c",
-        "c++"
+        "sql",
+        "excel",
+        "reporting"
       ],
       "core_skills_found": [
-        "java",
-        "debugging",
-        "git",
-        "automation"
+        "sql"
       ],
       "missing_core_skills": [
-        "system design"
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization"
       ],
       "missing_skills": [
-        "system design",
-        "software architecture",
-        "apis"
+        "business intelligence",
+        "power bi",
+        "dashboarding",
+        "data visualization",
+        "tableau",
+        "analytics"
       ],
       "why_this_role": [
-        "strong coding and debugging alignment",
-        "good fit for general software engineering pathways"
+        "strong reporting and dashboard alignment",
+        "good fit for SQL and visualization-heavy work"
       ],
-      "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+      "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
     },
     "next_steps": [
       "machine learning",
-      "apis"
+      "statistics"
     ],
     "items": [
       {
-        "skill": "machine learning",
+        "skill": "python",
         "phase": "Phase 1",
-        "priority": 254.4313,
-        "reason": "direct JD gap is high; prerequisite for deep learning, mlops; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "priority": 145.2732,
+        "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+        "difficulty": 0.3348,
+        "dependency_weight": 3.0,
+        "resources": [
+          {
+            "title": "Python Official Tutorial",
+            "type": "reference",
+            "level": "beginner"
+          },
+          {
+            "title": "Automate the Boring Stuff with Python",
+            "type": "course",
+            "level": "beginner"
+          }
+        ],
+        "resource_source": "module7_static_json",
+        "resource_sources": [
+          "module7_static_json"
+        ],
+        "fallback_used": false
+      },
+      {
+        "skill": "statistics",
+        "phase": "Phase 1",
+        "priority": 72.4433,
+        "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "difficulty": 0.6266,
+        "dependency_weight": 2.0,
+        "resources": [
+          {
+            "title": "Khan Academy Statistics and Probability",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "StatQuest Statistics Fundamentals",
+            "type": "video",
+            "level": "beginner"
+          }
+        ],
+        "resource_source": "module7_static_json",
+        "resource_sources": [
+          "module7_static_json"
+        ],
+        "fallback_used": false
+      },
+      {
+        "skill": "computer graphics",
+        "phase": "Phase 1",
+        "priority": 38.4256,
+        "reason": "direct JD gap is high; JD importance is strong",
+        "difficulty": 1.0,
+        "dependency_weight": 1.0,
+        "resources": [
+          {
+            "title": "Computer Graphics Learning Path",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "Computer Graphics Hands-on Practice",
+            "type": "practice",
+            "level": "beginner"
+          }
+        ],
+        "resource_source": "module7_static_json",
+        "resource_sources": [
+          "module7_static_json"
+        ],
+        "fallback_used": false
+      },
+      {
+        "skill": "cuda",
+        "phase": "Phase 1",
+        "priority": 32.391,
+        "reason": "direct JD gap is high; JD importance is strong",
+        "difficulty": 1.0,
+        "dependency_weight": 1.0,
+        "resources": [
+          {
+            "title": "CUDA Documentation",
+            "type": "reference",
+            "level": "beginner"
+          },
+          {
+            "title": "CUDA Guided Practice",
+            "type": "practice",
+            "level": "beginner"
+          }
+        ],
+        "resource_source": "module7_static_json",
+        "resource_sources": [
+          "module7_static_json"
+        ],
+        "fallback_used": false
+      },
+      {
+        "skill": "large language models",
+        "phase": "Phase 1",
+        "priority": 32.391,
+        "reason": "direct JD gap is high; JD importance is strong",
+        "difficulty": 1.0,
+        "dependency_weight": 1.0,
+        "resources": [
+          {
+            "title": "Large Language Models Learning Path",
+            "type": "course",
+            "level": "beginner"
+          },
+          {
+            "title": "Large Language Models Hands-on Practice",
+            "type": "practice",
+            "level": "beginner"
+          }
+        ],
+        "resource_source": "module7_static_json",
+        "resource_sources": [
+          "module7_static_json"
+        ],
+        "fallback_used": false
+      },
+      {
+        "skill": "machine learning",
+        "phase": "Phase 2",
+        "priority": 155.5301,
+        "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
         "difficulty": 0.5442,
         "dependency_weight": 3.0,
         "resources": [
@@ -88,35 +211,10 @@
         "fallback_used": false
       },
       {
-        "skill": "apis",
-        "phase": "Phase 1",
-        "priority": 74.7369,
-        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-        "difficulty": 0.4682,
-        "dependency_weight": 2.0,
-        "resources": [
-          {
-            "title": "Postman API Fundamentals Student Expert",
-            "type": "course",
-            "level": "beginner"
-          },
-          {
-            "title": "MDN Web Docs: APIs",
-            "type": "reference",
-            "level": "beginner"
-          }
-        ],
-        "resource_source": "module7_static_json",
-        "resource_sources": [
-          "module7_static_json"
-        ],
-        "fallback_used": false
-      },
-      {
         "skill": "deep learning",
-        "phase": "Phase 2",
-        "priority": 107.2275,
-        "reason": "direct JD gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "phase": "Phase 3",
+        "priority": 96.1107,
+        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
         "difficulty": 0.5435,
         "dependency_weight": 2.0,
         "resources": [
@@ -136,227 +234,36 @@
           "module7_static_json"
         ],
         "fallback_used": false
-      },
-      {
-        "skill": "mlops",
-        "phase": "Phase 2",
-        "priority": 32.804,
-        "reason": "direct JD gap is high; JD importance is strong",
-        "difficulty": 0.6096,
-        "dependency_weight": 1.0,
-        "resources": [
-          {
-            "title": "Made With ML: MLOps",
-            "type": "course",
-            "level": "intermediate"
-          },
-          {
-            "title": "Full Stack Deep Learning MLOps",
-            "type": "course",
-            "level": "intermediate"
-          }
-        ],
-        "resource_source": "module7_static_json",
-        "resource_sources": [
-          "module7_static_json"
-        ],
-        "fallback_used": false
-      },
-      {
-        "skill": "scikit-learn",
-        "phase": "Phase 2",
-        "priority": 21.6887,
-        "reason": "direct JD gap is high; JD importance is strong",
-        "difficulty": 1.2713,
-        "dependency_weight": 1.0,
-        "resources": [
-          {
-            "title": "scikit-learn User Guide",
-            "type": "reference",
-            "level": "beginner"
-          },
-          {
-            "title": "Kaggle Intro to Machine Learning",
-            "type": "practice",
-            "level": "beginner"
-          }
-        ],
-        "resource_source": "module7_static_json",
-        "resource_sources": [
-          "module7_static_json"
-        ],
-        "fallback_used": false
-      },
-      {
-        "skill": "tensorflow",
-        "phase": "Phase 3",
-        "priority": 96.4858,
-        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-        "difficulty": 0.5165,
-        "dependency_weight": 2.0,
-        "resources": [
-          {
-            "title": "TensorFlow Tutorials",
-            "type": "tutorial",
-            "level": "beginner"
-          },
-          {
-            "title": "TensorFlow Guide",
-            "type": "reference",
-            "level": "beginner"
-          }
-        ],
-        "resource_source": "module5_dataset_resources",
-        "resource_sources": [
-          "module5_dataset_resources"
-        ],
-        "fallback_used": false
-      },
-      {
-        "skill": "pytorch",
-        "phase": "Phase 3",
-        "priority": 93.4541,
-        "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-        "difficulty": 0.5365,
-        "dependency_weight": 2.0,
-        "resources": [
-          {
-            "title": "PyTorch Tutorials",
-            "type": "tutorial",
-            "level": "beginner"
-          },
-          {
-            "title": "PyTorch 60 Minute Blitz",
-            "type": "tutorial",
-            "level": "beginner"
-          }
-        ],
-        "resource_source": "module5_dataset_resources",
-        "resource_sources": [
-          "module5_dataset_resources"
-        ],
-        "fallback_used": false
       }
     ]
   },
   "profession_resources": [
     {
-      "role": "Software Engineer",
-      "title": "Candidate Best-Fit Profession Roadmap: Software Engineer",
+      "role": "BI Developer",
+      "title": "Candidate Best-Fit Profession Roadmap: BI Developer",
       "track_type": "profession_mapping",
-      "target_role": "Software Engineer",
-      "candidate_best_fit_role": "Software Engineer",
-      "target_jd_role": "Machine Learning Engineer",
+      "target_role": "BI Developer",
+      "candidate_best_fit_role": "BI Developer",
+      "target_jd_role": null,
       "next_steps": [
-        "system design",
-        "apis",
-        "software architecture"
+        "data visualization"
       ],
       "items": [
         {
-          "skill": "apis",
+          "skill": "data visualization",
           "phase": "Phase 1",
-          "priority": 23.3871,
-          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.4682,
+          "priority": 26.3554,
+          "reason": "direct role gap is high; prerequisite for dashboarding; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "difficulty": 0.8052,
           "dependency_weight": 2.0,
           "resources": [
             {
-              "title": "Postman API Fundamentals Student Expert",
+              "title": "Tableau Learning",
               "type": "course",
               "level": "beginner"
             },
             {
-              "title": "MDN Web Docs: APIs",
-              "type": "reference",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module7_static_json",
-          "resource_sources": [
-            "module7_static_json"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "software architecture",
-          "phase": "Phase 2",
-          "priority": 18.5553,
-          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.7842,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Fundamentals of Software Architecture",
-              "type": "book",
-              "level": "intermediate"
-            },
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "resource_source": "module7_static_json",
-          "resource_sources": [
-            "module7_static_json"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "system design",
-          "phase": "Phase 3",
-          "priority": 27.3914,
-          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
-          "difficulty": 0.4546,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            },
-            {
-              "title": "AWS Architecture Center",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        }
-      ]
-    },
-    {
-      "role": "Systems Engineer",
-      "title": "Candidate Best-Fit Profession Roadmap: Systems Engineer",
-      "track_type": "profession_mapping",
-      "target_role": "Systems Engineer",
-      "candidate_best_fit_role": "Software Engineer",
-      "target_jd_role": "Machine Learning Engineer",
-      "next_steps": [
-        "system design",
-        "communication protocols"
-      ],
-      "items": [
-        {
-          "skill": "communication protocols",
-          "phase": "Phase 1",
-          "priority": 20.3808,
-          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.705,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Computer Networking: A Top-Down Approach Notes",
-              "type": "reference",
-              "level": "beginner"
-            },
-            {
-              "title": "Cisco Networking Basics",
+              "title": "Microsoft Learn Power BI",
               "type": "course",
               "level": "beginner"
             }
@@ -368,267 +275,127 @@
           "fallback_used": false
         },
         {
-          "skill": "system design",
-          "phase": "Phase 2",
-          "priority": 27.3914,
-          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
-          "difficulty": 0.4546,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            },
-            {
-              "title": "AWS Architecture Center",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        }
-      ]
-    },
-    {
-      "role": "Backend Engineer",
-      "title": "Candidate Best-Fit Profession Roadmap: Backend Engineer",
-      "track_type": "profession_mapping",
-      "target_role": "Backend Engineer",
-      "candidate_best_fit_role": "Software Engineer",
-      "target_jd_role": "Machine Learning Engineer",
-      "next_steps": [
-        "apis",
-        "javascript",
-        "software architecture"
-      ],
-      "items": [
-        {
-          "skill": "apis",
+          "skill": "power bi",
           "phase": "Phase 1",
-          "priority": 39.7266,
-          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.4682,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Postman API Fundamentals Student Expert",
-              "type": "course",
-              "level": "beginner"
-            },
-            {
-              "title": "MDN Web Docs: APIs",
-              "type": "reference",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module7_static_json",
-          "resource_sources": [
-            "module7_static_json"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "javascript",
-          "phase": "Phase 1",
-          "priority": 22.0374,
-          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.6052,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "MDN JavaScript Guide",
-              "type": "reference",
-              "level": "beginner"
-            },
-            {
-              "title": "freeCodeCamp JavaScript",
-              "type": "practice",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "sql",
-          "phase": "Phase 1",
-          "priority": 12.6643,
+          "priority": 13.3984,
           "reason": "direct role gap is high",
-          "difficulty": 0.4315,
+          "difficulty": 0.8134,
           "dependency_weight": 1.0,
           "resources": [
             {
-              "title": "SQLBolt",
-              "type": "interactive",
+              "title": "Microsoft Learn Power BI",
+              "type": "course",
               "level": "beginner"
             },
             {
-              "title": "Mode SQL Tutorial",
-              "type": "practical",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "html",
-          "phase": "Phase 1",
-          "priority": 9.0612,
-          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.7953,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "MDN HTML Guide",
-              "type": "reference",
-              "level": "beginner"
-            },
-            {
-              "title": "freeCodeCamp Responsive Web Design",
-              "type": "practice",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "node.js",
-          "phase": "Phase 2",
-          "priority": 24.477,
-          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.7627,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Node.js Documentation",
-              "type": "reference",
-              "level": "beginner"
-            },
-            {
-              "title": "freeCodeCamp Node.js",
-              "type": "video",
-              "level": "beginner"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "software architecture",
-          "phase": "Phase 2",
-          "priority": 18.0598,
-          "reason": "prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 0.7842,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Fundamentals of Software Architecture",
-              "type": "book",
-              "level": "intermediate"
-            },
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "resource_source": "module7_static_json",
-          "resource_sources": [
-            "module7_static_json"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "system design",
-          "phase": "Phase 3",
-          "priority": 29.6222,
-          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
-          "difficulty": 0.4546,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            },
-            {
-              "title": "AWS Architecture Center",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "resource_source": "module5_dataset_resources",
-          "resource_sources": [
-            "module5_dataset_resources"
-          ],
-          "fallback_used": false
-        },
-        {
-          "skill": "rest api",
-          "phase": "Phase 3",
-          "priority": 14.233,
-          "reason": "direct role gap is high; prerequisite for microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "difficulty": 1.2813,
-          "dependency_weight": 2.0,
-          "resources": [
-            {
-              "title": "Postman Learning Center",
+              "title": "Power BI Guided Learning",
               "type": "tutorial",
               "level": "beginner"
-            },
-            {
-              "title": "REST API Tutorial",
-              "type": "reference",
-              "level": "beginner"
             }
           ],
-          "resource_source": "module5_dataset_resources",
+          "resource_source": "module7_static_json",
           "resource_sources": [
-            "module5_dataset_resources"
+            "module7_static_json"
           ],
           "fallback_used": false
         },
         {
-          "skill": "microservices",
-          "phase": "Phase 4",
-          "priority": 10.2377,
+          "skill": "tableau",
+          "phase": "Phase 1",
+          "priority": 11.1406,
           "reason": "direct role gap is high",
-          "difficulty": 0.6201,
+          "difficulty": 0.8052,
           "dependency_weight": 1.0,
           "resources": [
             {
-              "title": "Microsoft Microservices Architecture Guide",
-              "type": "reference",
-              "level": "intermediate"
+              "title": "Tableau Training Videos",
+              "type": "video",
+              "level": "beginner"
             },
             {
-              "title": "Martin Fowler Microservices",
-              "type": "article",
-              "level": "intermediate"
+              "title": "Tableau Documentation",
+              "type": "reference",
+              "level": "beginner"
             }
           ],
-          "resource_source": "module5_dataset_resources",
+          "resource_source": "module7_static_json",
           "resource_sources": [
-            "module5_dataset_resources"
+            "module7_static_json"
+          ],
+          "fallback_used": false
+        },
+        {
+          "skill": "business intelligence",
+          "phase": "Phase 1",
+          "priority": 8.5809,
+          "reason": "direct role gap is high",
+          "difficulty": 1.3262,
+          "dependency_weight": 1.0,
+          "resources": [
+            {
+              "title": "Microsoft Learn Business Intelligence",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Coursera Business Intelligence Concepts",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "resource_source": "module7_static_json",
+          "resource_sources": [
+            "module7_static_json"
+          ],
+          "fallback_used": false
+        },
+        {
+          "skill": "analytics",
+          "phase": "Phase 1",
+          "priority": 6.4948,
+          "reason": "direct role gap is high",
+          "difficulty": 1.2936,
+          "dependency_weight": 1.0,
+          "resources": [
+            {
+              "title": "Google Data Analytics Certificate",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Kaggle Learn",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "resource_source": "module7_static_json",
+          "resource_sources": [
+            "module7_static_json"
+          ],
+          "fallback_used": false
+        },
+        {
+          "skill": "dashboarding",
+          "phase": "Phase 2",
+          "priority": 15.6676,
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "difficulty": 1.3099,
+          "dependency_weight": 2.0,
+          "resources": [
+            {
+              "title": "Microsoft Learn Power BI",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Tableau eLearning",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "resource_source": "module7_static_json",
+          "resource_sources": [
+            "module7_static_json"
           ],
           "fallback_used": false
         }

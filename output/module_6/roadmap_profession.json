@@ -1,157 +1,231 @@
 {
   "track_type": "profession_mapping",
-  "title": "Candidate Best-Fit Profession Roadmap: Software Engineer",
+  "title": "Candidate Best-Fit Profession Roadmap: BI Developer",
   "view_label": "Candidate Best-Fit Role View",
   "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
-  "role": "Software Engineer",
-  "target_role": "Software Engineer",
-  "candidate_best_fit_role": "Software Engineer",
-  "target_jd_role": "Machine Learning Engineer",
+  "role": "BI Developer",
+  "target_role": "BI Developer",
+  "candidate_best_fit_role": "BI Developer",
+  "target_jd_role": null,
   "top_role": {
-    "role": "Software Engineer",
-    "score": 0.6464,
-    "base_similarity": 0.654,
-    "prior": 0.84,
-    "prior_scale": 0.952,
-    "level": "entry",
-    "level_bias": 1.0,
-    "core_overlap_boost": 0.06,
-    "missing_core_penalty": 0.031,
-    "missing_core_score_scale": 0.93,
-    "overlap_count": 4,
+    "role": "BI Developer",
+    "score": 0.1646,
+    "base_similarity": 0.2146,
+    "prior": 0.86,
+    "prior_scale": 0.9193,
+    "level": "mid",
+    "level_bias": 0.85,
+    "core_overlap_boost": 0.0,
+    "missing_core_penalty": 0.124,
+    "missing_core_score_scale": 0.8,
+    "overlap_count": 1,
     "matched_skills": [
-      "java",
-      "python",
-      "automation",
-      "git",
-      "linux",
-      "debugging",
-      "c",
-      "c++"
+      "sql",
+      "excel",
+      "reporting"
     ],
     "core_skills_found": [
-      "java",
-      "debugging",
-      "git",
-      "automation"
+      "sql"
     ],
     "missing_core_skills": [
-      "system design"
+      "business intelligence",
+      "power bi",
+      "dashboarding",
+      "data visualization"
     ],
     "missing_skills": [
-      "system design",
-      "software architecture",
-      "apis"
+      "business intelligence",
+      "power bi",
+      "dashboarding",
+      "data visualization",
+      "tableau",
+      "analytics"
     ],
     "why_this_role": [
-      "strong coding and debugging alignment",
-      "good fit for general software engineering pathways"
+      "strong reporting and dashboard alignment",
+      "good fit for SQL and visualization-heavy work"
     ],
-    "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
+    "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
   },
   "__meta__": {
-    "gap_skill_count": 3,
-    "focus_skill_count": 3,
-    "support_skill_count": 4,
-    "relevant_graph_nodes": 6,
-    "relevant_graph_edges": 5,
+    "gap_skill_count": 6,
+    "focus_skill_count": 6,
+    "support_skill_count": 1,
+    "relevant_graph_nodes": 9,
+    "relevant_graph_edges": 3,
     "known_skill_threshold": 0.25,
     "min_target_gap": 0.6,
     "maximum_named_resources": 3,
     "suppressed_direct_target_count": 0
   },
   "roadmap": [
-    "apis",
-    "software architecture",
-    "system design"
+    "data visualization",
+    "power bi",
+    "tableau",
+    "business intelligence",
+    "analytics",
+    "dashboarding"
   ],
   "roadmap_details": [
     {
-      "skill": "apis",
-      "priority": 23.3871,
-      "effective_gap": 2.28,
-      "direct_gap": 2.14,
-      "jd_importance": 2.5122,
-      "difficulty": 0.4682,
+      "skill": "data visualization",
+      "priority": 26.3554,
+      "effective_gap": 3.0991,
+      "direct_gap": 3.0991,
+      "jd_importance": 3.5639,
+      "difficulty": 0.8052,
       "dependency_weight": 2.0,
       "candidate_signal": 0.0,
       "blocking_targets": [
-        "software architecture",
-        "system design"
+        "dashboarding"
       ],
       "unlocks": [
-        "software architecture"
+        "dashboarding"
       ],
       "resources": [
         {
-          "title": "Postman API Fundamentals Student Expert",
+          "title": "Tableau Learning",
           "type": "course",
           "level": "beginner"
         },
         {
-          "title": "MDN Web Docs: APIs",
+          "title": "Microsoft Learn Power BI",
+          "type": "course",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for dashboarding; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "power bi",
+      "priority": 13.3984,
+      "effective_gap": 3.2622,
+      "direct_gap": 3.2622,
+      "jd_importance": 3.7515,
+      "difficulty": 0.8134,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Microsoft Learn Power BI",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "Power BI Guided Learning",
+          "type": "tutorial",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "tableau",
+      "priority": 11.1406,
+      "effective_gap": 3.0991,
+      "direct_gap": 3.0991,
+      "jd_importance": 3.254,
+      "difficulty": 0.8052,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Tableau Training Videos",
+          "type": "video",
+          "level": "beginner"
+        },
+        {
+          "title": "Tableau Documentation",
           "type": "reference",
           "level": "beginner"
         }
       ],
-      "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "reason": "direct role gap is high",
       "phase": "Phase 1"
     },
     {
-      "skill": "software architecture",
-      "priority": 18.5553,
-      "effective_gap": 2.57,
-      "direct_gap": 2.28,
-      "jd_importance": 2.9555,
-      "difficulty": 0.7842,
-      "dependency_weight": 2.0,
+      "skill": "business intelligence",
+      "priority": 8.5809,
+      "effective_gap": 3.2622,
+      "direct_gap": 3.2622,
+      "jd_importance": 3.7515,
+      "difficulty": 1.3262,
+      "dependency_weight": 1.0,
       "candidate_signal": 0.0,
-      "blocking_targets": [
-        "system design"
-      ],
-      "unlocks": [
-        "system design"
-      ],
+      "blocking_targets": [],
+      "unlocks": [],
       "resources": [
         {
-          "title": "Fundamentals of Software Architecture",
-          "type": "book",
-          "level": "intermediate"
+          "title": "Microsoft Learn Business Intelligence",
+          "type": "course",
+          "level": "beginner"
         },
         {
-          "title": "System Design Primer",
-          "type": "reference",
-          "level": "intermediate"
+          "title": "Coursera Business Intelligence Concepts",
+          "type": "course",
+          "level": "beginner"
         }
       ],
-      "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-      "phase": "Phase 2"
+      "reason": "direct role gap is high",
+      "phase": "Phase 1"
     },
     {
-      "skill": "system design",
-      "priority": 27.3914,
-      "effective_gap": 2.57,
-      "direct_gap": 2.57,
-      "jd_importance": 2.9555,
-      "difficulty": 0.4546,
+      "skill": "analytics",
+      "priority": 6.4948,
+      "effective_gap": 2.936,
+      "direct_gap": 2.936,
+      "jd_importance": 3.0828,
+      "difficulty": 1.2936,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Google Data Analytics Certificate",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "Kaggle Learn",
+          "type": "practice",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "dashboarding",
+      "priority": 15.6676,
+      "effective_gap": 3.0991,
+      "direct_gap": 3.0991,
+      "jd_importance": 3.5639,
+      "difficulty": 1.3099,
       "dependency_weight": 2.0,
       "candidate_signal": 0.0,
       "blocking_targets": [],
       "unlocks": [],
       "resources": [
         {
-          "title": "System Design Primer",
-          "type": "reference",
-          "level": "intermediate"
+          "title": "Microsoft Learn Power BI",
+          "type": "course",
+          "level": "beginner"
         },
         {
-          "title": "AWS Architecture Center",
-          "type": "reference",
-          "level": "intermediate"
+          "title": "Tableau eLearning",
+          "type": "course",
+          "level": "beginner"
         }
       ],
       "reason": "direct role gap is high; foundational dependency weight boosts its priority",
-      "phase": "Phase 3"
+      "phase": "Phase 2"
     }
   ],
   "roadmap_phases": [
@@ -159,34 +233,137 @@
       "phase": "Phase 1",
       "skills": [
         {
-          "skill": "apis",
-          "priority": 23.3871,
-          "effective_gap": 2.28,
-          "direct_gap": 2.14,
-          "jd_importance": 2.5122,
-          "difficulty": 0.4682,
+          "skill": "data visualization",
+          "priority": 26.3554,
+          "effective_gap": 3.0991,
+          "direct_gap": 3.0991,
+          "jd_importance": 3.5639,
+          "difficulty": 0.8052,
           "dependency_weight": 2.0,
           "candidate_signal": 0.0,
           "blocking_targets": [
-            "software architecture",
-            "system design"
+            "dashboarding"
           ],
           "unlocks": [
-            "software architecture"
+            "dashboarding"
           ],
           "resources": [
             {
-              "title": "Postman API Fundamentals Student Expert",
+              "title": "Tableau Learning",
               "type": "course",
               "level": "beginner"
             },
             {
-              "title": "MDN Web Docs: APIs",
+              "title": "Microsoft Learn Power BI",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for dashboarding; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "power bi",
+          "priority": 13.3984,
+          "effective_gap": 3.2622,
+          "direct_gap": 3.2622,
+          "jd_importance": 3.7515,
+          "difficulty": 0.8134,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Microsoft Learn Power BI",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Power BI Guided Learning",
+              "type": "tutorial",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "tableau",
+          "priority": 11.1406,
+          "effective_gap": 3.0991,
+          "direct_gap": 3.0991,
+          "jd_importance": 3.254,
+          "difficulty": 0.8052,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Tableau Training Videos",
+              "type": "video",
+              "level": "beginner"
+            },
+            {
+              "title": "Tableau Documentation",
               "type": "reference",
               "level": "beginner"
             }
           ],
-          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "business intelligence",
+          "priority": 8.5809,
+          "effective_gap": 3.2622,
+          "direct_gap": 3.2622,
+          "jd_importance": 3.7515,
+          "difficulty": 1.3262,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Microsoft Learn Business Intelligence",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Coursera Business Intelligence Concepts",
+              "type": "course",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "analytics",
+          "priority": 6.4948,
+          "effective_gap": 2.936,
+          "direct_gap": 2.936,
+          "jd_importance": 3.0828,
+          "difficulty": 1.2936,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Google Data Analytics Certificate",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Kaggle Learn",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high",
           "phase": "Phase 1"
         }
       ]
@@ -195,110 +372,112 @@
       "phase": "Phase 2",
       "skills": [
         {
-          "skill": "software architecture",
-          "priority": 18.5553,
-          "effective_gap": 2.57,
-          "direct_gap": 2.28,
-          "jd_importance": 2.9555,
-          "difficulty": 0.7842,
-          "dependency_weight": 2.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [
-            "system design"
-          ],
-          "unlocks": [
-            "system design"
-          ],
-          "resources": [
-            {
-              "title": "Fundamentals of Software Architecture",
-              "type": "book",
-              "level": "intermediate"
-            },
-            {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
-            }
-          ],
-          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "phase": "Phase 2"
-        }
-      ]
-    },
-    {
-      "phase": "Phase 3",
-      "skills": [
-        {
-          "skill": "system design",
-          "priority": 27.3914,
-          "effective_gap": 2.57,
-          "direct_gap": 2.57,
-          "jd_importance": 2.9555,
-          "difficulty": 0.4546,
+          "skill": "dashboarding",
+          "priority": 15.6676,
+          "effective_gap": 3.0991,
+          "direct_gap": 3.0991,
+          "jd_importance": 3.5639,
+          "difficulty": 1.3099,
           "dependency_weight": 2.0,
           "candidate_signal": 0.0,
           "blocking_targets": [],
           "unlocks": [],
           "resources": [
             {
-              "title": "System Design Primer",
-              "type": "reference",
-              "level": "intermediate"
+              "title": "Microsoft Learn Power BI",
+              "type": "course",
+              "level": "beginner"
             },
             {
-              "title": "AWS Architecture Center",
-              "type": "reference",
-              "level": "intermediate"
+              "title": "Tableau eLearning",
+              "type": "course",
+              "level": "beginner"
             }
           ],
           "reason": "direct role gap is high; foundational dependency weight boosts its priority",
-          "phase": "Phase 3"
+          "phase": "Phase 2"
         }
       ]
     }
   ],
   "next_steps": [
-    "system design",
-    "apis",
-    "software architecture"
+    "data visualization"
   ],
   "direct_targets": [
     {
-      "skill": "system design",
-      "gap": 2.57,
-      "importance": 2.9555,
+      "skill": "business intelligence",
+      "gap": 3.2622,
+      "importance": 3.7515,
       "resume_score": 0.0,
-      "jd_score": 2.57,
-      "raw_importance": 2.57,
+      "jd_score": 3.2622,
+      "raw_importance": 3.2622,
       "priority_penalty": 1.0,
-      "level": "entry",
+      "level": "mid",
       "action": "profession priority",
       "category": "profession_mapping",
       "gap_reason": "direct role gap is high"
     },
     {
-      "skill": "software architecture",
-      "gap": 2.28,
-      "importance": 2.394,
+      "skill": "power bi",
+      "gap": 3.2622,
+      "importance": 3.7515,
       "resume_score": 0.0,
-      "jd_score": 2.28,
-      "raw_importance": 2.28,
+      "jd_score": 3.2622,
+      "raw_importance": 3.2622,
       "priority_penalty": 1.0,
-      "level": "entry",
+      "level": "mid",
       "action": "profession priority",
       "category": "profession_mapping",
       "gap_reason": "direct role gap is high"
     },
     {
-      "skill": "apis",
-      "gap": 2.14,
-      "importance": 2.247,
+      "skill": "dashboarding",
+      "gap": 3.0991,
+      "importance": 3.5639,
       "resume_score": 0.0,
-      "jd_score": 2.14,
-      "raw_importance": 2.14,
+      "jd_score": 3.0991,
+      "raw_importance": 3.0991,
       "priority_penalty": 1.0,
-      "level": "entry",
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "data visualization",
+      "gap": 3.0991,
+      "importance": 3.5639,
+      "resume_score": 0.0,
+      "jd_score": 3.0991,
+      "raw_importance": 3.0991,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "tableau",
+      "gap": 3.0991,
+      "importance": 3.254,
+      "resume_score": 0.0,
+      "jd_score": 3.0991,
+      "raw_importance": 3.0991,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "analytics",
+      "gap": 2.936,
+      "importance": 3.0828,
+      "resume_score": 0.0,
+      "jd_score": 2.936,
+      "raw_importance": 2.936,
+      "priority_penalty": 1.0,
+      "level": "mid",
       "action": "profession priority",
       "category": "profession_mapping",
       "gap_reason": "direct role gap is high"
@@ -309,109 +488,135 @@
   "graph": {
     "nodes": [
       {
-        "id": "git",
+        "id": "power bi",
         "data": {
-          "label": "git",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.4357,
-          "priority": 0.0,
-          "title": "Pro Git Book<br>Git SCM Documentation"
+          "label": "power bi",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.8134,
+          "priority": 13.3984,
+          "title": "Microsoft Learn Power BI<br>Power BI Guided Learning"
         }
       },
       {
-        "id": "java",
+        "id": "data visualization",
         "data": {
-          "label": "java",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 0.5951,
-          "priority": 0.0,
-          "title": "Dev.java Tutorials<br>Java Programming MOOC"
-        }
-      },
-      {
-        "id": "system design",
-        "data": {
-          "label": "system design",
+          "label": "data visualization",
           "status": "next_step",
           "color": "yellow",
           "size": 30,
-          "difficulty": 0.4546,
-          "priority": 27.3914,
-          "title": "System Design Primer<br>AWS Architecture Center"
+          "difficulty": 0.8052,
+          "priority": 26.3554,
+          "title": "Tableau Learning<br>Microsoft Learn Power BI"
         }
       },
       {
-        "id": "software architecture",
+        "id": "dashboarding",
         "data": {
-          "label": "software architecture",
-          "status": "next_step",
-          "color": "yellow",
-          "size": 30,
-          "difficulty": 0.7842,
-          "priority": 18.5553,
-          "title": "Fundamentals of Software Architecture<br>System Design Primer"
+          "label": "dashboarding",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.3099,
+          "priority": 15.6676,
+          "title": "Microsoft Learn Power BI<br>Tableau eLearning"
         }
       },
       {
-        "id": "debugging",
+        "id": "python",
         "data": {
-          "label": "debugging",
+          "label": "python",
           "status": "known",
           "color": "green",
           "size": 24,
-          "difficulty": 0.4494,
+          "difficulty": 0.3348,
           "priority": 0.0,
-          "title": "The Debugging Book<br>VS Code Debugging Guide"
+          "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
         }
       },
       {
-        "id": "apis",
+        "id": "sql",
         "data": {
-          "label": "apis",
-          "status": "next_step",
-          "color": "yellow",
-          "size": 30,
-          "difficulty": 0.4682,
-          "priority": 23.3871,
-          "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+          "label": "sql",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.4315,
+          "priority": 0.0,
+          "title": "SQLBolt<br>Mode SQL Tutorial"
+        }
+      },
+      {
+        "id": "analytics",
+        "data": {
+          "label": "analytics",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.2936,
+          "priority": 6.4948,
+          "title": "Google Data Analytics Certificate<br>Kaggle Learn"
+        }
+      },
+      {
+        "id": "business intelligence",
+        "data": {
+          "label": "business intelligence",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.3262,
+          "priority": 8.5809,
+          "title": "Microsoft Learn Business Intelligence<br>Coursera Business Intelligence Concepts"
+        }
+      },
+      {
+        "id": "tableau",
+        "data": {
+          "label": "tableau",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.8052,
+          "priority": 11.1406,
+          "title": "Tableau Training Videos<br>Tableau Documentation"
+        }
+      },
+      {
+        "id": "pandas",
+        "data": {
+          "label": "pandas",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.7636,
+          "priority": 0.0,
+          "title": "Kaggle Pandas<br>Pandas User Guide"
         }
       }
     ],
     "edges": [
       {
-        "source": "java",
-        "target": "apis",
+        "source": "data visualization",
+        "target": "dashboarding",
         "weight": 2.0
       },
       {
-        "source": "java",
-        "target": "software architecture",
+        "source": "python",
+        "target": "pandas",
         "weight": 2.0
       },
       {
-        "source": "software architecture",
-        "target": "system design",
-        "weight": 2.0
-      },
-      {
-        "source": "debugging",
-        "target": "system design",
+        "source": "pandas",
+        "target": "data visualization",
         "weight": 1.0
-      },
-      {
-        "source": "apis",
-        "target": "software architecture",
-        "weight": 2.0
       }
     ],
     "meta": {
-      "node_count": 6,
-      "edge_count": 5,
-      "roadmap_node_count": 3
+      "node_count": 9,
+      "edge_count": 3,
+      "roadmap_node_count": 6
     }
   }
 }

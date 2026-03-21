@@ -1,0 +1,98 @@
+Reasoning Trace
+
+Every recommendation in our system is explainable - we do not just give outputs, we show the reasoning behind them.
+
+Overall JD Judgement
+Overall JD judgement: Not Qualified. Coverage is 11.24% across 14 evaluated JD skills.
+- overall JD coverage from Module 4 gap analysis is 11.24%
+- 1 critical gap and 11 moderate gaps remain
+- 11 JD skills are still fully missing, while only 1 skill are good matches
+- current evidence is below the level expected by this JD
+
+Decision Perspective
+- Best-fit role from resume: BI Developer
+- Target JD perspective: Unknown
+- Roadmap policy: JD alignment first, role support second.
+- Primary roadmap favors JD alignment first whenever direct JD gap evidence is available.
+
+All JD Gaps With Priority
+- 1. Computer Graphics - top priority | Critical Gap | gap score: 6.50 | JD score: 6.50 | status: missing
+- 2. Cuda - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing
+- 3. Large Language Models - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing
+- 4. LLMs - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing
+- 5. Tensorrt - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing
+- 6. C - important | Moderate Gap | gap score: 5.81 | JD score: 5.81 | status: missing
+- 7. Linux - important | Moderate Gap | gap score: 5.68 | JD score: 5.68 | status: missing
+- 8. Deep Learning - important | Moderate Gap | gap score: 5.56 | JD score: 5.56 | status: missing
+- 9. Android - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing
+- 10. Operating Systems - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing
+- 11. Signal Processing - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing
+- 12. Artificial Intelligence - important | Moderate Gap | gap score: 4.04 | JD score: 5.33 | status: partial_match
+- 13. Python - low priority | Slight Gap | gap score: 2.82 | JD score: 5.13 | status: partial_match
+
+1. Roadmap Reasoning
+Python selected first because:
+- high importance in target job requirements (score: 5.13)
+- candidate has a base signal here, but the role expectation is still higher (signal: 0.31, gap: 4.73)
+- selected because it directly supports high-priority JD gaps like Deep Learning
+- needed before you can effectively learn Machine Learning and Deep Learning
+- unlocks downstream skills like Machine Learning
+
+Statistics recommended in Phase 1 because:
+- required to advance toward the mapped role expectations (role score: 5.33)
+- no prior evidence of this skill appears in the candidate profile (signal: 0.00, gap: 4.73)
+- selected because it directly supports high-priority JD gaps like Deep Learning
+- forms the foundation for Machine Learning and Deep Learning
+- creates a path to downstream skills like Machine Learning
+
+Computer Graphics recommended in Phase 1 because:
+- high importance in target job requirements (score: 6.50)
+- candidate profile shows no prior evidence for this skill (signal: 0.00, gap: 6.50)
+- directly closes a critical JD gap in Computer Graphics
+- retains meaningful path priority in the current roadmap (priority: 38.43)
+
+2. Profession Mapping Reasoning
+BI Developer selected as best-fit profession because:
+- meaningful overlap in 3 matched skills including SQL, Excel, and Reporting
+- 1 core skill already aligns with this role, including SQL
+- 4 core gaps remain, mainly Business Intelligence and Power BI
+- although BI Developer is the closest fit from current resume evidence, the roadmap still prioritizes direct JD gaps first
+- selected as best-fit profession because it received the highest role score (0.16)
+
+3. JD Gap Reasoning
+Computer Graphics marked as critical because:
+- high-importance requirement in the job description (JD score: 6.50)
+- strong gap due to little or no prior experience (gap: 6.50, resume score: 0.00)
+- classified as Critical Gap by the gap engine
+- still remains a gap after seniority normalization (factor: 0.72)
+
+Cuda marked as a gap because:
+- important requirement in the job description (JD score: 5.97)
+- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)
+- classified as Moderate Gap by the gap engine
+- still remains a gap after seniority normalization (factor: 0.72)
+
+Large Language Models marked as a gap because:
+- important requirement in the job description (JD score: 5.97)
+- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)
+- classified as Moderate Gap by the gap engine
+- still remains a gap after seniority normalization (factor: 0.72)
+
+4. Contrast Reasoning
+LLMs not selected in the current roadmap because:
+- it still has high JD importance (score: 5.97)
+- the candidate profile currently shows no prior evidence for it (signal: 0.00)
+- not selected now because it is not strongly connected to the current learning path
+- better revisited after the connected core path is completed
+
+Tensorrt not selected in the current roadmap because:
+- it still has high JD importance (score: 5.97)
+- the candidate profile currently shows no prior evidence for it (signal: 0.00)
+- not selected now because it is not strongly connected to the current learning path
+- better revisited after the connected core path is completed
+
+C not selected in the current roadmap because:
+- it still has high JD importance (score: 5.81)
+- the candidate profile currently shows no prior evidence for it (signal: 0.00)
+- not selected now because it is not strongly connected to the current learning path
+- better revisited after the connected core path is completed

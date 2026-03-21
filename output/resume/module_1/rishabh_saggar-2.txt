@@ -1,0 +1,59 @@
+Rishabh        Saggar                                   
+                                                                                    
+                                                                                    
+                (cid:131) +91 7719696833 # rishabhsaggar30@gmail.com (cid:239) Rishabh Saggar § rsaggar27
+    Education                                                                       
+                                                                                    
+    Punjab Engineering College, Chandigarh                              2022 - 2026 
+    B.Tech in Electronics & Communication Engineering                   9.4/10 CGPA 
+    DAV International School, Amritsar                                  2021 - 2022 
+    XII CBSE                                                                 97.2%  
+    Work Experience                                                                 
+                                                                                    
+    CSIR-CSIO                                                     Jan 2025 – May 2025
+    Research Intern                                                      Chandigarh 
+    • Built a domain-specific chatbot for CSIR–CSIO using Meta’s LLaMA 3.1 8B model based on RAG Architecture
+    • Scraped and processed 3000+ multilingual pdfs from the iCSIO website using Scrapy, streamlining content extraction.
+    • Tech stack used: Django for UI, LLaMA-3.1-8B for LLM, ChromaDB for storage.   
+                                                                                    
+    Projects                                                                        
+    KYC Platform (STGI Hackathon Winner)                                Source Code 
+    • Utilized OpenCV to detect face in the window and inculcated random string Captcha which is verified with voice
+     command and simultaneous eye blink                                             
+    • Utilized YOLO v8 pretrained for image extraction from ID documents and integrated DeepFace and ResNet50 for
+     accurate facial matching, leveraging cosine similarity to ensure high precision in verifying user identities
+    • Created image embeddings and utilised FAISS IVF PQ, HNSW, SCANN methods to utilise similarity search and used
+     flask to integrate everything                                                  
+    Maid Jodi                                                           Source Code 
+    • Engineered a web platform to connect households with domestic workers, enabling real-time service booking, review
+     management, and user authentication.                                           
+    • Built an interactive and responsive UI with HTML, CSS, JavaScript, AngularJS, jQuery, and AJAX, focusing on
+     seamless user experience and modern design aesthetics.                         
+    • Designed and implemented RESTful APIs using Node.js, Express.js, and MySQL to handle booking, scheduling, and
+     service management workflows for domestic workforce operations.                
+    Longeny-Agentic Chatbot                                          Ongoing Project
+    • Designed an agentic AI assistant using LangGraph, enabling dynamic routing through intent detection, RAG triggering,
+                                                                                    
+     and expert function calling in a modular conversational flow.                  
+    • Implemented a PostgreSQL + PGVector-based vector store for storing and retrieving dense embeddings using
+     SentenceTransformer, enabling efficient semantic search and contextual response generation
+    • Built a full-stack Django application, managing user authentication, chat interfaces, and backend agent logic with OpenAI
+     API integration.                                                               
+    Technical Skills                                                                
+    • Languages: C++, Python, Java                                                  
+    • Technologies: Django, NodeJs, ExpressJs, Angular, mySQL, PostgreSQL, MongoDB, LangGraph, LangChain
+                                                                                    
+    Achievements                                                                    
+    • Secured 1st Place in a hackathon conducted by STGI, competing against 60+ teams from various colleges across the
+     Punjab and Chandigarh region.                                                  
+    • Achieved the Academic Scholarship for being Branch Topper with CGPA of 9.59 in 2nd Year
+    • Received a Certificate of Achievement in recognition of technical achievements during 2024-25
+    • Solved 500+ DSA problems from LeetCode, Coding Ninjas and GfG, building problem solving skills.
+                                                                                    
+    Positions of Responsibility and Extracurricular                                 
+    Joint Head PECFest                                                    Nov 2024  
+    Website and Digital Design                                                      
+    • Led a team of 40+ designers and developers to successfully organize and execute PECFest, the annual cultural and technical
+                                                                                    
+     fest of PEC.                                                                   
+    • Gained hands-on experience in team management, collaboration, and aligning group efforts toward a common goal.
