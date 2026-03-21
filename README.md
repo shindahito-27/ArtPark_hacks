@@ -199,6 +199,61 @@ Output JSON shape (conceptual):
 }
 ```
 
+### Module 5: Profession Mapping Engine
+Path: `module5/profession_mapper.py`
+
+Inputs:
+- Resume combined skill scores
+
+Core approach:
+- Uses O*NET-inspired profession dataset
+- Matches resume skill vector against profession role vectors
+- Uses cosine similarity to predict best-fit roles
+
+Output file:
+- `output/module_5/profession_mapping_output.json`
+
+Output JSON includes top-matching professions with similarity scores and skill matches/gaps.
+
+### Module 6: Adaptive Path Engine
+Path: `module6/graph_info.py`
+
+Inputs:
+- Gap JSON (Module 4 output)
+- Profession mapping (Module 5 output)
+- Skill dependency graph and dataset
+
+Core approach:
+- Builds NetworkX directed graph of skill dependencies
+- Computes priority formula: `Priority = Gap × JD Importance × Dependency Weight`
+- Generates week-wise learning roadmap using topological ordering
+- Ensures prerequisites are taught before dependent skills
+
+Output file:
+- `output/module_6/adaptive_path_output.json`
+
+Key features:
+- Skill dependency graph ensures prerequisites are taught first
+- Difficulty scoring per skill
+- Resource attachment from dataset
+
+### Module 7: Learning Resource Layer
+Path: `module7/resource_layer.py`
+
+Inputs:
+- Adaptive path output (Module 6)
+- Static resource mapping JSON
+- Dataset resources
+
+Core approach:
+- Attaches curated learning resources to each skill in the learning path
+- Priority order: module7 static JSON → module5 dataset → module6 embedded
+- Ensures 2-3 named resources per skill (configurable)
+- Falls back to categorical buckets (cloud, devops, data, etc.) if unavailable
+
+Output file:
+- `output/module_7/learning_resources_output.json`
+
 ## Run The Full Pipeline
 From workspace root (`/home/kirat/artpark`):
 
@@ -218,6 +273,9 @@ Main generated outputs:
 - `output/jd/module_3/jd_parsed_output.json`
 - `output/jd/module_3/COMBINED/layer_a_combined_scored.json`
 - `output/module_4/gapengine_output.json`
+- `output/module_5/profession_mapping_output.json`
+- `output/module_6/adaptive_path_output.json`
+- `output/module_7/learning_resources_output.json`
 
 ## Suggested Local Setup
 Python 3.10+ is recommended.
@@ -234,25 +292,39 @@ Notes:
 ## Why This Fits Hackathon Judging
 This implementation aligns with what judges usually reward:
 
-1. Technical depth: dual-layer extraction (keyword + semantic), weighted scoring, structured gap logic
-2. Product clarity: deterministic JSON contracts at each stage
-3. Explainability: confidence, mentions, contexts, breakdown, and priority labels are all explicit
-4. Reliability: robust parser strategy with fallback extraction
+1. **Technical depth**: dual-layer extraction (keyword + semantic), weighted scoring, NetworkX graph reasoning, cosine similarity matching
+2. **Product clarity**: deterministic JSON contracts at each stage, modular outputs from Resume→Gap→Profession→Path→Resources
+3. **Explainability**: confidence scores, skill dependencies, reasoning per recommendation, priority formulas visible in output
+4. **Reliability**: robust parser, fallback extraction, static resource catalogs (no hallucination)
+5. **Originality**: skill dependency graph, adaptive priority weighting, profession mapping before role-specific gaps
 
-## Next High-Impact Extensions
-To complete the full finalist blueprint on top of this repo:
+## Current Implementation Status
 
-1. Profession mapping with O*NET embeddings and role similarity
-2. Adaptive learning path generation using dependency graph (NetworkX shortest path)
-3. Resource recommendation layer from a fixed trusted catalog
-4. Streamlit dashboard with fit score, skill radar, timeline, and reasoning trace cards
-5. Confidence score surfaces per gap and per recommendation
+✅ **COMPLETE (Modules 1-7)**:
+- Module 1: Resume parser (PyMuPDF + pdfplumber fallback)
+- Module 2: Resume skill extraction (keyword Layer A + semantic Layer B)
+- Module 3: JD parser + requirement weighting (mandatory/required/preferred detection)
+- Module 4: Gap extraction (resume vs JD comparison)
+- Module 5: Profession mapping (O*NET-inspired cosine similarity)
+- Module 6: Adaptive path with skill dependency graph (NetworkX)
+- Module 7: Learning resource layer (static JSON + curated attachment)
 
-## Team Build Order (Practical)
-If building under time pressure, use this order:
+⏳ **OPTIONAL EXTENSIONS**:
+- Module 8: Reasoning trace generator (auto-generate "why" text for each recommendation)
+- Module 9: Streamlit dashboard (upload → fit radar, timeline, interactive graph)
 
-1. Keep Module 1 to Module 4 stable and demoable first
-2. Add reasoning trace text generation from gap JSON
-3. Add UI shell (upload + dashboard)
-4. Add learning path graph module
-5. Add profession mapping only if time remains
+## Next High-Impact Extensions (Optional)
+To add UI and detailed reasoning on top of this repo:
+
+1. Reasoning trace generator: auto-generate human-readable explanations for each skill selection
+2. Streamlit dashboard: upload resume/JD → show fit score card, skill radar chart, week-wise roadmap
+3. Interactive skill graph visualization using `pyvis` for Streamlit
+4. Confidence scoring surfaces (inherit from Modules 6/7)
+5. Alternative learning path suggestions (A/B testing with different priority weights)
+
+## Team Build Order (For Hackathon)
+Current modules 1-7 complete. If extending further:
+
+1. **Now**: All 7 core modules deployed and tested
+2. **Next priority**: Add Module 8 reasoning trace for explainability (3-4 hrs)
+3. **Then**: Add Module 9 Streamlit dashboard (4-6 hrs)
