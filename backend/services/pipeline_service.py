@@ -2,6 +2,7 @@ import json
 import importlib.util
 import os
 import uuid
+from functools import lru_cache
 from pathlib import Path
 
 from ..utils.parser import build_structured_response
@@ -43,6 +44,11 @@ def _load_run_pipeline():
     return run_pipeline
 
 
+@lru_cache(maxsize=1)
+def _get_run_pipeline():
+    return _load_run_pipeline()
+
+
 def analyze_resume(
     filename: str,
     file_bytes: bytes,
@@ -67,7 +73,7 @@ def analyze_resume(
     try:
         _clear_previous_outputs()
         os.chdir(ARTPARK_DIR)
-        run_pipeline = _load_run_pipeline()
+        run_pipeline = _get_run_pipeline()
         run_pipeline(str(upload_path), str(jd_path), "output")
     except Exception as exc:  # pragma: no cover - surfaced through API
         raise RuntimeError(f"Pipeline execution failed: {exc}") from exc

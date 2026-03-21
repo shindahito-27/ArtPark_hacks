@@ -75,6 +75,8 @@ def build_structured_response(
                 }
             )
     critical_gaps.sort(key=lambda item: item["gapScore"], reverse=True)
+    jd_roadmap = roadmap_data.get("jd_requirement_roadmap", {})
+    jd_graph = jd_roadmap.get("graph", roadmap_data.get("graph", {}))
 
     return {
         "fileName": filename,
@@ -111,6 +113,27 @@ def build_structured_response(
                 }
                 for item in resource_items
             ],
+            "roadmapGraph": {
+                "nodes": [
+                    {
+                        "id": node.get("id", ""),
+                        "label": node.get("data", {}).get("label", node.get("id", "")),
+                        "status": node.get("data", {}).get("status", "unknown"),
+                        "color": node.get("data", {}).get("color", "gray"),
+                    }
+                    for node in jd_graph.get("nodes", [])
+                ],
+                "edges": [
+                    {
+                        "source": edge.get("source", ""),
+                        "target": edge.get("target", ""),
+                        "weight": _safe_round(edge.get("weight", 1)),
+                    }
+                    for edge in jd_graph.get("edges", [])
+                ],
+                "meta": jd_graph.get("meta", {}),
+                "title": jd_roadmap.get("title", roadmap_data.get("target_jd_role", "JD Roadmap Graph")),
+            },
         },
         "rawReferences": {
             "roadmapTitle": jd_resources.get("title", "Roadmap"),

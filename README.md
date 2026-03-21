@@ -303,7 +303,7 @@ Output file:
 - `output/module_7/learning_resources_output.json`
 
 ## Run The Full Pipeline
-From workspace root (`/home/kirat/artpark`):
+From workspace root (this directory):
 
 ```bash
 python run_pipeline.py

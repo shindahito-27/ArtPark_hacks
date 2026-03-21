@@ -15,6 +15,80 @@ function SkillTable({ title, items }) {
   )
 }
 
+const STATUS_COLORS = {
+  known: '#22c55e',
+  next_step: '#facc15',
+  missing: '#ef4444',
+  prerequisite: '#f97316',
+}
+
+function RoadmapGraph({ graph }) {
+  const nodes = graph?.nodes || []
+  const edges = graph?.edges || []
+  if (!nodes.length) {
+    return <div className="chip muted">No graph data available.</div>
+  }
+
+  const centerX = 50
+  const centerY = 50
+  const radius = 34
+  const nodeMap = new Map(
+    nodes.map((node, index) => {
+      const angle = (2 * Math.PI * index) / Math.max(nodes.length, 1)
+      return [
+        node.id,
+        {
+          ...node,
+          x: centerX + radius * Math.cos(angle),
+          y: centerY + radius * Math.sin(angle),
+        },
+      ]
+    }),
+  )
+
+  return (
+    <div className="roadmap-graph-wrap">
+      <svg className="roadmap-graph" viewBox="0 0 100 100" role="img" aria-label={graph.title}>
+        {edges.map((edge, index) => {
+          const source = nodeMap.get(edge.source)
+          const target = nodeMap.get(edge.target)
+          if (!source || !target) return null
+          return (
+            <line
+              key={`edge-${index}`}
+              x1={source.x}
+              y1={source.y}
+              x2={target.x}
+              y2={target.y}
+              stroke="rgba(206, 210, 255, 0.42)"
+              strokeWidth="0.7"
+            />
+          )
+        })}
+        {Array.from(nodeMap.values()).map((node) => (
+          <g key={node.id}>
+            <circle
+              cx={node.x}
+              cy={node.y}
+              r="2.9"
+              fill={STATUS_COLORS[node.status] || '#94a3b8'}
+              stroke="#0f1025"
+              strokeWidth="0.3"
+            />
+            <text x={node.x} y={node.y - 4.2} textAnchor="middle" className="graph-node-label">
+              {node.label}
+            </text>
+          </g>
+        ))}
+      </svg>
+      <div className="roadmap-meta-row">
+        <span className="chip">Nodes: {graph.meta?.node_count ?? nodes.length}</span>
+        <span className="chip">Edges: {graph.meta?.edge_count ?? edges.length}</span>
+      </div>
+    </div>
+  )
+}
+
 function ResultsDashboard({ data }) {
   const { overview, skills, insights } = data
 
@@ -64,6 +138,11 @@ function ResultsDashboard({ data }) {
             </article>
           ))}
         </div>
+      </div>
+
+      <div className="panel">
+        <h3>JD Roadmap Graph</h3>
+        <RoadmapGraph graph={insights.roadmapGraph} />
       </div>
     </section>
   )
